@@ -1,0 +1,47 @@
+# ==========================================
+# 1. MÔI TRƯỜNG NODE.JS 
+# ==========================================
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.env
+
+# ==========================================
+# 2. MÔI TRƯỜNG PYTHON 
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# ==========================================
+# 3. TRỌNG SỐ MÔ HÌNH DEEP LEARNING 
+# ==========================================
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.weights
+*.onnx
+*.pb
+
+# ==========================================
+# 4. DỮ LIỆU & JUPYTER NOTEBOOK
+# ==========================================
+.ipynb_checkpoints/
+*.csv
+# (Lưu ý: Nếu có file cấu hình seed.json nhỏ gọn cần đẩy lên, thêm dấu ! ở trước. VD: !seed.json)
+
+# ==========================================
+# 5. RÁC HỆ ĐIỀU HÀNH VÀ TRÌNH BIÊN DỊCH
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
