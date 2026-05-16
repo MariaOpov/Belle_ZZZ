@@ -1,0 +1,4993 @@
+[
+  {
+    "id": "math_vector_component_meaning",
+    "title": "Vector component meaning",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "A vector component is one number inside a vector that describes movement, size, or direction along one axis. For example, a two-dimensional vector can have an x component and a y component. Components make vectors easier to calculate, compare, and store in programs.",
+    "tags": [
+      "math",
+      "vector",
+      "component",
+      "linear algebra"
+    ],
+    "aliases": [
+      "vector component là gì",
+      "x y component",
+      "parts of a vector",
+      "tọa độ vector"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_vector_magnitude_basic",
+    "title": "Vector magnitude basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "Vector magnitude is the length or size of a vector. In geometry, it tells how far the vector reaches from its start to its end. Magnitude is useful in physics, graphics, and machine learning because many calculations need a clear measure of vector size.",
+    "tags": [
+      "math",
+      "vector",
+      "magnitude",
+      "length"
+    ],
+    "aliases": [
+      "vector magnitude là gì",
+      "length of vector",
+      "độ dài vector",
+      "norm of vector"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_dot_product_basic",
+    "title": "Dot product basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "The dot product combines two vectors and returns one number. It is often used to measure how similar two directions are. If two vectors point in a similar direction, the dot product is larger; if they are at right angles, it becomes zero.",
+    "tags": [
+      "math",
+      "dot product",
+      "vector",
+      "similarity"
+    ],
+    "aliases": [
+      "dot product là gì",
+      "scalar product",
+      "tích vô hướng",
+      "vector similarity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_matrix_multiplication_basic",
+    "title": "Matrix multiplication basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "Matrix multiplication is a way to combine two matrices by matching rows from the first matrix with columns from the second. The order matters, so A times B may not equal B times A. It is important in graphics, linear systems, and neural networks.",
+    "tags": [
+      "math",
+      "matrix",
+      "multiplication",
+      "linear algebra"
+    ],
+    "aliases": [
+      "matrix multiplication là gì",
+      "nhân ma trận",
+      "rows and columns",
+      "A times B"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_identity_matrix_basic",
+    "title": "Identity matrix basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "An identity matrix is a square matrix that acts like the number one for matrix multiplication. It has ones on the main diagonal and zeros elsewhere. Multiplying a compatible matrix by the identity matrix keeps the original matrix unchanged.",
+    "tags": [
+      "math",
+      "matrix",
+      "identity matrix",
+      "linear algebra"
+    ],
+    "aliases": [
+      "identity matrix là gì",
+      "ma trận đơn vị",
+      "I matrix",
+      "matrix one"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_inverse_matrix_basic",
+    "title": "Inverse matrix basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "An inverse matrix reverses the effect of another square matrix when it exists. If matrix A has an inverse, multiplying A by its inverse gives the identity matrix. Inverses are useful for solving linear equations, but not every matrix has one.",
+    "tags": [
+      "math",
+      "matrix",
+      "inverse",
+      "linear equations"
+    ],
+    "aliases": [
+      "inverse matrix là gì",
+      "ma trận nghịch đảo",
+      "matrix inverse",
+      "solve matrix equation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_linear_equation_system_basic",
+    "title": "System of linear equations",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "A system of linear equations is a group of equations that must be true at the same time. The solution is the value or values that satisfy every equation together. These systems appear in modeling, engineering, economics, and computer graphics.",
+    "tags": [
+      "math",
+      "linear equation",
+      "system",
+      "solution"
+    ],
+    "aliases": [
+      "system of equations là gì",
+      "hệ phương trình tuyến tính",
+      "linear system",
+      "solve equations"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_basis_vector_basic",
+    "title": "Basis vector basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "A basis is a set of vectors that can build every vector in a space by scaling and adding. Basis vectors give a coordinate system for describing points and directions. Changing the basis can make some problems easier to understand or compute.",
+    "tags": [
+      "math",
+      "basis",
+      "vector space",
+      "linear algebra"
+    ],
+    "aliases": [
+      "basis vector là gì",
+      "cơ sở vector",
+      "vector space basis",
+      "coordinate basis"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_linear_transformation_basic",
+    "title": "Linear transformation basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "A linear transformation changes vectors while preserving addition and scaling rules. Many linear transformations can be represented by matrices. Rotations, scaling, projections, and shearing in graphics are common examples of linear transformations.",
+    "tags": [
+      "math",
+      "linear transformation",
+      "matrix",
+      "vectors"
+    ],
+    "aliases": [
+      "linear transformation là gì",
+      "biến đổi tuyến tính",
+      "matrix transform",
+      "vector transform"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_eigenvalue_basic",
+    "title": "Eigenvalue basic",
+    "category": "mathematics",
+    "subcategory": "linear algebra",
+    "content": "An eigenvalue is a number linked to a vector that keeps its direction after a linear transformation. The vector may become longer, shorter, or reversed, but it stays on the same line. Eigenvalues help analyze systems, data, and some machine learning methods.",
+    "tags": [
+      "math",
+      "eigenvalue",
+      "eigenvector",
+      "linear algebra"
+    ],
+    "aliases": [
+      "eigenvalue là gì",
+      "trị riêng",
+      "eigenvector meaning",
+      "linear transform direction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_function_input_output_basic",
+    "title": "Function input and output",
+    "category": "mathematics",
+    "subcategory": "functions",
+    "content": "A function connects each allowed input to exactly one output. In programming and math, this idea helps describe predictable behavior. A function can be shown by a formula, a graph, a table, or code that returns a result.",
+    "tags": [
+      "math",
+      "function",
+      "input",
+      "output"
+    ],
+    "aliases": [
+      "function là gì",
+      "hàm số",
+      "input output function",
+      "math function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_domain_range_basic",
+    "title": "Domain and range basic",
+    "category": "mathematics",
+    "subcategory": "functions",
+    "content": "The domain of a function is the set of inputs it accepts. The range is the set of possible outputs it can produce. Knowing domain and range helps avoid invalid values, such as dividing by zero or taking a square root of a negative number in real numbers.",
+    "tags": [
+      "math",
+      "domain",
+      "range",
+      "function"
+    ],
+    "aliases": [
+      "domain range là gì",
+      "tập xác định",
+      "tập giá trị",
+      "function inputs outputs"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_slope_rate_of_change",
+    "title": "Slope as rate of change",
+    "category": "mathematics",
+    "subcategory": "functions",
+    "content": "Slope describes how much one value changes when another value changes. On a line, it is the rise divided by the run. In real examples, slope can represent speed, growth, cost per item, or any constant rate of change.",
+    "tags": [
+      "math",
+      "slope",
+      "rate of change",
+      "line"
+    ],
+    "aliases": [
+      "slope là gì",
+      "độ dốc",
+      "rate of change",
+      "rise over run"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_derivative_instant_rate",
+    "title": "Derivative as instant rate",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "A derivative measures how fast a function is changing at a specific point. It can be understood as the slope of a curve at that point. Derivatives are used in motion, optimization, machine learning training, and many science models.",
+    "tags": [
+      "math",
+      "calculus",
+      "derivative",
+      "rate of change"
+    ],
+    "aliases": [
+      "derivative là gì",
+      "đạo hàm",
+      "instant rate",
+      "slope of curve"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_derivative_positive_negative",
+    "title": "Positive and negative derivatives",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "A positive derivative usually means a function is increasing at that point, while a negative derivative means it is decreasing. A zero derivative can mark a flat point. This idea helps locate peaks, valleys, and turning points on graphs.",
+    "tags": [
+      "math",
+      "derivative",
+      "increasing",
+      "decreasing"
+    ],
+    "aliases": [
+      "positive derivative",
+      "negative derivative",
+      "đạo hàm dương âm",
+      "turning point"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_integral_accumulation_basic",
+    "title": "Integral as accumulation",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "An integral measures accumulated quantity over an interval. On a graph, it can represent the area under a curve. Integrals are useful for distance from speed, total cost from a changing rate, and many physics or statistics problems.",
+    "tags": [
+      "math",
+      "calculus",
+      "integral",
+      "area"
+    ],
+    "aliases": [
+      "integral là gì",
+      "tích phân",
+      "area under curve",
+      "accumulated value"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_limit_basic_intuition",
+    "title": "Limit basic intuition",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "A limit describes what value a function approaches as the input gets close to a point. The function does not always need to equal that value at the point. Limits are the foundation for derivatives, integrals, and careful reasoning about curves.",
+    "tags": [
+      "math",
+      "calculus",
+      "limit",
+      "function"
+    ],
+    "aliases": [
+      "limit là gì",
+      "giới hạn hàm số",
+      "approaches value",
+      "calculus limit"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_chain_rule_basic",
+    "title": "Chain rule basic",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "The chain rule is used to differentiate a function inside another function. It says that the outside change and the inside change both matter. This rule is important in calculus and also appears in neural network training through backpropagation.",
+    "tags": [
+      "math",
+      "calculus",
+      "chain rule",
+      "derivative"
+    ],
+    "aliases": [
+      "chain rule là gì",
+      "quy tắc dây chuyền",
+      "differentiate composite function",
+      "backprop calculus"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_gradient_basic",
+    "title": "Gradient basic",
+    "category": "mathematics",
+    "subcategory": "calculus",
+    "content": "A gradient is a vector of partial derivatives. It points in the direction where a function increases fastest. In machine learning, gradients help adjust model parameters so the training loss becomes smaller over many update steps.",
+    "tags": [
+      "math",
+      "gradient",
+      "partial derivative",
+      "optimization"
+    ],
+    "aliases": [
+      "gradient là gì",
+      "vector đạo hàm",
+      "hướng tăng nhanh nhất",
+      "ML gradient"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_sequence_basic",
+    "title": "Sequence basic",
+    "category": "mathematics",
+    "subcategory": "mathematics",
+    "content": "A sequence is an ordered list of numbers or objects. Each item has a position, and many sequences follow a rule. Sequences appear in patterns, algorithms, time-series data, and mathematical series used to approximate values.",
+    "tags": [
+      "math",
+      "sequence",
+      "pattern",
+      "series"
+    ],
+    "aliases": [
+      "sequence là gì",
+      "dãy số",
+      "ordered list",
+      "number pattern"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_series_basic",
+    "title": "Series basic",
+    "category": "mathematics",
+    "subcategory": "mathematics",
+    "content": "A series is the sum of terms in a sequence. Some series end after a fixed number of terms, while others continue without end. Series help approximate functions, calculate totals, and study whether repeated additions stay finite or grow forever.",
+    "tags": [
+      "math",
+      "series",
+      "sum",
+      "sequence"
+    ],
+    "aliases": [
+      "series là gì",
+      "chuỗi số",
+      "sum of sequence",
+      "infinite series"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_probability_event_basic",
+    "title": "Probability event basic",
+    "category": "mathematics",
+    "subcategory": "probability",
+    "content": "An event in probability is something that can happen in an experiment or situation. Rolling an even number on a die is an event. Events help describe uncertain outcomes clearly, so we can calculate chances and compare possible results.",
+    "tags": [
+      "math",
+      "probability",
+      "event",
+      "chance"
+    ],
+    "aliases": [
+      "probability event là gì",
+      "biến cố xác suất",
+      "chance event",
+      "outcome"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_conditional_probability_basic",
+    "title": "Conditional probability basic",
+    "category": "mathematics",
+    "subcategory": "probability",
+    "content": "Conditional probability measures the chance of one event when another event is already known. For example, it can ask the chance of rain given that the sky is cloudy. This idea is important in statistics, diagnosis, spam filters, and machine learning.",
+    "tags": [
+      "math",
+      "probability",
+      "conditional probability",
+      "statistics"
+    ],
+    "aliases": [
+      "conditional probability là gì",
+      "xác suất có điều kiện",
+      "given that probability",
+      "P A given B"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_independent_events_basic",
+    "title": "Independent events basic",
+    "category": "mathematics",
+    "subcategory": "probability",
+    "content": "Two events are independent when knowing one event happened does not change the chance of the other. For example, two fair coin flips are usually modeled as independent. Independence is a useful assumption, but it should not be used when events clearly influence each other.",
+    "tags": [
+      "math",
+      "probability",
+      "independent events",
+      "chance"
+    ],
+    "aliases": [
+      "independent events là gì",
+      "biến cố độc lập",
+      "coin flip independent",
+      "probability independence"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_expected_value_basic",
+    "title": "Expected value basic",
+    "category": "mathematics",
+    "subcategory": "probability",
+    "content": "Expected value is the long-run average result of a random process. It does not always have to be a result that can happen in one try. Expected value is useful for games, risk, decisions, and understanding model predictions.",
+    "tags": [
+      "math",
+      "probability",
+      "expected value",
+      "average"
+    ],
+    "aliases": [
+      "expected value là gì",
+      "giá trị kỳ vọng",
+      "long run average",
+      "EV probability"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_random_variable_basic",
+    "title": "Random variable basic",
+    "category": "mathematics",
+    "subcategory": "probability",
+    "content": "A random variable assigns a number to outcomes of a random situation. For example, it can count how many heads appear after flipping coins. Random variables let probability problems be written with numbers, formulas, tables, and distributions.",
+    "tags": [
+      "math",
+      "probability",
+      "random variable",
+      "distribution"
+    ],
+    "aliases": [
+      "random variable là gì",
+      "biến ngẫu nhiên",
+      "random outcome number",
+      "probability variable"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_normal_distribution_basic",
+    "title": "Normal distribution basic",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "The normal distribution is a common bell-shaped distribution used to model many natural and measurement-based values. Its center is described by the mean, and its spread is described by the standard deviation. It is useful but not correct for every dataset.",
+    "tags": [
+      "math",
+      "statistics",
+      "normal distribution",
+      "bell curve"
+    ],
+    "aliases": [
+      "normal distribution là gì",
+      "phân phối chuẩn",
+      "bell curve",
+      "Gaussian distribution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_variance_spread_basic",
+    "title": "Variance as data spread",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "Variance measures how spread out data values are from their mean. A small variance means values stay close to the average, while a large variance means they vary more. Variance is widely used in statistics, probability, and machine learning evaluation.",
+    "tags": [
+      "math",
+      "statistics",
+      "variance",
+      "spread"
+    ],
+    "aliases": [
+      "variance là gì",
+      "phương sai",
+      "data spread",
+      "spread from mean"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_standard_deviation_basic",
+    "title": "Standard deviation basic",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "Standard deviation measures typical distance from the mean in the same unit as the data. It is easier to interpret than variance because it matches the original measurement scale. A larger standard deviation usually means values are more spread out.",
+    "tags": [
+      "math",
+      "statistics",
+      "standard deviation",
+      "spread"
+    ],
+    "aliases": [
+      "standard deviation là gì",
+      "độ lệch chuẩn",
+      "typical distance from mean",
+      "data variation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_correlation_basic",
+    "title": "Correlation basic",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "Correlation measures how two variables tend to move together. Positive correlation means they often increase together, while negative correlation means one tends to decrease when the other increases. Correlation does not prove that one variable causes the other.",
+    "tags": [
+      "math",
+      "statistics",
+      "correlation",
+      "variables"
+    ],
+    "aliases": [
+      "correlation là gì",
+      "tương quan",
+      "correlation not causation",
+      "two variables"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_median_vs_mean",
+    "title": "Median versus mean",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "The mean is the arithmetic average, while the median is the middle value after sorting data. The median is often more stable when extreme values are present. Choosing mean or median depends on the question and the shape of the dataset.",
+    "tags": [
+      "math",
+      "statistics",
+      "mean",
+      "median"
+    ],
+    "aliases": [
+      "mean median là gì",
+      "average vs median",
+      "trung bình trung vị",
+      "outlier effect"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_histogram_basic",
+    "title": "Histogram basic",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "A histogram groups numeric data into intervals and shows how many values fall in each interval. It helps reveal the shape of a dataset, such as skew, spread, or common ranges. Histograms are useful before choosing a model or summary statistic.",
+    "tags": [
+      "math",
+      "statistics",
+      "histogram",
+      "data visualization"
+    ],
+    "aliases": [
+      "histogram là gì",
+      "biểu đồ tần suất",
+      "data bins",
+      "distribution chart"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_regression_basic",
+    "title": "Regression basic",
+    "category": "mathematics",
+    "subcategory": "statistics",
+    "content": "Regression is a method for modeling the relationship between variables. A simple regression can estimate how one value changes when another value changes. In machine learning, regression often means predicting a numeric output rather than a category.",
+    "tags": [
+      "math",
+      "statistics",
+      "regression",
+      "prediction"
+    ],
+    "aliases": [
+      "regression là gì",
+      "hồi quy",
+      "predict number",
+      "linear regression"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_logarithm_basic",
+    "title": "Logarithm basic",
+    "category": "mathematics",
+    "subcategory": "mathematics",
+    "content": "A logarithm answers the question of what exponent is needed to get a number from a base. For example, base ten logarithms relate to powers of ten. Logarithms help describe growth, scales, information, and some machine learning loss functions.",
+    "tags": [
+      "math",
+      "logarithm",
+      "exponent",
+      "scale"
+    ],
+    "aliases": [
+      "logarithm là gì",
+      "log là gì",
+      "exponent inverse",
+      "log scale"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_exponential_growth_basic",
+    "title": "Exponential growth basic",
+    "category": "mathematics",
+    "subcategory": "mathematics",
+    "content": "Exponential growth happens when a quantity grows by a constant factor over equal steps. It can start slowly and then rise quickly. This pattern appears in compound interest, population models, algorithms, and some early-stage spreading processes.",
+    "tags": [
+      "math",
+      "exponential growth",
+      "factor",
+      "model"
+    ],
+    "aliases": [
+      "exponential growth là gì",
+      "tăng trưởng hàm mũ",
+      "constant factor growth",
+      "growth curve"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "math_model_assumption_basic",
+    "title": "Mathematical model assumption",
+    "category": "mathematics",
+    "subcategory": "mathematics",
+    "content": "A mathematical model uses symbols, equations, or rules to represent part of reality. Every model makes assumptions, so it can be useful without being perfect. Good answers should explain what the model includes, what it ignores, and when it may fail.",
+    "tags": [
+      "math",
+      "model",
+      "assumption",
+      "equation"
+    ],
+    "aliases": [
+      "mathematical model là gì",
+      "mô hình toán học",
+      "model assumption",
+      "why models fail"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_position_velocity_acceleration",
+    "title": "Position velocity and acceleration",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Position describes where an object is, velocity describes how its position changes, and acceleration describes how velocity changes. These three ideas form a basic language for motion. They are used for cars, falling objects, projectiles, and simulations.",
+    "tags": [
+      "physics",
+      "motion",
+      "velocity",
+      "acceleration"
+    ],
+    "aliases": [
+      "velocity acceleration là gì",
+      "vị trí vận tốc gia tốc",
+      "motion basics",
+      "classical mechanics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_net_force_basic",
+    "title": "Net force basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Net force is the total force acting on an object after combining all pushes and pulls. If forces cancel, the net force can be zero. A nonzero net force can change an object's motion by speeding it up, slowing it down, or changing direction.",
+    "tags": [
+      "physics",
+      "force",
+      "net force",
+      "motion"
+    ],
+    "aliases": [
+      "net force là gì",
+      "tổng lực",
+      "force balance",
+      "resultant force"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_free_body_diagram",
+    "title": "Free body diagram",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "A free body diagram is a simple drawing that shows the forces acting on one object. It usually replaces the object with a dot or box and uses arrows for forces. This helps students solve motion problems without mixing up different objects.",
+    "tags": [
+      "physics",
+      "force",
+      "diagram",
+      "mechanics"
+    ],
+    "aliases": [
+      "free body diagram là gì",
+      "FBD",
+      "sơ đồ lực",
+      "force arrows"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_inertia_basic",
+    "title": "Inertia basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Inertia is the tendency of an object to keep its current state of motion. An object at rest tends to stay at rest, and a moving object tends to keep moving in a straight line unless a net force acts on it. Mass measures inertia.",
+    "tags": [
+      "physics",
+      "inertia",
+      "mass",
+      "motion"
+    ],
+    "aliases": [
+      "inertia là gì",
+      "quán tính",
+      "Newton first law",
+      "mass and inertia"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_momentum_basic",
+    "title": "Momentum basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Momentum depends on an object's mass and velocity. A heavy moving object or a fast object can have large momentum. Momentum is useful for understanding collisions, recoil, and why stopping a moving object can require a strong force or more time.",
+    "tags": [
+      "physics",
+      "momentum",
+      "mass",
+      "velocity"
+    ],
+    "aliases": [
+      "momentum là gì",
+      "động lượng",
+      "collision momentum",
+      "mass times velocity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_impulse_basic",
+    "title": "Impulse basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Impulse is the effect of a force applied over time. It changes an object's momentum. In safety design, increasing the stopping time can reduce the average force, which is why airbags and cushions help during sudden impacts.",
+    "tags": [
+      "physics",
+      "impulse",
+      "force",
+      "momentum"
+    ],
+    "aliases": [
+      "impulse là gì",
+      "xung lượng",
+      "force over time",
+      "airbag physics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_work_energy_basic",
+    "title": "Work and energy basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "In physics, work happens when a force moves an object over a distance in the force direction. Work can transfer energy into or out of a system. This idea connects pushing, lifting, friction, and motion in a clear mathematical way.",
+    "tags": [
+      "physics",
+      "work",
+      "energy",
+      "force"
+    ],
+    "aliases": [
+      "work in physics là gì",
+      "công vật lý",
+      "force distance energy",
+      "work energy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_kinetic_energy_basic",
+    "title": "Kinetic energy basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Kinetic energy is the energy an object has because it is moving. Faster objects have more kinetic energy, and heavier objects also have more at the same speed. It helps explain crashes, projectiles, machines, and many motion problems.",
+    "tags": [
+      "physics",
+      "kinetic energy",
+      "motion",
+      "energy"
+    ],
+    "aliases": [
+      "kinetic energy là gì",
+      "động năng",
+      "energy of motion",
+      "moving object energy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_potential_energy_basic",
+    "title": "Potential energy basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Potential energy is stored energy related to position, shape, or configuration. A lifted object has gravitational potential energy, while a stretched spring has elastic potential energy. Potential energy can change into kinetic energy when the system is allowed to move.",
+    "tags": [
+      "physics",
+      "potential energy",
+      "stored energy",
+      "gravity"
+    ],
+    "aliases": [
+      "potential energy là gì",
+      "thế năng",
+      "stored energy",
+      "spring energy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_conservation_energy",
+    "title": "Conservation of energy",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Conservation of energy means energy is not created or destroyed in an isolated system; it changes form. For example, gravitational potential energy can become kinetic energy during a fall. Real systems may also transform energy into heat, sound, or deformation.",
+    "tags": [
+      "physics",
+      "energy",
+      "conservation",
+      "system"
+    ],
+    "aliases": [
+      "conservation of energy là gì",
+      "bảo toàn năng lượng",
+      "energy changes form",
+      "physics energy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_friction_basic",
+    "title": "Friction basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Friction is a force that resists relative motion between surfaces. It can slow objects down, but it also allows walking, driving, and gripping. Friction depends on the surfaces and the normal force, not only on how large the object looks.",
+    "tags": [
+      "physics",
+      "friction",
+      "force",
+      "surface"
+    ],
+    "aliases": [
+      "friction là gì",
+      "ma sát",
+      "surface resistance",
+      "why tires grip"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_gravity_basic",
+    "title": "Gravity basic",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Gravity is an attractive interaction between masses. Near Earth, it pulls objects downward and gives them weight. Gravity explains falling objects, orbits, tides, and large-scale structures, although different theories describe it at different levels of detail.",
+    "tags": [
+      "physics",
+      "gravity",
+      "mass",
+      "weight"
+    ],
+    "aliases": [
+      "gravity là gì",
+      "trọng lực",
+      "hấp dẫn",
+      "why objects fall"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_weight_vs_mass",
+    "title": "Weight versus mass",
+    "category": "physics",
+    "subcategory": "classical mechanics",
+    "content": "Mass measures how much matter or inertia an object has, while weight is the gravitational force on that mass. Mass stays the same in many locations, but weight can change on the Moon or another planet because gravity is different.",
+    "tags": [
+      "physics",
+      "mass",
+      "weight",
+      "gravity"
+    ],
+    "aliases": [
+      "mass weight khác nhau",
+      "khối lượng trọng lượng",
+      "weight vs mass",
+      "moon weight"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_pressure_basic",
+    "title": "Pressure basic",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "Pressure is force applied over an area. The same force creates higher pressure when it is spread over a smaller area. This explains sharp knives, snowshoes, hydraulic systems, and why fluids can push on surfaces in every direction.",
+    "tags": [
+      "physics",
+      "pressure",
+      "force",
+      "area"
+    ],
+    "aliases": [
+      "pressure là gì",
+      "áp suất",
+      "force per area",
+      "fluid pressure"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_density_basic",
+    "title": "Density basic",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "Density tells how much mass is packed into a given volume. A material with high density has more mass in the same space. Density helps explain floating, sinking, material choice, and why some objects feel heavier than others of the same size.",
+    "tags": [
+      "physics",
+      "density",
+      "mass",
+      "volume"
+    ],
+    "aliases": [
+      "density là gì",
+      "khối lượng riêng",
+      "mass per volume",
+      "why objects float"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_wave_frequency_basic",
+    "title": "Wave frequency basic",
+    "category": "physics",
+    "subcategory": "waves",
+    "content": "Frequency is how many wave cycles pass a point each second. Higher frequency often means a higher sound pitch or different electromagnetic color. Frequency is linked with period, wavelength, and wave speed in many wave problems.",
+    "tags": [
+      "physics",
+      "wave",
+      "frequency",
+      "period"
+    ],
+    "aliases": [
+      "frequency là gì",
+      "tần số",
+      "wave cycles",
+      "sound pitch"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_wavelength_basic",
+    "title": "Wavelength basic",
+    "category": "physics",
+    "subcategory": "waves",
+    "content": "Wavelength is the distance between matching points on a wave, such as crest to crest. Shorter wavelengths often correspond to higher frequencies when wave speed is fixed. Wavelength matters in sound, light, radio communication, and quantum physics.",
+    "tags": [
+      "physics",
+      "wave",
+      "wavelength",
+      "frequency"
+    ],
+    "aliases": [
+      "wavelength là gì",
+      "bước sóng",
+      "crest to crest",
+      "light wavelength"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_amplitude_basic",
+    "title": "Amplitude basic",
+    "category": "physics",
+    "subcategory": "waves",
+    "content": "Amplitude describes the size of a wave's disturbance from its rest position. In sound, larger amplitude often relates to louder sound. In other waves, amplitude can relate to energy, signal strength, or intensity depending on the physical system.",
+    "tags": [
+      "physics",
+      "wave",
+      "amplitude",
+      "energy"
+    ],
+    "aliases": [
+      "amplitude là gì",
+      "biên độ",
+      "wave height",
+      "loudness"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_resonance_basic",
+    "title": "Resonance basic",
+    "category": "physics",
+    "subcategory": "waves",
+    "content": "Resonance happens when a system is driven near a natural frequency and responds strongly. A swing moves higher when pushed at the right rhythm. Resonance appears in music, bridges, circuits, and many mechanical or wave systems.",
+    "tags": [
+      "physics",
+      "resonance",
+      "frequency",
+      "waves"
+    ],
+    "aliases": [
+      "resonance là gì",
+      "cộng hưởng",
+      "natural frequency",
+      "swing rhythm"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_electric_charge_basic",
+    "title": "Electric charge basic",
+    "category": "physics",
+    "subcategory": "electricity",
+    "content": "Electric charge is a property of matter that can cause electric forces. Charges can be positive or negative, and like charges repel while opposite charges attract. Charge is central to electricity, circuits, atoms, and electromagnetic interactions.",
+    "tags": [
+      "physics",
+      "electric charge",
+      "electricity",
+      "force"
+    ],
+    "aliases": [
+      "electric charge là gì",
+      "điện tích",
+      "positive negative charge",
+      "charges attract repel"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_voltage_basic",
+    "title": "Voltage basic",
+    "category": "physics",
+    "subcategory": "electricity",
+    "content": "Voltage is electric potential difference between two points. It can be understood as the push that encourages electric charge to move through a circuit. Voltage alone does not describe a circuit fully; current and resistance also matter.",
+    "tags": [
+      "physics",
+      "voltage",
+      "electricity",
+      "circuit"
+    ],
+    "aliases": [
+      "voltage là gì",
+      "điện áp",
+      "electric potential",
+      "circuit voltage"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_current_basic",
+    "title": "Electric current basic",
+    "category": "physics",
+    "subcategory": "electricity",
+    "content": "Electric current is the flow of electric charge. In a wire, it is often related to the movement of electrons, although conventional current direction is defined differently. Current is measured in amperes and depends on voltage, resistance, and circuit design.",
+    "tags": [
+      "physics",
+      "current",
+      "electricity",
+      "circuit"
+    ],
+    "aliases": [
+      "current là gì",
+      "dòng điện",
+      "electric charge flow",
+      "ampere"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_resistance_basic",
+    "title": "Electrical resistance basic",
+    "category": "physics",
+    "subcategory": "electricity",
+    "content": "Resistance describes how much a material or component opposes electric current. A high resistance reduces current for a given voltage. Resistors, wires, lamps, and sensors all have resistance, and heat can be produced when current passes through resistance.",
+    "tags": [
+      "physics",
+      "resistance",
+      "electricity",
+      "circuit"
+    ],
+    "aliases": [
+      "resistance là gì",
+      "điện trở",
+      "Ohm law idea",
+      "current opposition"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_circuit_series_parallel",
+    "title": "Series and parallel circuits",
+    "category": "physics",
+    "subcategory": "electricity",
+    "content": "In a series circuit, components share one path for current. In a parallel circuit, current can split through multiple paths. This difference affects brightness, resistance, and what happens if one component fails, making it important for basic circuit design.",
+    "tags": [
+      "physics",
+      "circuit",
+      "series",
+      "parallel"
+    ],
+    "aliases": [
+      "series parallel circuit",
+      "mạch nối tiếp song song",
+      "circuit paths",
+      "basic circuit"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_modeling_simplification",
+    "title": "Physics modeling simplification",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "Physics problems often use simplified models to focus on the most important effects. A model may ignore air resistance, friction, or object shape to make reasoning easier. The answer should mention assumptions because a simplified model is not the full real world.",
+    "tags": [
+      "physics",
+      "model",
+      "assumption",
+      "simplification"
+    ],
+    "aliases": [
+      "physics model là gì",
+      "mô hình vật lý",
+      "ignore friction",
+      "model assumptions"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_measurement_uncertainty",
+    "title": "Measurement uncertainty",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "Measurement uncertainty means a measured value is not perfectly exact. Tools have limits, and repeated measurements can vary. Scientists report uncertainty to show confidence and avoid pretending that a number is more precise than the evidence supports.",
+    "tags": [
+      "physics",
+      "measurement",
+      "uncertainty",
+      "precision"
+    ],
+    "aliases": [
+      "uncertainty là gì",
+      "sai số đo",
+      "measurement error",
+      "precision accuracy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_simulation_basic",
+    "title": "Physics simulation basic",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "A physics simulation uses equations and computer steps to estimate how a system changes over time. Simulations are useful when real experiments are expensive, dangerous, slow, or hard to repeat. They still need validation against real observations.",
+    "tags": [
+      "physics",
+      "simulation",
+      "model",
+      "computer"
+    ],
+    "aliases": [
+      "physics simulation là gì",
+      "mô phỏng vật lý",
+      "computer physics model",
+      "simulate motion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_ml_surrogate_model",
+    "title": "Machine learning surrogate model in physics",
+    "category": "physics",
+    "subcategory": "machine learning in physics",
+    "content": "A surrogate model is a faster approximate model trained to imitate a slower physics simulation or calculation. It can help explore many cases quickly. However, it should be checked carefully because it may fail outside the data range used for training.",
+    "tags": [
+      "physics",
+      "machine learning",
+      "surrogate model",
+      "simulation"
+    ],
+    "aliases": [
+      "surrogate model là gì",
+      "ML in physics",
+      "fast simulation model",
+      "physics approximation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning_in_physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_ml_experiment_pattern",
+    "title": "Machine learning for experiment patterns",
+    "category": "physics",
+    "subcategory": "machine learning in physics",
+    "content": "Machine learning can help find patterns in experimental physics data, such as signals, clusters, or unusual events. It does not replace physical reasoning by itself. Scientists still need domain knowledge, careful validation, and uncertainty estimates before trusting results.",
+    "tags": [
+      "physics",
+      "machine learning",
+      "experiment",
+      "patterns"
+    ],
+    "aliases": [
+      "machine learning in physics",
+      "AI phân tích vật lý",
+      "experiment pattern detection",
+      "physics data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning_in_physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_units_dimensional_check",
+    "title": "Units and dimensional checking",
+    "category": "physics",
+    "subcategory": "physics",
+    "content": "Checking units is a simple way to catch mistakes in physics equations. If the left and right sides of an equation have different dimensions, something is wrong. Unit reasoning helps students verify formulas before trusting a numerical answer.",
+    "tags": [
+      "physics",
+      "units",
+      "dimension",
+      "equation"
+    ],
+    "aliases": [
+      "unit checking là gì",
+      "kiểm tra đơn vị",
+      "dimension analysis",
+      "physics formula check"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_agent_basic_concept",
+    "title": "AI agent basic concept",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "An AI agent is a system that observes information, makes decisions, and takes actions toward a goal. It can be simple, like a rule-based game bot, or complex, like a planning assistant. The key idea is interaction with an environment.",
+    "tags": [
+      "ai",
+      "agent",
+      "decision",
+      "environment"
+    ],
+    "aliases": [
+      "AI agent là gì",
+      "intelligent agent",
+      "bot decision system",
+      "agent environment"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_symbolic_ai_basic",
+    "title": "Symbolic AI basic",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "Symbolic AI represents knowledge using symbols, rules, and logic. It can be useful when rules are clear and explanations matter. It differs from many machine learning systems, which learn patterns from data instead of relying only on hand-written rules.",
+    "tags": [
+      "ai",
+      "symbolic AI",
+      "logic",
+      "rules"
+    ],
+    "aliases": [
+      "symbolic AI là gì",
+      "AI logic rules",
+      "rule based AI",
+      "good old fashioned AI"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_rule_based_system",
+    "title": "Rule based system",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "A rule based system uses if-then rules to make decisions. It can be easy to inspect and debug when the domain is small. However, it becomes hard to maintain when many exceptions, uncertain cases, or changing conditions appear.",
+    "tags": [
+      "ai",
+      "rules",
+      "expert system",
+      "decision"
+    ],
+    "aliases": [
+      "rule based system là gì",
+      "if then AI",
+      "expert system",
+      "rule bot"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_search_problem_basic",
+    "title": "Search problem in AI",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "In AI, a search problem asks how to find a path from a starting state to a goal state. The system explores possible actions and states. Search is used in games, planning, routing, puzzle solving, and decision-making tasks.",
+    "tags": [
+      "ai",
+      "search",
+      "planning",
+      "states"
+    ],
+    "aliases": [
+      "AI search là gì",
+      "search problem",
+      "path to goal",
+      "planning problem"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_heuristic_basic",
+    "title": "Heuristic basic",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "A heuristic is a practical rule or estimate that helps guide search or decision making. It may not guarantee the perfect answer, but it can make a problem much faster to solve. Good heuristics use useful domain knowledge.",
+    "tags": [
+      "ai",
+      "heuristic",
+      "search",
+      "estimate"
+    ],
+    "aliases": [
+      "heuristic là gì",
+      "rule of thumb AI",
+      "search heuristic",
+      "ước lượng tìm kiếm"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_training_data_quality",
+    "title": "Training data quality",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Training data quality strongly affects a machine learning model. Wrong labels, duplicated data, missing examples, or biased samples can make the model unreliable. Better data cleaning, documentation, and evaluation usually improve results more than simply using a larger model.",
+    "tags": [
+      "ai",
+      "machine learning",
+      "training data",
+      "data quality"
+    ],
+    "aliases": [
+      "training data quality",
+      "dữ liệu huấn luyện",
+      "bad labels",
+      "AI data cleaning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_label_basic",
+    "title": "Label in machine learning",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A label is the target answer attached to a training example in supervised learning. For example, an image may have the label cat or dog. Labels teach the model what output it should learn, so noisy labels can hurt performance.",
+    "tags": [
+      "machine learning",
+      "label",
+      "supervised learning",
+      "training"
+    ],
+    "aliases": [
+      "label trong ML là gì",
+      "nhãn dữ liệu",
+      "training label",
+      "target answer"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_feature_basic",
+    "title": "Feature in machine learning",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A feature is an input value or property used by a machine learning model. In house price prediction, features can include area, location, and number of rooms. Good features make important patterns easier for the model to learn.",
+    "tags": [
+      "machine learning",
+      "feature",
+      "input",
+      "model"
+    ],
+    "aliases": [
+      "feature trong ML là gì",
+      "đặc trưng dữ liệu",
+      "model input",
+      "input feature"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_target_variable_basic",
+    "title": "Target variable basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "The target variable is the value a model tries to predict. In classification, it may be a class label, and in regression, it may be a number. Separating inputs from the target helps organize datasets for training and evaluation.",
+    "tags": [
+      "machine learning",
+      "target",
+      "prediction",
+      "dataset"
+    ],
+    "aliases": [
+      "target variable là gì",
+      "biến mục tiêu",
+      "prediction target",
+      "y label"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_train_test_split_basic",
+    "title": "Train test split basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A train test split divides data into one part for learning and another part for evaluation. The test set should stay unseen during training. This helps estimate how well the model may work on new examples instead of only memorizing known data.",
+    "tags": [
+      "machine learning",
+      "train test split",
+      "evaluation",
+      "dataset"
+    ],
+    "aliases": [
+      "train test split là gì",
+      "chia dữ liệu train test",
+      "test set",
+      "unseen data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_validation_set_basic",
+    "title": "Validation set basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A validation set is data used to tune choices during model development, such as parameters or early stopping. It is separate from the training set and should not replace a final test set. This reduces the risk of overfitting to evaluation decisions.",
+    "tags": [
+      "machine learning",
+      "validation set",
+      "model tuning",
+      "evaluation"
+    ],
+    "aliases": [
+      "validation set là gì",
+      "tập validation",
+      "dev set ML",
+      "model tuning data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_cross_validation_basic",
+    "title": "Cross validation basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Cross validation evaluates a model by splitting data into several folds and testing on different folds. It gives a more stable estimate when the dataset is not very large. It is useful, but it can take more computation than one train test split.",
+    "tags": [
+      "machine learning",
+      "cross validation",
+      "folds",
+      "evaluation"
+    ],
+    "aliases": [
+      "cross validation là gì",
+      "kiểm định chéo",
+      "k fold",
+      "model evaluation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_overfitting_basic",
+    "title": "Overfitting in machine learning",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Overfitting happens when a machine learning model learns the training data too closely, including noise or accidental patterns. It may perform well on training examples but poorly on new data. More data, regularization, simpler models, and validation testing can reduce it.",
+    "tags": [
+      "ai",
+      "machine learning",
+      "overfitting",
+      "validation"
+    ],
+    "aliases": [
+      "What is overfitting",
+      "overfitting là gì",
+      "model memorization",
+      "bad generalization"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_underfitting_basic",
+    "title": "Underfitting in machine learning",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Underfitting happens when a model is too simple or poorly trained to learn important patterns in the data. It performs badly on both training data and new data. Fixes may include better features, a more suitable model, or longer training.",
+    "tags": [
+      "ai",
+      "machine learning",
+      "underfitting",
+      "model"
+    ],
+    "aliases": [
+      "underfitting là gì",
+      "model too simple",
+      "bad training accuracy",
+      "không học đủ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_bias_variance_tradeoff",
+    "title": "Bias variance tradeoff",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "The bias variance tradeoff describes two common sources of prediction error. High bias can mean the model is too simple, while high variance can mean it is too sensitive to training data. Good modeling tries to balance both problems.",
+    "tags": [
+      "machine learning",
+      "bias",
+      "variance",
+      "generalization"
+    ],
+    "aliases": [
+      "bias variance là gì",
+      "tradeoff ML",
+      "high bias high variance",
+      "model error"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_regularization_basic",
+    "title": "Regularization basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Regularization adds constraints or penalties to a learning process to discourage overly complex models. It can help reduce overfitting and improve generalization. The best regularization strength depends on the data, model, and evaluation method.",
+    "tags": [
+      "machine learning",
+      "regularization",
+      "overfitting",
+      "generalization"
+    ],
+    "aliases": [
+      "regularization là gì",
+      "chống overfitting",
+      "model penalty",
+      "L1 L2 idea"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_loss_function_basic",
+    "title": "Loss function basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A loss function measures how wrong a model's prediction is for a training example or batch. Training usually tries to reduce this loss over time. Different tasks need different losses, such as classification loss or numeric prediction loss.",
+    "tags": [
+      "machine learning",
+      "loss function",
+      "training",
+      "prediction"
+    ],
+    "aliases": [
+      "loss function là gì",
+      "hàm mất mát",
+      "training loss",
+      "model error measure"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_gradient_descent_basic",
+    "title": "Gradient descent basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Gradient descent is an optimization method that changes model parameters in a direction that reduces loss. It uses gradients to decide how to update weights. The learning rate controls step size, and a poor value can slow or destabilize training.",
+    "tags": [
+      "machine learning",
+      "gradient descent",
+      "optimization",
+      "learning rate"
+    ],
+    "aliases": [
+      "gradient descent là gì",
+      "hạ gradient",
+      "tối ưu mô hình",
+      "learning rate"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_learning_rate_basic",
+    "title": "Learning rate basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "The learning rate controls how large each training update is. A very small learning rate can make training slow, while a very large one can overshoot good solutions. Choosing it often requires testing, schedules, or adaptive optimizers.",
+    "tags": [
+      "machine learning",
+      "learning rate",
+      "training",
+      "optimization"
+    ],
+    "aliases": [
+      "learning rate là gì",
+      "tốc độ học",
+      "training step size",
+      "lr in ML"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_classification_basic",
+    "title": "Classification task basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Classification is a machine learning task where the model predicts a category. Examples include spam or not spam, cat or dog, and positive or negative sentiment. Classification outputs should be evaluated with suitable metrics, not only with raw confidence.",
+    "tags": [
+      "machine learning",
+      "classification",
+      "category",
+      "prediction"
+    ],
+    "aliases": [
+      "classification là gì",
+      "phân loại ML",
+      "predict class",
+      "spam classifier"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_regression_task_basic",
+    "title": "Regression task in ML",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Regression is a machine learning task where the model predicts a numeric value. Examples include house price, temperature, or demand prediction. A regression answer should not be confused with statistical regression theory, although the ideas are related.",
+    "tags": [
+      "machine learning",
+      "regression",
+      "numeric prediction",
+      "model"
+    ],
+    "aliases": [
+      "regression ML là gì",
+      "hồi quy ML",
+      "predict number",
+      "numeric output"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_clustering_basic",
+    "title": "Clustering basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Clustering is an unsupervised learning method that groups similar data points without using labels. It can help explore customer groups, document topics, or image patterns. The groups are not always meaningful, so humans must interpret them carefully.",
+    "tags": [
+      "machine learning",
+      "clustering",
+      "unsupervised learning",
+      "groups"
+    ],
+    "aliases": [
+      "clustering là gì",
+      "phân cụm",
+      "unsupervised groups",
+      "group similar data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_dimensionality_reduction",
+    "title": "Dimensionality reduction basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Dimensionality reduction reduces the number of features while keeping important information. It can help visualization, noise reduction, and faster training. However, it may remove useful details, so the reduced data should still be checked for the task.",
+    "tags": [
+      "machine learning",
+      "dimensionality reduction",
+      "features",
+      "PCA"
+    ],
+    "aliases": [
+      "dimensionality reduction là gì",
+      "giảm chiều dữ liệu",
+      "PCA idea",
+      "feature compression"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_supervised_learning_detail",
+    "title": "Supervised learning detail",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Supervised learning trains a model using examples that include inputs and correct target answers. The model learns a mapping from input to output. It is commonly used for classification, regression, and many practical prediction systems.",
+    "tags": [
+      "machine learning",
+      "supervised learning",
+      "labels",
+      "training"
+    ],
+    "aliases": [
+      "supervised learning là gì",
+      "học có giám sát",
+      "labeled data",
+      "input target"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_unsupervised_learning_detail",
+    "title": "Unsupervised learning detail",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Unsupervised learning looks for structure in data without target labels. It can discover clusters, lower-dimensional patterns, or unusual points. Because no correct answer is provided, results often need human interpretation and domain knowledge.",
+    "tags": [
+      "machine learning",
+      "unsupervised learning",
+      "patterns",
+      "labels"
+    ],
+    "aliases": [
+      "unsupervised learning là gì",
+      "học không giám sát",
+      "no labels",
+      "find patterns"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_reinforcement_learning_basic",
+    "title": "Reinforcement learning basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Reinforcement learning trains an agent to choose actions by receiving rewards or penalties from an environment. It is often used to study games, robotics, and control problems. It differs from supervised learning because feedback may be delayed.",
+    "tags": [
+      "machine learning",
+      "reinforcement learning",
+      "agent",
+      "reward"
+    ],
+    "aliases": [
+      "reinforcement learning là gì",
+      "học tăng cường",
+      "reward agent",
+      "RL basics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_confusion_matrix_basic",
+    "title": "Confusion matrix basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "A confusion matrix summarizes classification results by counting correct and incorrect predictions for each class. It helps show which categories the model confuses. This is more informative than a single accuracy number, especially for imbalanced datasets.",
+    "tags": [
+      "machine learning",
+      "confusion matrix",
+      "classification",
+      "metrics"
+    ],
+    "aliases": [
+      "confusion matrix là gì",
+      "ma trận nhầm lẫn",
+      "classification table",
+      "model errors by class"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_precision_recall_basic",
+    "title": "Precision and recall basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Precision measures how many predicted positives are actually correct, while recall measures how many real positives are found. They are useful when false positives and false negatives have different costs. Spam detection and medical screening often need this distinction.",
+    "tags": [
+      "machine learning",
+      "precision",
+      "recall",
+      "metrics"
+    ],
+    "aliases": [
+      "precision recall là gì",
+      "độ chính xác và độ phủ",
+      "false positive false negative",
+      "classification metrics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_accuracy_limitation",
+    "title": "Accuracy limitation",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Accuracy is the fraction of predictions that are correct, but it can be misleading when classes are imbalanced. A model can score high by guessing the majority class. Good evaluation should consider the task, data balance, and error costs.",
+    "tags": [
+      "machine learning",
+      "accuracy",
+      "metrics",
+      "imbalance"
+    ],
+    "aliases": [
+      "accuracy limitation",
+      "độ chính xác ML",
+      "imbalanced data accuracy",
+      "metric problem"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_data_leakage_basic",
+    "title": "Data leakage basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Data leakage happens when training uses information that would not be available at prediction time. It can make evaluation look much better than real performance. Leakage may come from duplicated records, wrong split timing, or features that secretly contain the answer.",
+    "tags": [
+      "machine learning",
+      "data leakage",
+      "evaluation",
+      "training"
+    ],
+    "aliases": [
+      "data leakage là gì",
+      "rò rỉ dữ liệu ML",
+      "leaky feature",
+      "fake high accuracy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_activation_function_basic",
+    "title": "Activation function basic",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "An activation function adds nonlinearity to a neural network. Without nonlinear activations, many layers may behave like a simple linear model. Common activations help networks learn complex patterns, but the best choice depends on the architecture and task.",
+    "tags": [
+      "deep learning",
+      "activation function",
+      "neural network",
+      "nonlinear"
+    ],
+    "aliases": [
+      "activation function là gì",
+      "hàm kích hoạt",
+      "ReLU idea",
+      "neural nonlinearity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_backpropagation_basic",
+    "title": "Backpropagation basic",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "Backpropagation is a method for computing how each neural network weight contributes to the loss. It applies the chain rule from calculus through network layers. Training then uses these gradients to update weights and reduce errors over many examples.",
+    "tags": [
+      "deep learning",
+      "backpropagation",
+      "gradient",
+      "training"
+    ],
+    "aliases": [
+      "backpropagation là gì",
+      "lan truyền ngược",
+      "neural network training",
+      "chain rule DL"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_layer_basic",
+    "title": "Neural network layer",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "A neural network layer transforms input values into new values using weights, biases, and often an activation function. Stacking layers lets a model build more abstract representations. Different layer types are used for text, images, audio, or general data.",
+    "tags": [
+      "deep learning",
+      "layer",
+      "neural network",
+      "weights"
+    ],
+    "aliases": [
+      "layer trong neural network",
+      "tầng mạng nơ ron",
+      "hidden layer",
+      "neural layer"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Neural_network",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_weight_bias_basic",
+    "title": "Weights and biases in neural networks",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "Weights and biases are trainable numbers inside a neural network. Weights control how strongly inputs affect outputs, while biases shift the result. During training, the model updates these values to reduce prediction errors on training data.",
+    "tags": [
+      "deep learning",
+      "weights",
+      "biases",
+      "neural network"
+    ],
+    "aliases": [
+      "weights bias là gì",
+      "trọng số bias",
+      "neural parameters",
+      "trainable numbers"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Neural_network",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_epoch_batch_basic",
+    "title": "Epoch and batch basic",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "An epoch means one full pass through the training dataset. A batch is a smaller group of examples processed before one update step. Batch training is practical because modern datasets are large and updating after every single example can be inefficient.",
+    "tags": [
+      "deep learning",
+      "epoch",
+      "batch",
+      "training"
+    ],
+    "aliases": [
+      "epoch batch là gì",
+      "training epoch",
+      "mini batch",
+      "one pass dataset"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dl_embedding_basic",
+    "title": "Embedding basic",
+    "category": "ai",
+    "subcategory": "deep learning",
+    "content": "An embedding represents an item, such as a word or document, as a vector of numbers. Similar items often have vectors that are close in the embedding space. Embeddings are useful for search, recommendation, language models, and RAG systems.",
+    "tags": [
+      "deep learning",
+      "embedding",
+      "vector",
+      "search"
+    ],
+    "aliases": [
+      "embedding là gì",
+      "vector embedding",
+      "semantic vector",
+      "RAG embedding"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nlp_token_basic",
+    "title": "Token in NLP",
+    "category": "ai",
+    "subcategory": "natural language processing",
+    "content": "A token is a small unit of text used by a language model or NLP system. It may be a word, part of a word, punctuation mark, or symbol. Tokenization affects context length, cost, and how text is processed.",
+    "tags": [
+      "nlp",
+      "token",
+      "language model",
+      "text"
+    ],
+    "aliases": [
+      "token là gì",
+      "NLP token",
+      "LLM token",
+      "text unit"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nlp_tokenization_basic",
+    "title": "Tokenization basic",
+    "category": "ai",
+    "subcategory": "natural language processing",
+    "content": "Tokenization splits text into tokens before the model processes it. Different tokenizers can split the same sentence in different ways. This matters because a model only sees tokens, not raw human text exactly as people read it.",
+    "tags": [
+      "nlp",
+      "tokenization",
+      "text processing",
+      "tokens"
+    ],
+    "aliases": [
+      "tokenization là gì",
+      "tách token",
+      "split text NLP",
+      "LLM tokenizer"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nlp_sentiment_analysis_basic",
+    "title": "Sentiment analysis basic",
+    "category": "ai",
+    "subcategory": "natural language processing",
+    "content": "Sentiment analysis tries to identify attitude or emotion in text, such as positive, negative, or neutral. It can be useful for reviews and feedback. Results can be wrong when sarcasm, context, mixed feelings, or slang are involved.",
+    "tags": [
+      "nlp",
+      "sentiment analysis",
+      "text",
+      "classification"
+    ],
+    "aliases": [
+      "sentiment analysis là gì",
+      "phân tích cảm xúc",
+      "positive negative text",
+      "review classifier"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nlp_named_entity_basic",
+    "title": "Named entity recognition basic",
+    "category": "ai",
+    "subcategory": "natural language processing",
+    "content": "Named entity recognition finds names of people, places, organizations, dates, or other special items in text. It helps structure unorganized documents. Mistakes can happen when names are ambiguous, misspelled, or used in unusual contexts.",
+    "tags": [
+      "nlp",
+      "named entity recognition",
+      "text",
+      "entities"
+    ],
+    "aliases": [
+      "NER là gì",
+      "named entity là gì",
+      "trích xuất tên riêng",
+      "entity extraction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "cv_image_classification_basic",
+    "title": "Image classification basic",
+    "category": "ai",
+    "subcategory": "computer vision",
+    "content": "Image classification predicts the main category of an image. A model might classify an image as cat, car, or building. It does not necessarily locate every object or explain the scene, so it is different from object detection.",
+    "tags": [
+      "computer vision",
+      "image classification",
+      "model",
+      "vision"
+    ],
+    "aliases": [
+      "image classification là gì",
+      "phân loại ảnh",
+      "classify image",
+      "vision model"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_vision",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "cv_object_detection_basic",
+    "title": "Object detection basic",
+    "category": "ai",
+    "subcategory": "computer vision",
+    "content": "Object detection identifies objects in an image and usually marks their locations with boxes. It is more detailed than image classification because it asks what is present and where it is. It is used in cameras, robotics, and visual search.",
+    "tags": [
+      "computer vision",
+      "object detection",
+      "image",
+      "bounding box"
+    ],
+    "aliases": [
+      "object detection là gì",
+      "phát hiện vật thể",
+      "bounding box",
+      "detect objects"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_vision",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "cv_segmentation_basic",
+    "title": "Image segmentation basic",
+    "category": "ai",
+    "subcategory": "computer vision",
+    "content": "Image segmentation divides an image into meaningful regions, often at the pixel level. It can separate roads, people, sky, or organs in medical images. Segmentation is useful when exact shape and area matter more than a simple label.",
+    "tags": [
+      "computer vision",
+      "segmentation",
+      "pixels",
+      "image"
+    ],
+    "aliases": [
+      "segmentation là gì",
+      "phân đoạn ảnh",
+      "pixel mask",
+      "image regions"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_vision",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_context_window_basic",
+    "title": "LLM context window",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "A context window is the amount of text a language model can consider at one time. Text outside the window may be unavailable to the model during generation. RAG systems help by retrieving relevant documents and placing them inside the prompt.",
+    "tags": [
+      "llm",
+      "context window",
+      "prompt",
+      "rag"
+    ],
+    "aliases": [
+      "context window là gì",
+      "cửa sổ ngữ cảnh",
+      "LLM memory limit",
+      "prompt length"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_hallucination_basic",
+    "title": "LLM hallucination basic",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "An LLM hallucination is an answer that sounds confident but is false, unsupported, or invented. It can happen because the model predicts likely text rather than checking truth directly. Retrieval, citations, testing, and cautious wording can reduce this risk.",
+    "tags": [
+      "llm",
+      "hallucination",
+      "truth",
+      "rag"
+    ],
+    "aliases": [
+      "hallucination là gì",
+      "AI bịa thông tin",
+      "LLM sai sự thật",
+      "unsupported answer"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_prompt_instruction_basic",
+    "title": "Prompt instruction basic",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "A prompt instruction tells a language model what task to perform, what style to use, and what constraints to follow. Clear prompts can improve consistency, but they cannot guarantee perfect reasoning or factual accuracy. Testing is still needed.",
+    "tags": [
+      "llm",
+      "prompt",
+      "instruction",
+      "generation"
+    ],
+    "aliases": [
+      "prompt instruction là gì",
+      "câu lệnh cho AI",
+      "LLM prompt",
+      "system prompt idea"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_temperature_basic",
+    "title": "LLM temperature basic",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "Temperature is a generation setting that affects randomness in model outputs. Lower values usually make answers more focused and repeatable, while higher values can make them more varied. It does not improve factual knowledge by itself.",
+    "tags": [
+      "llm",
+      "temperature",
+      "generation",
+      "randomness"
+    ],
+    "aliases": [
+      "temperature LLM là gì",
+      "AI randomness",
+      "model creativity setting",
+      "nhiệt độ model"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_rag_chunk_basic",
+    "title": "RAG chunk basic",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "A RAG chunk is a small piece of text stored for retrieval. Smaller chunks can be more focused, while larger chunks keep more context together. Good chunking helps the model find relevant facts without flooding the prompt with unrelated information.",
+    "tags": [
+      "rag",
+      "chunk",
+      "retrieval",
+      "llm"
+    ],
+    "aliases": [
+      "RAG chunk là gì",
+      "document chunk",
+      "knowledge chunk",
+      "chia nhỏ tài liệu"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "llm_embedding_search_basic",
+    "title": "Embedding search in RAG",
+    "category": "ai",
+    "subcategory": "large language model",
+    "content": "Embedding search converts a user question and documents into vectors, then compares them to find related text. It is useful when exact keywords are missing. However, it can retrieve text that is semantically close but not actually correct for the question.",
+    "tags": [
+      "rag",
+      "embedding search",
+      "vector",
+      "retrieval"
+    ],
+    "aliases": [
+      "embedding search là gì",
+      "semantic search RAG",
+      "vector search",
+      "tìm kiếm ngữ nghĩa"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "genai_text_generation_basic",
+    "title": "Generative AI text output",
+    "category": "ai",
+    "subcategory": "generative ai",
+    "content": "Generative AI can create text, images, audio, or code based on patterns learned from data. For text generation, the system predicts likely next tokens. Generated output should be reviewed because it may contain mistakes, bias, or unsupported claims.",
+    "tags": [
+      "generative ai",
+      "text generation",
+      "tokens",
+      "review"
+    ],
+    "aliases": [
+      "generative AI là gì",
+      "AI tạo nội dung",
+      "text generation",
+      "AI output review"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "genai_image_generation_basic",
+    "title": "Generative AI image output",
+    "category": "ai",
+    "subcategory": "generative ai",
+    "content": "Generative AI image systems create pictures from prompts, references, or other inputs. They can help with design and ideation, but outputs may contain artifacts or inaccurate details. Users should be careful with copyrighted styles, real people, and misleading images.",
+    "tags": [
+      "generative ai",
+      "image generation",
+      "prompt",
+      "AI image"
+    ],
+    "aliases": [
+      "AI image generation",
+      "tạo ảnh bằng AI",
+      "text to image",
+      "image artifact"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_assisted_code_review_basic",
+    "title": "AI assisted code review",
+    "category": "ai",
+    "subcategory": "ai-assisted software development",
+    "content": "AI-assisted software development can help explain code, suggest fixes, and generate drafts. It should not replace human review, tests, or security checks. A useful workflow asks the AI for reasoning, then verifies behavior by running the code.",
+    "tags": [
+      "ai",
+      "coding",
+      "code review",
+      "testing"
+    ],
+    "aliases": [
+      "AI code review",
+      "AI hỗ trợ lập trình",
+      "coding assistant",
+      "review generated code"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/AI-assisted_software_development",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_assisted_debugging_basic",
+    "title": "AI assisted debugging",
+    "category": "ai",
+    "subcategory": "ai-assisted software development",
+    "content": "AI can help debugging by reading errors, explaining likely causes, and suggesting experiments. The user should provide the exact error, relevant code, and environment details. Good debugging still requires testing one change at a time and confirming the real cause.",
+    "tags": [
+      "ai",
+      "debugging",
+      "software development",
+      "error"
+    ],
+    "aliases": [
+      "AI debug là gì",
+      "debug with ChatGPT",
+      "fix error with AI",
+      "AI tìm lỗi code"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/AI-assisted_software_development",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_model_limitations_basic",
+    "title": "AI model limitations",
+    "category": "ai",
+    "subcategory": "artificial intelligence",
+    "content": "AI models have limits because they learn from data, patterns, and design choices. They can be wrong, biased, outdated, or overconfident. A safe chatbot should admit uncertainty, ask for missing context when needed, and avoid pretending to know private facts.",
+    "tags": [
+      "ai",
+      "limitations",
+      "bias",
+      "uncertainty"
+    ],
+    "aliases": [
+      "AI limitation là gì",
+      "giới hạn AI",
+      "AI can be wrong",
+      "model uncertainty"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ai_evaluation_dataset_basic",
+    "title": "Evaluation dataset basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "An evaluation dataset is used to measure how well a model performs on examples not used for training. It should match the real task as much as possible. Poor evaluation data can make a weak model look strong or a useful model look bad.",
+    "tags": [
+      "ai",
+      "evaluation",
+      "dataset",
+      "model"
+    ],
+    "aliases": [
+      "evaluation dataset là gì",
+      "test data AI",
+      "đánh giá model",
+      "model benchmark data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_inference_basic",
+    "title": "Inference in machine learning",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Inference is the stage where a trained model receives new input and produces an output. It is different from training because the model usually does not update its weights. Inference speed, cost, and reliability matter for real applications.",
+    "tags": [
+      "machine learning",
+      "inference",
+      "prediction",
+      "deployment"
+    ],
+    "aliases": [
+      "inference là gì",
+      "suy luận model",
+      "model prediction stage",
+      "AI deployment"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ml_model_deployment_basic",
+    "title": "Model deployment basic",
+    "category": "ai",
+    "subcategory": "machine learning",
+    "content": "Model deployment means putting a trained model into an application or service so users can send inputs and receive predictions. Deployment must consider latency, memory, monitoring, security, and fallback behavior. A working notebook is not the same as a reliable product.",
+    "tags": [
+      "machine learning",
+      "deployment",
+      "api",
+      "production"
+    ],
+    "aliases": [
+      "model deployment là gì",
+      "triển khai model",
+      "serve AI model",
+      "AI API"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_variable_basic",
+    "title": "Variable basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "A variable is a named place in a program that stores a value. The value can be used later, changed, or passed into functions. Good variable names make code easier to read, debug, and explain to other programmers.",
+    "tags": [
+      "programming",
+      "variable",
+      "value",
+      "code"
+    ],
+    "aliases": [
+      "variable là gì",
+      "biến trong lập trình",
+      "store value",
+      "programming variable"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_control_flow_basic",
+    "title": "Control flow basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "Control flow is the order in which program instructions run. Conditions, loops, and function calls can change that order. Understanding control flow helps programmers predict behavior, find bugs, and avoid code that runs at the wrong time.",
+    "tags": [
+      "programming",
+      "control flow",
+      "if",
+      "loop"
+    ],
+    "aliases": [
+      "control flow là gì",
+      "luồng điều khiển",
+      "if loop function",
+      "program order"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_if_else_basic",
+    "title": "If else statement basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "An if else statement lets a program choose between different paths. If a condition is true, one block runs; otherwise, another block can run. This is a basic tool for decisions such as login checks, input validation, and game logic.",
+    "tags": [
+      "programming",
+      "if else",
+      "condition",
+      "branch"
+    ],
+    "aliases": [
+      "if else là gì",
+      "câu điều kiện",
+      "program decision",
+      "conditional statement"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_loop_basic",
+    "title": "Loop basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "A loop repeats a block of code while a condition is true or for each item in a collection. Loops reduce repeated code and help process arrays, files, and database results. A loop needs a safe stopping condition to avoid running forever.",
+    "tags": [
+      "programming",
+      "loop",
+      "iteration",
+      "repeat"
+    ],
+    "aliases": [
+      "loop là gì",
+      "vòng lặp",
+      "for loop while loop",
+      "repeat code"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_function_parameter_return",
+    "title": "Function parameter and return",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "A function can receive inputs called parameters and send back a result using a return value. Parameters make the function flexible, while return values let other code use the result. This pattern helps split a program into reusable pieces.",
+    "tags": [
+      "programming",
+      "function",
+      "parameter",
+      "return"
+    ],
+    "aliases": [
+      "function parameter là gì",
+      "tham số hàm",
+      "return value",
+      "reusable function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_error_handling_basic",
+    "title": "Error handling basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "Error handling is the practice of responding to problems without crashing the whole program. Code can catch exceptions, return useful messages, or log details for debugging. Good error handling helps users understand what went wrong and helps developers fix it.",
+    "tags": [
+      "programming",
+      "error handling",
+      "exception",
+      "debugging"
+    ],
+    "aliases": [
+      "error handling là gì",
+      "xử lý lỗi",
+      "try catch",
+      "exception handling"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_api_endpoint_basic",
+    "title": "API endpoint basic",
+    "category": "programming",
+    "subcategory": "api",
+    "content": "An API endpoint is a specific URL or route where a client can send a request to a server. Each endpoint usually has a purpose, such as login, search, or saving data. Clear endpoint names make frontend and backend integration easier.",
+    "tags": [
+      "programming",
+      "api",
+      "endpoint",
+      "server"
+    ],
+    "aliases": [
+      "API endpoint là gì",
+      "route API",
+      "backend endpoint",
+      "URL xử lý request"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_http_method_basic",
+    "title": "HTTP method basic",
+    "category": "programming",
+    "subcategory": "api",
+    "content": "HTTP methods describe the intended action of a web request. GET often reads data, POST creates data, PUT or PATCH updates data, and DELETE removes data. APIs should use methods consistently so clients understand the server's behavior.",
+    "tags": [
+      "programming",
+      "http",
+      "api",
+      "method"
+    ],
+    "aliases": [
+      "HTTP method là gì",
+      "GET POST PUT DELETE",
+      "REST method",
+      "phương thức HTTP"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_client_server_basic",
+    "title": "Client server model",
+    "category": "programming",
+    "subcategory": "api",
+    "content": "In the client server model, a client sends requests and a server sends responses. A React app can be the client, while Node.js or FastAPI can act as the server. This separation helps organize user interface, business logic, and data access.",
+    "tags": [
+      "programming",
+      "client server",
+      "frontend",
+      "backend"
+    ],
+    "aliases": [
+      "client server là gì",
+      "mô hình client server",
+      "React backend API",
+      "frontend backend"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_environment_variable_basic",
+    "title": "Environment variable basic",
+    "category": "programming",
+    "subcategory": "computer program",
+    "content": "An environment variable stores configuration outside the source code. It can hold database URLs, API keys, ports, or mode settings. Keeping configuration separate helps run the same program in development, testing, and production with different values.",
+    "tags": [
+      "programming",
+      "environment variable",
+      "config",
+      "deployment"
+    ],
+    "aliases": [
+      "environment variable là gì",
+      "biến môi trường",
+      "dotenv",
+      "config outside code"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_basic",
+    "title": "Python function basic",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A Python function is a reusable block of code that can take inputs and return an output. Functions help organize programs, reduce repeated code, and make behavior easier to test. A simple function uses def, a name, optional parameters, and an indented body.",
+    "tags": [
+      "python",
+      "function",
+      "def",
+      "return"
+    ],
+    "aliases": [
+      "Python function là gì",
+      "def in Python",
+      "hàm Python",
+      "Python reusable code"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_indentation_basic",
+    "title": "Python indentation basic",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "Python uses indentation to show which lines belong inside a block, such as a function, loop, or if statement. Wrong indentation can change program meaning or cause an error. Consistent spacing is therefore important in Python code.",
+    "tags": [
+      "python",
+      "indentation",
+      "syntax",
+      "block"
+    ],
+    "aliases": [
+      "Python indentation là gì",
+      "thụt lề Python",
+      "IndentationError",
+      "Python block"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_comprehension_basic",
+    "title": "Python list comprehension basic",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A Python list comprehension creates a new list using a compact expression. It is often used to transform or filter items from another iterable. It can make simple code shorter, but complex comprehensions may be harder to read than normal loops.",
+    "tags": [
+      "python",
+      "list comprehension",
+      "list",
+      "loop"
+    ],
+    "aliases": [
+      "list comprehension là gì",
+      "Python comprehension",
+      "tạo list nhanh",
+      "Python list syntax"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_exception_basic",
+    "title": "Python exception basic",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A Python exception is an error event that interrupts normal program flow. Code can handle exceptions with try and except blocks. Handling exceptions is useful for file errors, invalid input, network problems, and database failures.",
+    "tags": [
+      "python",
+      "exception",
+      "try except",
+      "error"
+    ],
+    "aliases": [
+      "Python exception là gì",
+      "try except Python",
+      "lỗi Python",
+      "Exception handling Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_virtual_environment_basic",
+    "title": "Python virtual environment",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A Python virtual environment is an isolated folder for project dependencies. It helps prevent package versions from different projects from conflicting. For AI or FastAPI projects, using a virtual environment makes setup cleaner and easier to reproduce.",
+    "tags": [
+      "python",
+      "virtual environment",
+      "dependencies",
+      "venv"
+    ],
+    "aliases": [
+      "venv là gì",
+      "Python virtualenv",
+      "môi trường ảo Python",
+      "dependency isolation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_package_pip_basic",
+    "title": "Python package and pip",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A Python package is reusable code that can be installed into a project. Pip is a common tool for installing packages from package indexes or local files. Pinning versions can help avoid unexpected behavior when dependencies change.",
+    "tags": [
+      "python",
+      "pip",
+      "package",
+      "dependencies"
+    ],
+    "aliases": [
+      "pip là gì",
+      "Python package",
+      "install package Python",
+      "requirements.txt"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_fastapi_route_basic",
+    "title": "FastAPI route concept",
+    "category": "programming",
+    "subcategory": "python",
+    "content": "A FastAPI route connects a URL path and HTTP method to a Python function. When a request reaches that route, FastAPI calls the function and returns a response. This structure is useful for building APIs around search, RAG, or model inference.",
+    "tags": [
+      "python",
+      "fastapi",
+      "api",
+      "route"
+    ],
+    "aliases": [
+      "FastAPI route là gì",
+      "Python API endpoint",
+      "FastAPI path operation",
+      "route function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_variable_let_const",
+    "title": "JavaScript let and const",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "In JavaScript, let and const declare block-scoped variables. Let allows reassignment, while const prevents reassignment of the variable binding. Const does not always make an object deeply immutable, so object properties can still be changed unless protected.",
+    "tags": [
+      "javascript",
+      "let",
+      "const",
+      "variable"
+    ],
+    "aliases": [
+      "let const là gì",
+      "JavaScript variable",
+      "const object change",
+      "block scope JS"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_object_basic",
+    "title": "JavaScript object basic",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "A JavaScript object stores related data as key value pairs. Objects are common for user profiles, API responses, configuration, and application state. They are similar to JSON objects in shape, but JavaScript objects can include functions and non-JSON values.",
+    "tags": [
+      "javascript",
+      "object",
+      "key value",
+      "data"
+    ],
+    "aliases": [
+      "JavaScript object là gì",
+      "object JS",
+      "key value JS",
+      "đối tượng JavaScript"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_array_method_basic",
+    "title": "JavaScript array methods",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "JavaScript arrays have methods such as map, filter, and reduce for processing lists of values. These methods are common in React and data transformation. They can make code cleaner when used simply, but overusing them can make logic hard to follow.",
+    "tags": [
+      "javascript",
+      "array",
+      "map",
+      "filter"
+    ],
+    "aliases": [
+      "map filter reduce là gì",
+      "JavaScript array method",
+      "xử lý mảng JS",
+      "JS array"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_promise_basic",
+    "title": "JavaScript Promise basic",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "A JavaScript Promise represents a value that may be available now, later, or never because of an error. Promises are often used for network requests and async tasks. Code can handle results with then and catch or with async and await.",
+    "tags": [
+      "javascript",
+      "promise",
+      "async",
+      "network"
+    ],
+    "aliases": [
+      "Promise là gì",
+      "JavaScript Promise",
+      "async result JS",
+      "then catch"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_async_await_detail",
+    "title": "JavaScript async await detail",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "Async and await make promise-based JavaScript code look closer to normal step-by-step code. An async function returns a promise, and await pauses inside that function until the promise settles. Error handling still needs try and catch in many cases.",
+    "tags": [
+      "javascript",
+      "async await",
+      "promise",
+      "error handling"
+    ],
+    "aliases": [
+      "async await là gì",
+      "await Promise",
+      "JavaScript async function",
+      "try catch async"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_event_loop_basic",
+    "title": "JavaScript event loop",
+    "category": "programming",
+    "subcategory": "javascript",
+    "content": "The JavaScript event loop helps handle asynchronous work without blocking the main thread forever. It coordinates the call stack, task queues, and callbacks. This is why timers, network requests, and UI events can complete after current code finishes.",
+    "tags": [
+      "javascript",
+      "event loop",
+      "async",
+      "callback"
+    ],
+    "aliases": [
+      "event loop JavaScript là gì",
+      "JS event loop",
+      "call stack queue",
+      "async runtime"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_event_loop_basic",
+    "title": "Node.js event loop",
+    "category": "programming",
+    "subcategory": "node.js",
+    "content": "The Node.js event loop lets Node handle many I/O tasks without creating a new thread for every request. It is useful for web servers, file operations, and network communication. CPU-heavy work can still block the event loop if not handled carefully.",
+    "tags": [
+      "node.js",
+      "event loop",
+      "I/O",
+      "server"
+    ],
+    "aliases": [
+      "Node.js event loop là gì",
+      "event loop Node",
+      "non blocking I/O",
+      "Node server async"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_npm_basic",
+    "title": "NPM basic",
+    "category": "programming",
+    "subcategory": "node.js",
+    "content": "NPM is a package manager commonly used with Node.js projects. It installs libraries, manages scripts, and records dependencies in package files. Keeping dependencies clear helps other developers install and run the project consistently.",
+    "tags": [
+      "node.js",
+      "npm",
+      "package manager",
+      "dependencies"
+    ],
+    "aliases": [
+      "npm là gì",
+      "Node package manager",
+      "package.json",
+      "install Node package"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_package_json_basic",
+    "title": "package.json basic",
+    "category": "programming",
+    "subcategory": "node.js",
+    "content": "The package.json file describes a Node.js project. It can include scripts, dependencies, project metadata, and version requirements. In a React or Node backend project, package.json helps define how to install, run, build, and test the application.",
+    "tags": [
+      "node.js",
+      "package.json",
+      "npm",
+      "project"
+    ],
+    "aliases": [
+      "package.json là gì",
+      "Node project file",
+      "npm scripts",
+      "dependencies list"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_express_middleware_basic",
+    "title": "Express middleware basic",
+    "category": "programming",
+    "subcategory": "node.js",
+    "content": "Express middleware is code that runs during the request response cycle before the final route response. Middleware can parse JSON, check authentication, log requests, or handle errors. The order of middleware matters because requests pass through it step by step.",
+    "tags": [
+      "node.js",
+      "express",
+      "middleware",
+      "api"
+    ],
+    "aliases": [
+      "Express middleware là gì",
+      "middleware Node.js",
+      "request response cycle",
+      "API middleware"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_algorithm_complexity_basic",
+    "title": "Algorithm complexity basic",
+    "category": "programming",
+    "subcategory": "algorithm",
+    "content": "Algorithm complexity describes how time or memory use grows as input size grows. It helps compare approaches without measuring only one machine. Big O notation gives a simplified view of growth, such as constant, linear, or quadratic behavior.",
+    "tags": [
+      "algorithm",
+      "complexity",
+      "big O",
+      "performance"
+    ],
+    "aliases": [
+      "algorithm complexity là gì",
+      "Big O là gì",
+      "độ phức tạp thuật toán",
+      "time complexity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_binary_search_basic",
+    "title": "Binary search basic",
+    "category": "programming",
+    "subcategory": "algorithm",
+    "content": "Binary search finds a target in a sorted list by repeatedly checking the middle and discarding half of the remaining search area. It is much faster than checking every item for large sorted data. It only works correctly when the data is ordered.",
+    "tags": [
+      "algorithm",
+      "binary search",
+      "sorted list",
+      "search"
+    ],
+    "aliases": [
+      "binary search là gì",
+      "tìm kiếm nhị phân",
+      "sorted array search",
+      "divide search"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_sorting_algorithm_basic",
+    "title": "Sorting algorithm basic",
+    "category": "programming",
+    "subcategory": "algorithm",
+    "content": "A sorting algorithm rearranges items into an order, such as smallest to largest or alphabetical order. Different sorting methods have different speed, memory use, and stability. Choosing a sort can matter when data is large or order ties must be preserved.",
+    "tags": [
+      "algorithm",
+      "sorting",
+      "array",
+      "performance"
+    ],
+    "aliases": [
+      "sorting algorithm là gì",
+      "thuật toán sắp xếp",
+      "sort array",
+      "stable sort"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_stack_queue_basic",
+    "title": "Stack and queue basic",
+    "category": "programming",
+    "subcategory": "data structure",
+    "content": "A stack removes the newest item first, like a pile of plates. A queue removes the oldest item first, like a waiting line. These structures are useful for undo actions, parsing, scheduling, breadth-first search, and task processing.",
+    "tags": [
+      "data structure",
+      "stack",
+      "queue",
+      "algorithm"
+    ],
+    "aliases": [
+      "stack queue là gì",
+      "ngăn xếp hàng đợi",
+      "LIFO FIFO",
+      "data structure basics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_structure",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_hash_table_basic",
+    "title": "Hash table basic",
+    "category": "programming",
+    "subcategory": "data structure",
+    "content": "A hash table stores key value pairs and uses a hash function to find where a key belongs. It can provide very fast lookup on average. Dictionaries in many languages use hash-table ideas, but collisions and memory use still matter.",
+    "tags": [
+      "data structure",
+      "hash table",
+      "key value",
+      "lookup"
+    ],
+    "aliases": [
+      "hash table là gì",
+      "bảng băm",
+      "dictionary lookup",
+      "key value store"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_structure",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_tree_basic",
+    "title": "Tree data structure basic",
+    "category": "programming",
+    "subcategory": "data structure",
+    "content": "A tree is a data structure made of nodes connected by parent child relationships. It is useful for representing folders, menus, syntax, and search structures. A tree has a root node, and nodes without children are often called leaves.",
+    "tags": [
+      "data structure",
+      "tree",
+      "node",
+      "hierarchy"
+    ],
+    "aliases": [
+      "tree data structure là gì",
+      "cây dữ liệu",
+      "root leaf node",
+      "hierarchical data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_structure",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "programming_graph_basic",
+    "title": "Graph data structure basic",
+    "category": "programming",
+    "subcategory": "data structure",
+    "content": "A graph is a structure of nodes connected by edges. It can represent maps, social networks, dependencies, or routes. Graphs can be directed or undirected, weighted or unweighted, and they often need special traversal algorithms.",
+    "tags": [
+      "data structure",
+      "graph",
+      "nodes",
+      "edges"
+    ],
+    "aliases": [
+      "graph data structure là gì",
+      "đồ thị lập trình",
+      "nodes edges",
+      "network data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_structure",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "git_repository_basic",
+    "title": "Git repository basic",
+    "category": "programming",
+    "subcategory": "git",
+    "content": "A Git repository stores project files and their version history. It lets developers track changes, compare older versions, and collaborate safely. A repository can exist locally on a computer and remotely on a service used for sharing.",
+    "tags": [
+      "git",
+      "repository",
+      "version control",
+      "project"
+    ],
+    "aliases": [
+      "Git repository là gì",
+      "repo là gì",
+      "kho mã nguồn",
+      "version history"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Git",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "git_commit_basic",
+    "title": "Git commit basic",
+    "category": "programming",
+    "subcategory": "git",
+    "content": "A Git commit is a saved snapshot of changes in a repository. Each commit has an identifier and usually a message explaining what changed. Good commit messages help developers understand project history and undo or inspect changes later.",
+    "tags": [
+      "git",
+      "commit",
+      "snapshot",
+      "version control"
+    ],
+    "aliases": [
+      "Git commit là gì",
+      "commit message",
+      "save changes Git",
+      "lưu phiên bản"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Git",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "git_branch_basic",
+    "title": "Git branch basic",
+    "category": "programming",
+    "subcategory": "git",
+    "content": "A Git branch is a separate line of development. Developers use branches to work on features, fixes, or experiments without immediately changing the main branch. Branches make collaboration safer, but they need merging or rebasing to combine work.",
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "version control"
+    ],
+    "aliases": [
+      "Git branch là gì",
+      "nhánh Git",
+      "feature branch",
+      "main branch"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Git",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "git_merge_conflict_basic",
+    "title": "Git merge conflict basic",
+    "category": "programming",
+    "subcategory": "git",
+    "content": "A merge conflict happens when Git cannot automatically combine changes from different branches. The developer must choose or edit the final content. Conflicts are normal in collaboration and should be resolved carefully with testing afterward.",
+    "tags": [
+      "git",
+      "merge conflict",
+      "branch",
+      "collaboration"
+    ],
+    "aliases": [
+      "merge conflict là gì",
+      "xung đột Git",
+      "resolve conflict",
+      "Git merge error"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Git",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "flutter_widget_basic",
+    "title": "Flutter widget basic",
+    "category": "programming",
+    "subcategory": "flutter",
+    "content": "In Flutter, a widget describes part of the user interface. Buttons, text, layouts, and entire screens can be represented as widgets. Flutter builds UI by composing widgets together, which makes interface code structured and reusable.",
+    "tags": [
+      "flutter",
+      "widget",
+      "ui",
+      "mobile"
+    ],
+    "aliases": [
+      "Flutter widget là gì",
+      "widget trong Flutter",
+      "UI toolkit widget",
+      "Flutter UI"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Flutter_%28software%29",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "dart_null_safety_basic",
+    "title": "Dart null safety basic",
+    "category": "programming",
+    "subcategory": "dart",
+    "content": "Dart null safety helps prevent errors caused by using null where a real value is required. Types are non-nullable by default unless marked as nullable. This makes many mistakes easier to catch before the app runs.",
+    "tags": [
+      "dart",
+      "null safety",
+      "type",
+      "flutter"
+    ],
+    "aliases": [
+      "Dart null safety là gì",
+      "nullable Dart",
+      "lỗi null Flutter",
+      "Dart type safety"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Dart_%28programming_language%29",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_syntax_parse_error",
+    "title": "JSON syntax parse error",
+    "category": "database",
+    "subcategory": "json",
+    "content": "A JSON parse error happens when text is not valid JSON syntax. Common causes include trailing commas, comments, missing quotes around keys, or using single quotes instead of double quotes. Checking the exact error position usually helps find the broken character.",
+    "tags": [
+      "json",
+      "parse error",
+      "syntax",
+      "data"
+    ],
+    "aliases": [
+      "JSON parse error là gì",
+      "lỗi JSON.parse",
+      "invalid JSON",
+      "trailing comma JSON"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_string_number_boolean",
+    "title": "JSON string number boolean",
+    "category": "database",
+    "subcategory": "json",
+    "content": "JSON supports simple value types such as strings, numbers, booleans, and null. Strings must use double quotes, numbers are written without quotes, and booleans are true or false. Using the wrong type can break validation or application logic.",
+    "tags": [
+      "json",
+      "string",
+      "number",
+      "boolean"
+    ],
+    "aliases": [
+      "JSON types là gì",
+      "kiểu dữ liệu JSON",
+      "string number boolean",
+      "true false null"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_nested_object_basic",
+    "title": "Nested JSON object",
+    "category": "database",
+    "subcategory": "json",
+    "content": "A nested JSON object is an object inside another object. It helps represent structured data, such as a user with a profile and settings. Deep nesting can become hard to query, update, and validate, so structure should match the app's needs.",
+    "tags": [
+      "json",
+      "nested object",
+      "structure",
+      "data"
+    ],
+    "aliases": [
+      "nested JSON là gì",
+      "JSON lồng nhau",
+      "object inside object",
+      "nested data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_array_of_objects_basic",
+    "title": "JSON array of objects",
+    "category": "database",
+    "subcategory": "json",
+    "content": "A JSON array of objects stores a list where each item is an object with fields. It is common for search results, knowledge records, and API responses. Keeping object fields consistent makes the data easier to validate and import into databases.",
+    "tags": [
+      "json",
+      "array",
+      "object",
+      "api"
+    ],
+    "aliases": [
+      "JSON array of objects",
+      "mảng object JSON",
+      "list records JSON",
+      "API response list"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_schema_validation_basic",
+    "title": "JSON schema validation",
+    "category": "database",
+    "subcategory": "json",
+    "content": "JSON schema validation checks whether JSON data follows expected fields, types, and rules. It helps catch missing properties, wrong value types, and invalid formats before storing or using data. Validation is useful for APIs, configs, and RAG knowledge files.",
+    "tags": [
+      "json",
+      "schema",
+      "validation",
+      "data quality"
+    ],
+    "aliases": [
+      "JSON schema là gì",
+      "validate JSON",
+      "schema validation",
+      "kiểm tra JSON"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_primary_key_basic",
+    "title": "Primary key basic",
+    "category": "database",
+    "subcategory": "relational database",
+    "content": "A primary key uniquely identifies each row in a relational table. It should not be duplicated, and it is usually stable for the life of the record. Primary keys help connect tables and make updates or lookups safer.",
+    "tags": [
+      "database",
+      "primary key",
+      "relational database",
+      "table"
+    ],
+    "aliases": [
+      "primary key là gì",
+      "khóa chính",
+      "unique row id",
+      "database key"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_foreign_key_basic",
+    "title": "Foreign key basic",
+    "category": "database",
+    "subcategory": "relational database",
+    "content": "A foreign key is a field that points to a primary key in another table. It helps represent relationships, such as orders belonging to users. Foreign keys can protect data consistency by preventing references to records that do not exist.",
+    "tags": [
+      "database",
+      "foreign key",
+      "relationship",
+      "relational database"
+    ],
+    "aliases": [
+      "foreign key là gì",
+      "khóa ngoại",
+      "table relationship",
+      "database reference"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_table_row_column",
+    "title": "Table row and column",
+    "category": "database",
+    "subcategory": "relational database",
+    "content": "In a relational database, a table stores data in rows and columns. A row represents one record, while a column represents one kind of value. This structure is useful when data has a clear schema and relationships between entities.",
+    "tags": [
+      "database",
+      "table",
+      "row",
+      "column"
+    ],
+    "aliases": [
+      "table row column là gì",
+      "bảng dòng cột",
+      "relational table",
+      "database record"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_normalization_basic",
+    "title": "Database normalization basic",
+    "category": "database",
+    "subcategory": "relational database",
+    "content": "Database normalization organizes relational data to reduce duplication and improve consistency. It often separates repeated information into related tables. Normalization can make updates safer, but overly complex schemas may require more joins and careful query design.",
+    "tags": [
+      "database",
+      "normalization",
+      "relational database",
+      "schema"
+    ],
+    "aliases": [
+      "normalization là gì",
+      "chuẩn hóa CSDL",
+      "reduce duplicate data",
+      "database design"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_denormalization_basic",
+    "title": "Database denormalization basic",
+    "category": "database",
+    "subcategory": "relational database",
+    "content": "Denormalization intentionally stores duplicated or combined data to make some reads faster or simpler. It can improve performance for certain workloads, but it increases the risk of inconsistent data. The decision should be based on real query needs.",
+    "tags": [
+      "database",
+      "denormalization",
+      "performance",
+      "schema"
+    ],
+    "aliases": [
+      "denormalization là gì",
+      "phi chuẩn hóa",
+      "duplicate data for speed",
+      "database performance"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_select_where_basic",
+    "title": "SQL SELECT WHERE basic",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "A SQL SELECT query reads data from a table, and a WHERE clause filters which rows are returned. This lets an application request only relevant records. Good filters reduce unnecessary data transfer and can use indexes when designed well.",
+    "tags": [
+      "sql",
+      "select",
+      "where",
+      "query"
+    ],
+    "aliases": [
+      "SQL SELECT WHERE là gì",
+      "truy vấn SQL cơ bản",
+      "filter rows SQL",
+      "read table"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_join_basic",
+    "title": "SQL JOIN basic",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "A SQL JOIN combines rows from two or more tables based on related columns. Joins are useful when data is normalized across separate tables. Common types include inner join and left join, and choosing the wrong join can change results.",
+    "tags": [
+      "sql",
+      "join",
+      "tables",
+      "relationship"
+    ],
+    "aliases": [
+      "SQL JOIN là gì",
+      "join table SQL",
+      "inner join left join",
+      "nối bảng SQL"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_group_by_basic",
+    "title": "SQL GROUP BY basic",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "SQL GROUP BY collects rows that share a value and allows aggregate calculations, such as count, sum, or average. It is useful for reports and summaries. The selected columns must match the grouping logic or use aggregate functions.",
+    "tags": [
+      "sql",
+      "group by",
+      "aggregate",
+      "query"
+    ],
+    "aliases": [
+      "GROUP BY là gì",
+      "SQL aggregate",
+      "count by group",
+      "nhóm dữ liệu SQL"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_order_by_limit_basic",
+    "title": "SQL ORDER BY and LIMIT",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "ORDER BY sorts SQL query results by one or more columns. LIMIT restricts how many rows are returned. Together they are useful for showing newest posts, highest scores, or the first page of search results.",
+    "tags": [
+      "sql",
+      "order by",
+      "limit",
+      "query"
+    ],
+    "aliases": [
+      "ORDER BY LIMIT là gì",
+      "sort SQL result",
+      "giới hạn dòng SQL",
+      "top rows SQL"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_index_basic",
+    "title": "SQL index basic",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "A SQL index is a data structure that helps the database find rows faster for certain queries. Indexes can speed up reads but may slow down writes because the index also needs updating. Useful indexes match frequent filters, joins, or sorting patterns.",
+    "tags": [
+      "sql",
+      "index",
+      "performance",
+      "query"
+    ],
+    "aliases": [
+      "SQL index là gì",
+      "chỉ mục SQL",
+      "database speed",
+      "query index"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_injection_basic",
+    "title": "SQL injection basic",
+    "category": "database",
+    "subcategory": "sql",
+    "content": "SQL injection is a security problem where unsafe user input changes the meaning of a SQL query. It can expose, change, or delete data. Parameterized queries and careful input handling are common ways to reduce this risk.",
+    "tags": [
+      "sql",
+      "security",
+      "sql injection",
+      "input"
+    ],
+    "aliases": [
+      "SQL injection là gì",
+      "tấn công SQL",
+      "parameterized query",
+      "unsafe input"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_acid_transaction_basic",
+    "title": "ACID properties in transactions",
+    "category": "database",
+    "subcategory": "database transaction",
+    "content": "ACID describes important properties of reliable database transactions: atomicity, consistency, isolation, and durability. These ideas help ensure that multi-step database operations behave safely. For example, a payment should not remove money from one account without adding it to the other account.",
+    "tags": [
+      "database",
+      "transaction",
+      "ACID",
+      "commit"
+    ],
+    "aliases": [
+      "ACID là gì",
+      "database ACID",
+      "transaction safety",
+      "commit rollback"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Database_transaction",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_commit_rollback_basic",
+    "title": "Commit and rollback basic",
+    "category": "database",
+    "subcategory": "database transaction",
+    "content": "Commit saves a transaction's changes permanently, while rollback cancels the changes made by a transaction. These actions help keep data safe when a multi-step operation fails. They are especially important for payments, inventory, and account updates.",
+    "tags": [
+      "database",
+      "transaction",
+      "commit",
+      "rollback"
+    ],
+    "aliases": [
+      "commit rollback là gì",
+      "transaction commit",
+      "rollback database",
+      "hủy giao dịch"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Database_transaction",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_isolation_basic",
+    "title": "Transaction isolation basic",
+    "category": "database",
+    "subcategory": "database transaction",
+    "content": "Transaction isolation controls how much one transaction can see changes from another transaction before they finish. Stronger isolation can prevent confusing results but may reduce performance. The right level depends on correctness needs and workload.",
+    "tags": [
+      "database",
+      "transaction",
+      "isolation",
+      "concurrency"
+    ],
+    "aliases": [
+      "transaction isolation là gì",
+      "cô lập giao dịch",
+      "concurrent transaction",
+      "database consistency"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Database_transaction",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_collection_document_basic",
+    "title": "MongoDB collection and document",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "In MongoDB, a collection stores documents, and each document is a flexible record often written in a JSON-like format. A collection is similar to a table in purpose, but documents can have different fields when the schema is flexible.",
+    "tags": [
+      "mongodb",
+      "collection",
+      "document",
+      "database"
+    ],
+    "aliases": [
+      "MongoDB collection là gì",
+      "MongoDB document là gì",
+      "collection vs table",
+      "document record"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_bson_basic",
+    "title": "BSON in MongoDB",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "MongoDB stores data in BSON, a binary format related to JSON. BSON supports additional data types and efficient storage for database operations. Developers often write data in JSON-like syntax, but MongoDB internally stores and transfers it as BSON.",
+    "tags": [
+      "mongodb",
+      "bson",
+      "json",
+      "storage"
+    ],
+    "aliases": [
+      "BSON là gì",
+      "MongoDB BSON",
+      "JSON vs BSON",
+      "binary JSON"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_objectid_basic",
+    "title": "MongoDB ObjectId basic",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "MongoDB commonly uses ObjectId values as unique identifiers for documents. An ObjectId is not the same as a normal string, although it is often displayed as text. Applications should handle it consistently when querying, inserting, or serializing data.",
+    "tags": [
+      "mongodb",
+      "objectid",
+      "document id",
+      "query"
+    ],
+    "aliases": [
+      "ObjectId là gì",
+      "MongoDB _id",
+      "document id MongoDB",
+      "ObjectId string"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_find_query_basic",
+    "title": "MongoDB find query basic",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "A MongoDB find query searches documents in a collection using filter conditions. For example, it can match a field value or compare numbers. Clear filters help return only relevant documents and avoid scanning more data than necessary.",
+    "tags": [
+      "mongodb",
+      "find",
+      "query",
+      "filter"
+    ],
+    "aliases": [
+      "MongoDB find là gì",
+      "find query MongoDB",
+      "lọc document",
+      "MongoDB filter"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_update_operator_basic",
+    "title": "MongoDB update operators",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "MongoDB update operators change specific parts of a document without replacing the whole document. Operators such as set or increment are common for editing fields and counters. Using targeted updates can reduce mistakes and keep unrelated fields unchanged.",
+    "tags": [
+      "mongodb",
+      "update",
+      "operator",
+      "document"
+    ],
+    "aliases": [
+      "MongoDB update operator",
+      "$set MongoDB",
+      "update field MongoDB",
+      "sửa document"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_index_basic",
+    "title": "MongoDB index basic",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "A MongoDB index helps the database find matching documents faster for certain queries. Indexes are useful for fields used often in filters or sorting. Too many indexes can increase storage use and make writes slower, so they should match real access patterns.",
+    "tags": [
+      "mongodb",
+      "index",
+      "query",
+      "performance"
+    ],
+    "aliases": [
+      "MongoDB index là gì",
+      "chỉ mục MongoDB",
+      "query speed MongoDB",
+      "create index"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_aggregation_pipeline_basic",
+    "title": "MongoDB aggregation pipeline",
+    "category": "database",
+    "subcategory": "mongodb",
+    "content": "The MongoDB aggregation pipeline processes documents through stages, such as filtering, grouping, sorting, or reshaping. It is useful for reports and transformations inside the database. Complex pipelines should be tested carefully because they can become slow or hard to maintain.",
+    "tags": [
+      "mongodb",
+      "aggregation",
+      "pipeline",
+      "data processing"
+    ],
+    "aliases": [
+      "aggregation pipeline là gì",
+      "MongoDB aggregate",
+      "pipeline MongoDB",
+      "group documents"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_schema_flexibility_basic",
+    "title": "MongoDB schema flexibility",
+    "category": "database",
+    "subcategory": "document-oriented database",
+    "content": "MongoDB documents can have flexible structures, so not every document in a collection must contain the same fields. This is useful for changing application data, but it does not mean schema design is unnecessary. Validation and consistent patterns still help.",
+    "tags": [
+      "mongodb",
+      "schema",
+      "document database",
+      "flexibility"
+    ],
+    "aliases": [
+      "MongoDB schema flexible",
+      "schema linh hoạt",
+      "document database schema",
+      "NoSQL schema"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Document-oriented_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "document_database_nested_data",
+    "title": "Document database nested data",
+    "category": "database",
+    "subcategory": "document-oriented database",
+    "content": "A document database can store nested data inside one record, such as a user with settings or profile details. This can reduce joins for some reads. However, deeply nested documents can be harder to update, index, and share across features.",
+    "tags": [
+      "database",
+      "document database",
+      "nested data",
+      "NoSQL"
+    ],
+    "aliases": [
+      "document database nested",
+      "NoSQL nested data",
+      "dữ liệu lồng nhau",
+      "embedded document"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Document-oriented_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "document_database_reference_vs_embed",
+    "title": "Reference versus embed in document databases",
+    "category": "database",
+    "subcategory": "document-oriented database",
+    "content": "In a document database, related data can be embedded inside one document or referenced by an id. Embedding can make reads simple, while references can avoid duplication. The better choice depends on update frequency, data size, and query patterns.",
+    "tags": [
+      "database",
+      "document database",
+      "embed",
+      "reference"
+    ],
+    "aliases": [
+      "embed vs reference MongoDB",
+      "nhúng hay tham chiếu",
+      "document relationship",
+      "NoSQL design"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Document-oriented_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_query_plan_basic",
+    "title": "Database query plan basic",
+    "category": "database",
+    "subcategory": "database",
+    "content": "A query plan describes how a database intends to execute a query. It may show whether indexes are used, how tables or documents are scanned, and which operations are expensive. Reading query plans helps diagnose slow database performance.",
+    "tags": [
+      "database",
+      "query plan",
+      "performance",
+      "index"
+    ],
+    "aliases": [
+      "query plan là gì",
+      "explain query",
+      "database performance plan",
+      "slow query"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_connection_pool_basic",
+    "title": "Database connection pool",
+    "category": "database",
+    "subcategory": "database",
+    "content": "A connection pool keeps a set of database connections ready for reuse. This avoids opening a new connection for every request, which can be slow. Pool size should be configured carefully so the app does not overload the database.",
+    "tags": [
+      "database",
+      "connection pool",
+      "performance",
+      "backend"
+    ],
+    "aliases": [
+      "connection pool là gì",
+      "pool kết nối DB",
+      "database connections",
+      "backend database pool"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_backup_basic",
+    "title": "Database backup basic",
+    "category": "database",
+    "subcategory": "database",
+    "content": "A database backup is a saved copy of data used for recovery after mistakes, corruption, or system failure. Backups should be tested, not only created. A backup strategy often considers frequency, storage location, retention, and restore time.",
+    "tags": [
+      "database",
+      "backup",
+      "recovery",
+      "data safety"
+    ],
+    "aliases": [
+      "database backup là gì",
+      "sao lưu CSDL",
+      "restore database",
+      "data recovery"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_migration_basic",
+    "title": "Database migration basic",
+    "category": "database",
+    "subcategory": "database",
+    "content": "A database migration changes schema or data in a controlled way, such as adding a field, creating an index, or changing a table. Migrations help teams apply changes consistently across development and production environments. Rollback planning is important.",
+    "tags": [
+      "database",
+      "migration",
+      "schema",
+      "deployment"
+    ],
+    "aliases": [
+      "database migration là gì",
+      "migrate schema",
+      "thay đổi CSDL",
+      "migration script"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "bigdata_volume_velocity_variety",
+    "title": "Big data volume velocity variety",
+    "category": "data",
+    "subcategory": "big data",
+    "content": "Big data is often described with volume, velocity, and variety. Volume means large size, velocity means fast data generation, and variety means many formats. These ideas explain why normal tools may become difficult to use at large scale.",
+    "tags": [
+      "big data",
+      "volume",
+      "velocity",
+      "variety"
+    ],
+    "aliases": [
+      "3V big data là gì",
+      "volume velocity variety",
+      "dữ liệu lớn",
+      "big data properties"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "bigdata_small_project_caution",
+    "title": "Big data tool caution",
+    "category": "data",
+    "subcategory": "big data",
+    "content": "Big data tools are useful when data size, speed, or distribution exceeds what simple tools can handle. A small chatbot project may not need Spark or a cluster at first. Starting simple can reduce complexity until real scale problems appear.",
+    "tags": [
+      "big data",
+      "project design",
+      "scaling",
+      "tools"
+    ],
+    "aliases": [
+      "khi nào cần big data",
+      "small project Spark",
+      "có cần Spark không",
+      "big data caution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "spark_rdd_basic",
+    "title": "Apache Spark RDD basic",
+    "category": "data",
+    "subcategory": "apache spark",
+    "content": "An RDD is an older core Spark abstraction for distributed collections of data. It supports transformations and actions across a cluster. Many modern Spark users work more often with DataFrames, but understanding RDDs helps explain Spark's distributed processing roots.",
+    "tags": [
+      "spark",
+      "rdd",
+      "distributed data",
+      "big data"
+    ],
+    "aliases": [
+      "Spark RDD là gì",
+      "resilient distributed dataset",
+      "RDD Spark",
+      "distributed collection"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "spark_dataframe_basic",
+    "title": "Apache Spark DataFrame basic",
+    "category": "data",
+    "subcategory": "apache spark",
+    "content": "A Spark DataFrame represents structured data in rows and columns across distributed machines. It is similar in shape to a table, but designed for large-scale processing. DataFrames allow Spark to optimize queries and transformations more effectively than low-level operations.",
+    "tags": [
+      "spark",
+      "dataframe",
+      "big data",
+      "distributed"
+    ],
+    "aliases": [
+      "Spark DataFrame là gì",
+      "DataFrame Spark",
+      "distributed table",
+      "big data table"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "spark_transformation_action_basic",
+    "title": "Spark transformation and action",
+    "category": "data",
+    "subcategory": "apache spark",
+    "content": "In Spark, transformations describe data processing steps, while actions trigger actual computation and return results or write output. This lazy evaluation lets Spark build an execution plan before running. Understanding this helps explain why some Spark code does nothing until an action.",
+    "tags": [
+      "spark",
+      "transformation",
+      "action",
+      "lazy evaluation"
+    ],
+    "aliases": [
+      "Spark transformation action",
+      "lazy evaluation Spark",
+      "biến đổi và hành động Spark",
+      "why Spark not run"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "spark_cluster_basic",
+    "title": "Spark cluster basic",
+    "category": "data",
+    "subcategory": "apache spark",
+    "content": "A Spark cluster uses multiple machines or processes to handle large data tasks. Work is divided across executors under the control of a driver program. Clusters can process more data than one machine, but they also add setup and debugging complexity.",
+    "tags": [
+      "spark",
+      "cluster",
+      "executor",
+      "driver"
+    ],
+    "aliases": [
+      "Spark cluster là gì",
+      "driver executor Spark",
+      "cụm Spark",
+      "distributed processing"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "data_pipeline_basic",
+    "title": "Data pipeline basic",
+    "category": "data",
+    "subcategory": "big data",
+    "content": "A data pipeline moves and transforms data from one place to another. It may collect raw data, clean it, validate it, and load it into a database or search system. Reliable pipelines need logging, error handling, and repeatable steps.",
+    "tags": [
+      "data",
+      "pipeline",
+      "etl",
+      "database"
+    ],
+    "aliases": [
+      "data pipeline là gì",
+      "ETL pipeline",
+      "luồng dữ liệu",
+      "import data process"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "data_etl_basic",
+    "title": "ETL basic",
+    "category": "data",
+    "subcategory": "big data",
+    "content": "ETL means extract, transform, and load. It describes a process where data is taken from sources, cleaned or reshaped, and stored in a target system. ETL is common in reporting, analytics, search indexes, and knowledge base preparation.",
+    "tags": [
+      "data",
+      "etl",
+      "extract",
+      "transform"
+    ],
+    "aliases": [
+      "ETL là gì",
+      "extract transform load",
+      "quy trình dữ liệu",
+      "data import"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "data_quality_validation_basic",
+    "title": "Data quality validation",
+    "category": "data",
+    "subcategory": "big data",
+    "content": "Data quality validation checks whether data is complete, consistent, and usable before it enters an application or analysis. It can catch missing fields, wrong types, duplicates, and invalid values. Good validation reduces bugs in search, models, and reports.",
+    "tags": [
+      "data",
+      "validation",
+      "quality",
+      "duplicates"
+    ],
+    "aliases": [
+      "data quality là gì",
+      "validate data",
+      "kiểm tra chất lượng dữ liệu",
+      "missing fields"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_qubit_basic",
+    "title": "Qubit basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "A qubit is the basic unit of information in quantum computing. Unlike a classical bit that is read as zero or one, a qubit is described by a quantum state before measurement. Measurement gives a classical result, so explanations should avoid saying it is simply both values forever.",
+    "tags": [
+      "quantum",
+      "qubit",
+      "quantum computing",
+      "bit"
+    ],
+    "aliases": [
+      "qubit là gì",
+      "quantum bit",
+      "bit lượng tử",
+      "qubit vs bit"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_superposition_basic",
+    "title": "Superposition basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Superposition means a quantum state can be described as a combination of possible states before measurement. It is not the same as a normal object secretly choosing one value. Superposition is one reason quantum algorithms can behave differently from classical ones.",
+    "tags": [
+      "quantum",
+      "superposition",
+      "state",
+      "measurement"
+    ],
+    "aliases": [
+      "superposition là gì",
+      "chồng chập lượng tử",
+      "quantum state",
+      "qubit superposition"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_entanglement_basic",
+    "title": "Entanglement basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Entanglement is a quantum relationship where parts of a system are described together, even when separated. Measuring one part gives information linked to the other. Entanglement is important in quantum computing and communication, but it does not allow faster-than-light messaging.",
+    "tags": [
+      "quantum",
+      "entanglement",
+      "measurement",
+      "communication"
+    ],
+    "aliases": [
+      "entanglement là gì",
+      "rối lượng tử",
+      "quantum link",
+      "faster than light myth"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_measurement_basic",
+    "title": "Quantum measurement basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Quantum measurement turns a quantum state into a classical outcome that can be recorded. The result is probabilistic, and the act of measurement changes what can be known about the system. This makes quantum information different from ordinary stored computer bits.",
+    "tags": [
+      "quantum",
+      "measurement",
+      "probability",
+      "qubit"
+    ],
+    "aliases": [
+      "quantum measurement là gì",
+      "đo lượng tử",
+      "qubit measurement",
+      "classical outcome"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_gate_basic",
+    "title": "Quantum gate basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "A quantum gate is an operation that changes the state of one or more qubits. Quantum circuits are built from sequences of gates, somewhat like classical circuits use logic gates. The mathematics is different because gates must follow quantum rules.",
+    "tags": [
+      "quantum",
+      "gate",
+      "circuit",
+      "qubit"
+    ],
+    "aliases": [
+      "quantum gate là gì",
+      "cổng lượng tử",
+      "quantum circuit gate",
+      "qubit operation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_circuit_basic",
+    "title": "Quantum circuit basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "A quantum circuit is a model for arranging quantum gates, qubits, and measurements in a planned order. It describes how a quantum algorithm is executed. The final measurements produce classical bits that people or normal computers can read.",
+    "tags": [
+      "quantum",
+      "circuit",
+      "gate",
+      "measurement"
+    ],
+    "aliases": [
+      "quantum circuit là gì",
+      "mạch lượng tử",
+      "qubit circuit",
+      "quantum algorithm steps"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_algorithm_basic",
+    "title": "Quantum algorithm basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "A quantum algorithm is a step-by-step method designed to run on a quantum computer. Some algorithms may offer advantages for specific tasks, such as certain searches or simulations. Quantum computers are not automatically faster for every problem.",
+    "tags": [
+      "quantum",
+      "algorithm",
+      "quantum computing",
+      "speedup"
+    ],
+    "aliases": [
+      "quantum algorithm là gì",
+      "thuật toán lượng tử",
+      "quantum speedup",
+      "not faster for everything"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_decoherence_basic",
+    "title": "Decoherence basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Decoherence happens when a quantum system loses the delicate behavior needed for quantum computation because of unwanted interaction with its environment. It is a major challenge for building reliable quantum computers. Error correction and careful hardware design try to reduce its effects.",
+    "tags": [
+      "quantum",
+      "decoherence",
+      "noise",
+      "hardware"
+    ],
+    "aliases": [
+      "decoherence là gì",
+      "mất kết hợp lượng tử",
+      "quantum noise",
+      "qubit fragile"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_error_correction_basic",
+    "title": "Quantum error correction basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Quantum error correction protects quantum information from noise and errors without simply copying qubits in the classical way. It uses special encoding across multiple physical qubits. This is important because real quantum hardware is sensitive and imperfect.",
+    "tags": [
+      "quantum",
+      "error correction",
+      "noise",
+      "qubit"
+    ],
+    "aliases": [
+      "quantum error correction là gì",
+      "sửa lỗi lượng tử",
+      "logical qubit",
+      "physical qubit"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_communication_basic",
+    "title": "Quantum communication basic",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Quantum communication studies ways to use quantum states for transmitting or protecting information. Some methods are related to secure key distribution. It should not be confused with magical instant messaging, because known physics still limits usable communication.",
+    "tags": [
+      "quantum",
+      "communication",
+      "information",
+      "security"
+    ],
+    "aliases": [
+      "quantum communication là gì",
+      "truyền thông lượng tử",
+      "quantum key distribution",
+      "secure quantum info"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Timeline_of_quantum_computing_and_communication",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_classical_hybrid_basic",
+    "title": "Hybrid quantum classical computing",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Many practical quantum workflows are hybrid, using a classical computer together with a quantum processor. The classical part prepares data, controls optimization, and reads results. This approach reflects current hardware limits and the need for ordinary computation around quantum steps.",
+    "tags": [
+      "quantum",
+      "hybrid",
+      "classical computer",
+      "workflow"
+    ],
+    "aliases": [
+      "hybrid quantum classical",
+      "máy tính lượng tử lai",
+      "quantum workflow",
+      "classical control"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_beginner_caution",
+    "title": "Quantum computing beginner caution",
+    "category": "quantum",
+    "subcategory": "quantum computing",
+    "content": "Quantum computing is powerful for some specialized problems, but it is not a replacement for all normal computers. Many everyday tasks are better handled by classical hardware. A beginner-friendly answer should avoid hype and explain the specific problem where quantum methods may help.",
+    "tags": [
+      "quantum",
+      "beginner",
+      "limitations",
+      "computing"
+    ],
+    "aliases": [
+      "quantum computing có thay PC không",
+      "quantum hype",
+      "máy tính lượng tử giới hạn",
+      "not always faster"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  }
+]

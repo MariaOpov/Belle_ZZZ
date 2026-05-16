@@ -1,0 +1,2459 @@
+[
+  {
+    "id": "game_zzz_random_play_video_store",
+    "title": "Random Play video store in Zenless Zone Zero",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Random Play is the video store connected to Belle and Wise in Zenless Zone Zero. It works as a normal shop front, but it is also tied to their hidden Proxy activities. For a chatbot persona, this setting helps explain why Belle sounds casual, helpful, and used to managing commissions.",
+    "tags": [
+      "game",
+      "zzz",
+      "random play",
+      "video store",
+      "belle",
+      "wise"
+    ],
+    "aliases": [
+      "Random Play là gì",
+      "Belle video store",
+      "Wise video store",
+      "ZZZ shop base",
+      "video store ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_phaethon_proxy_identity",
+    "title": "Phaethon as a Proxy identity",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Phaethon is the famous Proxy identity associated with the sibling protagonists in Zenless Zone Zero. A Proxy helps clients navigate dangerous Hollow-related work. When answering as Belle, the bot can mention Phaethon as a role or alias, not as proof that the chatbot is an official game service.",
+    "tags": [
+      "game",
+      "zzz",
+      "phaethon",
+      "proxy",
+      "belle",
+      "wise"
+    ],
+    "aliases": [
+      "Phaethon là ai",
+      "Phaethon ZZZ",
+      "Proxy name",
+      "Belle Phaethon",
+      "Wise Phaethon"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_ethereal_enemy_concept",
+    "title": "Ethereals as enemies in ZZZ",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Ethereals are hostile creatures connected to Hollows in Zenless Zone Zero. They make Hollow exploration dangerous and give combat missions a clear threat. A simple explanation should say they are game enemies, not real monsters or scientific organisms.",
+    "tags": [
+      "game",
+      "zzz",
+      "ethereal",
+      "enemy",
+      "hollow"
+    ],
+    "aliases": [
+      "Ethereal là gì",
+      "ZZZ monster",
+      "Hollow enemy",
+      "quái trong ZZZ",
+      "Ethereals ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_hollow_disaster_context",
+    "title": "Hollows as disasters in the ZZZ world",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "In Zenless Zone Zero, Hollows are treated as abnormal disaster zones that affect the world around New Eridu. People may enter them for missions, resources, or investigations, but doing so is risky. This object should help Belle explain why navigation support matters in the story.",
+    "tags": [
+      "game",
+      "zzz",
+      "hollows",
+      "disaster",
+      "new eridu"
+    ],
+    "aliases": [
+      "Hollow disaster",
+      "vì sao Hollow nguy hiểm",
+      "ZZZ abnormal zone",
+      "New Eridu Hollow"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_new_eridu_survival_context",
+    "title": "New Eridu survival context",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "New Eridu is presented as a city that continues to function despite the threat of Hollows. This makes it an important setting for business, factions, commissions, and everyday life in Zenless Zone Zero. The contrast between normal city life and dangerous missions is central to the game's tone.",
+    "tags": [
+      "game",
+      "zzz",
+      "new eridu",
+      "city",
+      "setting"
+    ],
+    "aliases": [
+      "New Eridu city",
+      "thành phố ZZZ",
+      "ZZZ setting detail",
+      "New Eridu sống sót"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_agent_term_usage",
+    "title": "Agent term usage in Zenless Zone Zero",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "In Zenless Zone Zero, an Agent usually means a playable combat character who can join missions. Agents have their own faction, combat style, and personality. For RAG answers, it is safer to describe Agents by role and affiliation instead of inventing exact stats or current meta rankings.",
+    "tags": [
+      "game",
+      "zzz",
+      "agent",
+      "playable character",
+      "combat"
+    ],
+    "aliases": [
+      "Agent ZZZ là gì",
+      "ZZZ playable character",
+      "nhân vật chiến đấu ZZZ",
+      "agent meaning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_faction_identity_reason",
+    "title": "Why factions matter in ZZZ",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Factions in Zenless Zone Zero group characters by workplace, team, or story connection. They help players understand relationships between Agents, such as who works together and what kind of jobs they take. Factions are useful search keys for a chatbot because many questions mention team names before character names.",
+    "tags": [
+      "game",
+      "zzz",
+      "faction",
+      "agents",
+      "team"
+    ],
+    "aliases": [
+      "faction ZZZ là gì",
+      "phe trong ZZZ",
+      "Agent faction",
+      "team names ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_cunning_hares_team_role",
+    "title": "Cunning Hares team role",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "The Cunning Hares are an early and recognizable group in Zenless Zone Zero. The team includes characters such as Nicole, Anby, Billy, and Nekomata. They are useful for beginner explanations because many players meet them near the start of the story and connect them with street-level commissions.",
+    "tags": [
+      "game",
+      "zzz",
+      "cunning hares",
+      "nicole",
+      "anby",
+      "billy",
+      "nekomata"
+    ],
+    "aliases": [
+      "Cunning Hares là ai",
+      "Gentle House ZZZ",
+      "Nicole team",
+      "Anby team",
+      "Billy team"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_nicole_demara_team_leader",
+    "title": "Nicole Demara and the Cunning Hares",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Nicole Demara is associated with the Cunning Hares in Zenless Zone Zero. She is often presented as a lively leader figure who handles jobs and money problems. A Belle chatbot can describe her as a character from the game, while avoiding unsupported claims about future story content.",
+    "tags": [
+      "game",
+      "zzz",
+      "nicole",
+      "cunning hares",
+      "character"
+    ],
+    "aliases": [
+      "Nicole ZZZ",
+      "Nicole Demara",
+      "Nicole là ai",
+      "Cunning Hares leader"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_anby_demara_character_role",
+    "title": "Anby Demara character role",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Anby Demara is a member of the Cunning Hares in Zenless Zone Zero. She is known as a calm and direct character within the group. In simple RAG answers, Belle can explain Anby by naming her team and saying she is one of the playable Agents from the game.",
+    "tags": [
+      "game",
+      "zzz",
+      "anby",
+      "cunning hares",
+      "agent"
+    ],
+    "aliases": [
+      "Anby ZZZ",
+      "Anby Demara",
+      "Anby là ai",
+      "calm character ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_billy_kid_character_role",
+    "title": "Billy Kid character role",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Billy Kid is connected to the Cunning Hares in Zenless Zone Zero. He is a stylized combat character with a flashy personality and a strong action-game feel. A safe answer should identify him as a fictional Agent and avoid claiming real-world technology details about his body.",
+    "tags": [
+      "game",
+      "zzz",
+      "billy kid",
+      "cunning hares",
+      "agent"
+    ],
+    "aliases": [
+      "Billy Kid ZZZ",
+      "Billy là ai",
+      "robot gunslinger ZZZ",
+      "Cunning Hares Billy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_nekomata_cunning_hares",
+    "title": "Nekomata and the Cunning Hares",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Nekomata, also known as Nekomiya Mana, is linked with the Cunning Hares in Zenless Zone Zero. She is a fictional Agent with cat-like design elements. When Belle explains her, the answer should focus on character identity, team connection, and game context.",
+    "tags": [
+      "game",
+      "zzz",
+      "nekomata",
+      "nekomiya mana",
+      "cunning hares"
+    ],
+    "aliases": [
+      "Nekomata ZZZ",
+      "Nekomiya Mana",
+      "Nekomata là ai",
+      "cat girl ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_belobog_industries_workplace_theme",
+    "title": "Belobog Heavy Industries workplace theme",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Belobog Heavy Industries is a faction in Zenless Zone Zero with an industrial and construction-related identity. Its members are often explained through work, machinery, and team responsibility. For a chatbot, this faction is useful when users ask about engineering-themed characters in ZZZ.",
+    "tags": [
+      "game",
+      "zzz",
+      "belobog heavy industries",
+      "faction",
+      "construction"
+    ],
+    "aliases": [
+      "Belobog ZZZ là gì",
+      "Belobog faction",
+      "construction faction ZZZ",
+      "công ty Belobog"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_koleda_belobog_identity",
+    "title": "Koleda and Belobog Heavy Industries",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Koleda Belobog is associated with Belobog Heavy Industries in Zenless Zone Zero. She is usually explained through her leadership role and the faction's heavy industry theme. Belle should describe Koleda as a fictional Agent and avoid mixing her with similarly named places from other HoYoverse games.",
+    "tags": [
+      "game",
+      "zzz",
+      "koleda",
+      "belobog",
+      "agent"
+    ],
+    "aliases": [
+      "Koleda ZZZ",
+      "Koleda Belobog",
+      "Koleda là ai",
+      "Belobog character ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_ben_bigger_belobog_identity",
+    "title": "Ben Bigger and Belobog Heavy Industries",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Ben Bigger is a member of Belobog Heavy Industries in Zenless Zone Zero. He is visually distinct and often connected with the faction's heavy work image. A beginner answer should identify his faction first, then explain that he is a fictional combat Agent in the game.",
+    "tags": [
+      "game",
+      "zzz",
+      "ben bigger",
+      "belobog",
+      "agent"
+    ],
+    "aliases": [
+      "Ben Bigger ZZZ",
+      "Ben ZZZ",
+      "Ben là ai",
+      "bear character ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_grace_howard_belobog_identity",
+    "title": "Grace Howard and Belobog Heavy Industries",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Grace Howard is connected to Belobog Heavy Industries in Zenless Zone Zero. She fits the faction's machinery and technical work theme. A Belle chatbot can use her as an example when explaining that ZZZ factions often combine combat roles with a strong workplace identity.",
+    "tags": [
+      "game",
+      "zzz",
+      "grace howard",
+      "belobog",
+      "machinery"
+    ],
+    "aliases": [
+      "Grace Howard ZZZ",
+      "Grace là ai",
+      "Belobog engineer",
+      "ZZZ machinery character"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_anton_ivanov_belobog_identity",
+    "title": "Anton Ivanov and Belobog Heavy Industries",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Anton Ivanov is one of the Belobog Heavy Industries characters in Zenless Zone Zero. He belongs to the same industrial faction as Koleda, Ben, and Grace. For RAG, this object helps answer questions that ask which team Anton is from.",
+    "tags": [
+      "game",
+      "zzz",
+      "anton ivanov",
+      "belobog",
+      "agent"
+    ],
+    "aliases": [
+      "Anton ZZZ",
+      "Anton Ivanov",
+      "Anton là ai",
+      "Anton faction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_victoria_housekeeping_service_theme",
+    "title": "Victoria Housekeeping service theme",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Victoria Housekeeping is a faction in Zenless Zone Zero with a formal service and mansion staff style. Its characters are commonly recognized by elegant or servant-like design themes. A chatbot can explain the faction as a fictional team, not a real company.",
+    "tags": [
+      "game",
+      "zzz",
+      "victoria housekeeping",
+      "faction",
+      "service"
+    ],
+    "aliases": [
+      "Victoria Housekeeping là gì",
+      "maid faction ZZZ",
+      "butler faction ZZZ",
+      "Victoria team"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_ellen_joe_victoria_identity",
+    "title": "Ellen Joe and Victoria Housekeeping",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Ellen Joe is associated with Victoria Housekeeping in Zenless Zone Zero. She is a fictional Agent with a strong visual identity and belongs to the game's service-themed faction. When answering, Belle should avoid giving current banner advice unless the user asks for up-to-date information.",
+    "tags": [
+      "game",
+      "zzz",
+      "ellen joe",
+      "victoria housekeeping",
+      "agent"
+    ],
+    "aliases": [
+      "Ellen Joe ZZZ",
+      "Ellen là ai",
+      "shark girl ZZZ",
+      "Victoria Ellen"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_von_lycaon_victoria_identity",
+    "title": "Von Lycaon and Victoria Housekeeping",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Von Lycaon is a Victoria Housekeeping character in Zenless Zone Zero. He is often described by fans through his elegant butler-like image and faction connection. A factual answer should keep the focus on his game role and not treat fan descriptions as official biography.",
+    "tags": [
+      "game",
+      "zzz",
+      "von lycaon",
+      "victoria housekeeping",
+      "agent"
+    ],
+    "aliases": [
+      "Lycaon ZZZ",
+      "Von Lycaon",
+      "Lycaon là ai",
+      "butler ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_alexandrina_rina_identity",
+    "title": "Alexandrina and Victoria Housekeeping",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Alexandrina, often called Rina, is connected with Victoria Housekeeping in Zenless Zone Zero. She is part of the same faction as Lycaon, Ellen, and Corin. This object helps a chatbot answer nickname-based searches, because users may ask for either Alexandrina or Rina.",
+    "tags": [
+      "game",
+      "zzz",
+      "rina",
+      "alexandrina",
+      "victoria housekeeping"
+    ],
+    "aliases": [
+      "Rina ZZZ",
+      "Alexandrina ZZZ",
+      "Rina là ai",
+      "Victoria Rina"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_corin_wickes_identity",
+    "title": "Corin Wickes and Victoria Housekeeping",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Corin Wickes is a Victoria Housekeeping character in Zenless Zone Zero. She is part of the service-themed faction and appears as a fictional Agent in the game. For simple answers, Belle can connect Corin to her faction and avoid overexplaining combat mechanics unless asked.",
+    "tags": [
+      "game",
+      "zzz",
+      "corin wickes",
+      "victoria housekeeping",
+      "agent"
+    ],
+    "aliases": [
+      "Corin ZZZ",
+      "Corin Wickes",
+      "Corin là ai",
+      "Victoria Corin"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_section_six_special_ops_theme",
+    "title": "Section 6 special operations theme",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Section 6 is a Zenless Zone Zero faction with a more official and special-operations feeling than many street-level groups. Its members are often discussed when players ask about disciplined or mission-focused Agents. The bot should not invent unreleased ranks, missions, or future story details.",
+    "tags": [
+      "game",
+      "zzz",
+      "section 6",
+      "faction",
+      "special operations"
+    ],
+    "aliases": [
+      "Section 6 là gì",
+      "Hollow Special Operations",
+      "special ops ZZZ",
+      "ZZZ official faction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_soukaku_section_six_identity",
+    "title": "Soukaku and Section 6",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Soukaku is linked with Section 6 in Zenless Zone Zero. She is a fictional Agent from the game's character roster. A good knowledge answer should identify her faction and game, while keeping details simple enough for a small chatbot model.",
+    "tags": [
+      "game",
+      "zzz",
+      "soukaku",
+      "section 6",
+      "agent"
+    ],
+    "aliases": [
+      "Soukaku ZZZ",
+      "Soukaku là ai",
+      "Section 6 Soukaku",
+      "blue oni ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_hoshimi_miyabi_identity",
+    "title": "Hoshimi Miyabi and Section 6",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Hoshimi Miyabi is associated with Section 6 in Zenless Zone Zero. She is a fictional character often recognized by her disciplined image and sword-focused presentation. When Belle answers about Miyabi, it should avoid claiming current availability or meta strength without a fresh source.",
+    "tags": [
+      "game",
+      "zzz",
+      "hoshimi miyabi",
+      "section 6",
+      "agent"
+    ],
+    "aliases": [
+      "Miyabi ZZZ",
+      "Hoshimi Miyabi",
+      "Miyabi là ai",
+      "Section 6 Miyabi"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_criminal_investigation_team_theme",
+    "title": "Criminal Investigation Special Response Team",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "The Criminal Investigation Special Response Team is a faction in Zenless Zone Zero connected with law-enforcement-style work. It gives characters like Zhu Yuan and Qingyi a different identity from private teams or companies. This helps Belle explain faction variety in New Eridu.",
+    "tags": [
+      "game",
+      "zzz",
+      "criminal investigation",
+      "faction",
+      "zhu yuan",
+      "qingyi"
+    ],
+    "aliases": [
+      "Zhu Yuan faction",
+      "Qingyi faction",
+      "police faction ZZZ",
+      "Public Security ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_zhu_yuan_identity",
+    "title": "Zhu Yuan character identity",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Zhu Yuan is a character in Zenless Zone Zero associated with the Criminal Investigation Special Response Team. She fits a law-enforcement-themed part of the game world. A safe answer should identify her as a fictional Agent and avoid giving time-sensitive banner information.",
+    "tags": [
+      "game",
+      "zzz",
+      "zhu yuan",
+      "criminal investigation",
+      "agent"
+    ],
+    "aliases": [
+      "Zhu Yuan ZZZ",
+      "Zhu Yuan là ai",
+      "police character ZZZ",
+      "Zhu Yuan faction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_qingyi_identity",
+    "title": "Qingyi character identity",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Qingyi is connected with the Criminal Investigation Special Response Team in Zenless Zone Zero. She belongs to the law-enforcement-themed side of New Eridu's character roster. This object helps answer simple questions about her faction, identity, and game origin.",
+    "tags": [
+      "game",
+      "zzz",
+      "qingyi",
+      "criminal investigation",
+      "agent"
+    ],
+    "aliases": [
+      "Qingyi ZZZ",
+      "Qingyi là ai",
+      "Qingyi faction",
+      "Criminal Investigation Qingyi"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_sons_of_calydon_biker_theme",
+    "title": "Sons of Calydon biker theme",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Sons of Calydon is a Zenless Zone Zero faction with a rougher, road-warrior or biker-like feeling. Its identity is different from city service teams, heavy industry workers, or special operations groups. This makes it useful when explaining ZZZ's broad faction styles.",
+    "tags": [
+      "game",
+      "zzz",
+      "sons of calydon",
+      "faction",
+      "biker"
+    ],
+    "aliases": [
+      "Sons of Calydon là gì",
+      "Calydon faction",
+      "biker faction ZZZ",
+      "road faction ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_caesar_king_calydon_identity",
+    "title": "Caesar King and Sons of Calydon",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Caesar King is associated with Sons of Calydon in Zenless Zone Zero. She is part of the game's faction-based character system. A Belle chatbot should keep the description factual and avoid making claims about current strength, best teams, or future story roles unless updated sources are used.",
+    "tags": [
+      "game",
+      "zzz",
+      "caesar king",
+      "sons of calydon",
+      "agent"
+    ],
+    "aliases": [
+      "Caesar King ZZZ",
+      "Caesar ZZZ",
+      "Caesar là ai",
+      "Calydon Caesar"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_lucy_calydon_identity",
+    "title": "Lucy and Sons of Calydon",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Lucy is connected with Sons of Calydon in Zenless Zone Zero. She belongs to the same broad faction group as other Calydon characters. For search answers, it is enough to explain her game, faction, and fictional Agent status before discussing gameplay details.",
+    "tags": [
+      "game",
+      "zzz",
+      "lucy",
+      "sons of calydon",
+      "agent"
+    ],
+    "aliases": [
+      "Lucy ZZZ",
+      "Lucy là ai",
+      "Calydon Lucy",
+      "Sons of Calydon Lucy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_piper_wheel_calydon_identity",
+    "title": "Piper Wheel and Sons of Calydon",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Piper Wheel is a Zenless Zone Zero character associated with Sons of Calydon. Her faction connection helps players place her within the game's world and team structure. A simple answer should not confuse her with non-ZZZ characters that share similar names.",
+    "tags": [
+      "game",
+      "zzz",
+      "piper wheel",
+      "sons of calydon",
+      "agent"
+    ],
+    "aliases": [
+      "Piper Wheel ZZZ",
+      "Piper ZZZ",
+      "Piper là ai",
+      "Calydon Piper"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_obol_squad_soldier_11",
+    "title": "Soldier 11 and Obol Squad",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Soldier 11 is a Zenless Zone Zero character associated with Obol Squad. She has a military-themed identity compared with more casual or workplace-style factions. For Belle's RAG, this object helps answer questions about her team without inventing classified lore.",
+    "tags": [
+      "game",
+      "zzz",
+      "soldier 11",
+      "obol squad",
+      "agent"
+    ],
+    "aliases": [
+      "Soldier 11 ZZZ",
+      "Soldier 11 là ai",
+      "Obol Squad",
+      "military ZZZ character"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_bangboo_support_devices",
+    "title": "Bangboo as support companions",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Bangboo are small mascot-like companions in Zenless Zone Zero. They can appear in story, city life, and gameplay systems as support units. A chatbot should explain them as fictional game creatures or devices, not as real artificial intelligence robots.",
+    "tags": [
+      "game",
+      "zzz",
+      "bangboo",
+      "companion",
+      "support"
+    ],
+    "aliases": [
+      "Bangboo là gì",
+      "ZZZ mascot",
+      "small robot ZZZ",
+      "Bangboo support"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_bangboo_search_keyword_value",
+    "title": "Bangboo as RAG search keywords",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Bangboo is an important keyword for Zenless Zone Zero because many player questions mention it directly. In a knowledge base, Bangboo objects should include aliases like mascot, helper, support, and robot. This improves search recall when users describe the concept instead of using the official name.",
+    "tags": [
+      "game",
+      "zzz",
+      "bangboo",
+      "rag",
+      "search"
+    ],
+    "aliases": [
+      "Bangboo search",
+      "Bangboo keyword",
+      "mascot helper ZZZ",
+      "robot helper ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_commissions_player_tasks",
+    "title": "Commissions as player tasks",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Commissions in Zenless Zone Zero are tasks or jobs that move the player through story and gameplay activities. They fit the Proxy fantasy because clients need help with dangerous or complicated situations. Belle can use the word commission naturally when roleplaying as a helpful Proxy.",
+    "tags": [
+      "game",
+      "zzz",
+      "commission",
+      "mission",
+      "proxy"
+    ],
+    "aliases": [
+      "commission ZZZ là gì",
+      "nhiệm vụ ZZZ",
+      "Proxy job",
+      "Belle commission"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_hollow_navigation_plain_answer",
+    "title": "Plain answer for Hollow navigation",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Hollow navigation is the idea of guiding people through unstable and dangerous Hollow spaces in Zenless Zone Zero. A Proxy is valuable because ordinary routes and information may not be reliable inside a Hollow. This explanation should stay simple and avoid fake technical rules.",
+    "tags": [
+      "game",
+      "zzz",
+      "hollow navigation",
+      "proxy",
+      "mission"
+    ],
+    "aliases": [
+      "Hollow navigation là gì",
+      "Proxy guide",
+      "dẫn đường Hollow",
+      "navigate Hollows"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_urban_fantasy_tone",
+    "title": "Urban fantasy and action tone in ZZZ",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Zenless Zone Zero uses a modern city style mixed with action, strange disasters, and stylized character groups. This gives the game a different feel from medieval fantasy or realistic military games. Belle's chatbot tone can reflect that energy with casual, fast, and mission-focused wording.",
+    "tags": [
+      "game",
+      "zzz",
+      "urban fantasy",
+      "action",
+      "tone"
+    ],
+    "aliases": [
+      "ZZZ tone",
+      "urban style ZZZ",
+      "phong cách ZZZ",
+      "Belle chatbot tone"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_live_service_caution",
+    "title": "Live-service caution for ZZZ answers",
+    "category": "game",
+    "subcategory": "zenless zone zero",
+    "content": "Zenless Zone Zero is a modern game with updates, characters, events, and balance details that can change over time. A knowledge base should avoid permanent claims about banners, tier lists, or current rewards. For those questions, Belle should say that fresh official information is needed.",
+    "tags": [
+      "game",
+      "zzz",
+      "live service",
+      "updates",
+      "caution"
+    ],
+    "aliases": [
+      "ZZZ current banner",
+      "ZZZ tier list warning",
+      "thông tin update ZZZ",
+      "Belle patch caution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_character_vs_player_persona",
+    "title": "Character identity versus chatbot persona",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "Belle is a fictional character from Zenless Zone Zero, while a Belle chatbot is a fan-made or project-specific assistant unless clearly stated otherwise. The bot can use Belle-inspired wording, but it should not claim to be an official HoYoverse product or the real game character.",
+    "tags": [
+      "game",
+      "zzz",
+      "belle",
+      "persona",
+      "chatbot"
+    ],
+    "aliases": [
+      "Belle chatbot official?",
+      "Belle persona",
+      "fan chatbot Belle",
+      "Belle AI roleplay"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_faction_answer_template",
+    "title": "Faction answer template for ZZZ",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "When users ask about a Zenless Zone Zero faction, a safe answer should name the faction, describe its theme, and list a few associated characters if known. It should not invent hidden lore or future members. This keeps Belle's RAG answer useful and stable.",
+    "tags": [
+      "game",
+      "zzz",
+      "faction",
+      "rag",
+      "answer template"
+    ],
+    "aliases": [
+      "how to explain ZZZ faction",
+      "faction answer Belle",
+      "ZZZ team explanation",
+      "phe ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_zzz_character_answer_template",
+    "title": "Character answer template for ZZZ",
+    "category": "game",
+    "subcategory": "zenless zone zero characters",
+    "content": "When answering who a ZZZ character is, Belle should identify the character as fictional, name the game, mention the faction if stable, and explain the role briefly. This format avoids hallucinating exact builds, release timing, or current competitive value.",
+    "tags": [
+      "game",
+      "zzz",
+      "character",
+      "rag",
+      "answer template"
+    ],
+    "aliases": [
+      "Who is this ZZZ character",
+      "Belle character answer",
+      "nhân vật ZZZ là ai",
+      "ZZZ agent format"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_company_origin",
+    "title": "miHoYo company origin",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "miHoYo is a Chinese video game company known for developing anime-styled games. It became widely recognized internationally through major titles such as Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero. A beginner answer should distinguish the company from its game worlds and fictional characters.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "company",
+      "developer",
+      "china"
+    ],
+    "aliases": [
+      "miHoYo là gì",
+      "who made ZZZ",
+      "HoYoverse company",
+      "developer of Genshin"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hoyoverse_brand_context",
+    "title": "HoYoverse brand context",
+    "category": "game",
+    "subcategory": "hoyoverse",
+    "content": "HoYoverse is a global brand associated with miHoYo's entertainment products and services. Users may say HoYoverse when they mean the publisher brand, not a single game. Belle should answer this carefully and not treat HoYoverse as a fictional universe shared by every title.",
+    "tags": [
+      "game",
+      "hoyoverse",
+      "brand",
+      "mihoyo",
+      "publisher"
+    ],
+    "aliases": [
+      "HoYoverse là gì",
+      "HoYoverse meaning",
+      "miHoYo vs HoYoverse",
+      "Hoyoverse brand"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_games_not_same_world",
+    "title": "miHoYo games are not always the same world",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "miHoYo and HoYoverse games can share design styles, naming patterns, or themes, but that does not mean every title has the same story world. A safe answer should explain each game by its own setting unless an official source states a direct connection.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "hoyoverse",
+      "lore",
+      "world"
+    ],
+    "aliases": [
+      "are HoYoverse games connected",
+      "same universe?",
+      "ZZZ and Honkai same world",
+      "Genshin HSR ZZZ connection"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hoyoverse_anime_style_context",
+    "title": "Anime-style presentation in HoYoverse games",
+    "category": "game",
+    "subcategory": "hoyoverse",
+    "content": "Many HoYoverse games are known for colorful anime-style characters, strong music presentation, and story-heavy content. This is a broad brand impression, not a strict rule for every product. Belle can use this context to explain why players often compare HoYoverse titles with each other.",
+    "tags": [
+      "game",
+      "hoyoverse",
+      "anime style",
+      "characters",
+      "presentation"
+    ],
+    "aliases": [
+      "HoYoverse anime style",
+      "miHoYo art style",
+      "why HoYoverse games look anime",
+      "phong cách Hoyoverse"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_genshin_context_for_comparison",
+    "title": "Genshin Impact as miHoYo comparison context",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "Genshin Impact is one of miHoYo's most internationally recognized games and is often used as a comparison point for other HoYoverse titles. For Belle's RAG, it can help explain the company, but answers should not assume ZZZ uses the same structure or world.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "genshin impact",
+      "comparison",
+      "hoyoverse"
+    ],
+    "aliases": [
+      "Genshin and ZZZ",
+      "miHoYo famous game",
+      "HoYoverse comparison",
+      "Genshin context"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_honkai_series_context",
+    "title": "Honkai series context",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "The Honkai name is associated with several miHoYo games, including Honkai Impact 3rd and Honkai: Star Rail. These titles share brand history, but each game needs its own explanation. A small chatbot should avoid merging their plots into one simple timeline unless the source clearly supports it.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "honkai",
+      "hi3",
+      "hsr"
+    ],
+    "aliases": [
+      "Honkai series",
+      "Honkai là gì",
+      "HI3 and HSR",
+      "Honkai games"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hoyoverse_fandom_answer_caution",
+    "title": "HoYoverse fandom answer caution",
+    "category": "game",
+    "subcategory": "hoyoverse",
+    "content": "HoYoverse games have active fan communities, and fan terms may spread faster than official explanations. Belle should distinguish official information from fan interpretation when possible. This is especially important for shipping, power scaling, leaks, unreleased characters, and rumored future updates.",
+    "tags": [
+      "game",
+      "hoyoverse",
+      "fandom",
+      "official",
+      "leaks"
+    ],
+    "aliases": [
+      "HoYoverse leaks warning",
+      "fan theory caution",
+      "official vs fan HoYoverse",
+      "tin đồn Hoyoverse"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_developer_publisher_language",
+    "title": "Developer and publisher wording for miHoYo",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "When describing miHoYo, Belle should use developer, publisher, or company wording depending on the question. A developer makes or builds a game, while a publisher handles release and distribution roles. This distinction helps avoid confusing a studio with a fictional setting or character.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "developer",
+      "publisher",
+      "company"
+    ],
+    "aliases": [
+      "developer vs publisher",
+      "miHoYo made what",
+      "who publishes HoYoverse games",
+      "studio meaning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hoyoverse_account_service_context",
+    "title": "HoYoverse account and service context",
+    "category": "game",
+    "subcategory": "hoyoverse",
+    "content": "HoYoverse can also refer to services around miHoYo games, such as accounts and community features. A Belle chatbot should not ask for passwords, tokens, or private account details. For account problems, it should guide users toward official support channels instead of pretending to access their account.",
+    "tags": [
+      "game",
+      "hoyoverse",
+      "account",
+      "support",
+      "safety"
+    ],
+    "aliases": [
+      "HoYoverse account help",
+      "Hoyoverse login",
+      "Belle account support",
+      "miHoYo account"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_live_service_stability_warning",
+    "title": "Live-service stability warning for miHoYo games",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "Many miHoYo games receive updates over time, so details about events, banners, rewards, and balance can change. A knowledge object should prefer stable facts like genre, developer, and setting. For current schedules, Belle should use fresh official information instead of old training data.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "live service",
+      "updates",
+      "banner"
+    ],
+    "aliases": [
+      "current banner caution",
+      "miHoYo update info",
+      "HoYoverse event warning",
+      "thông tin banner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hoyoverse_title_identification",
+    "title": "Identifying a HoYoverse game title",
+    "category": "game",
+    "subcategory": "hoyoverse",
+    "content": "When a user names a HoYoverse title, Belle should identify whether the question is about the company, the game, a character, or gameplay. Many titles have similar naming patterns, so clear wording prevents confusion between Honkai Impact 3rd, Honkai: Star Rail, and Zenless Zone Zero.",
+    "tags": [
+      "game",
+      "hoyoverse",
+      "title",
+      "search",
+      "rag"
+    ],
+    "aliases": [
+      "which HoYoverse game",
+      "Honkai title confusion",
+      "ZZZ vs HSR",
+      "miHoYo title"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_mihoyo_international_recognition",
+    "title": "miHoYo international recognition",
+    "category": "game",
+    "subcategory": "mihoyo",
+    "content": "miHoYo gained strong international attention through successful games with large online communities. The company is often discussed together with HoYoverse, its global brand. Belle can explain this in simple terms without turning the answer into advertising or claiming every player will enjoy the games.",
+    "tags": [
+      "game",
+      "mihoyo",
+      "hoyoverse",
+      "international",
+      "games"
+    ],
+    "aliases": [
+      "why miHoYo famous",
+      "miHoYo popularity",
+      "HoYoverse global",
+      "miHoYo games"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_basic_identity",
+    "title": "Honkai: Star Rail basic identity",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail is a role-playing video game by miHoYo under the HoYoverse brand. It is separate from Zenless Zone Zero and should be explained by its own title, characters, and setting. A simple answer should avoid mixing its gameplay with ZZZ's action combat.",
+    "tags": [
+      "game",
+      "hsr",
+      "honkai star rail",
+      "mihoyo",
+      "rpg"
+    ],
+    "aliases": [
+      "Honkai Star Rail là gì",
+      "HSR là gì",
+      "Star Rail game",
+      "HoYoverse turn based game"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_turn_based_combat_context",
+    "title": "Turn-based combat context in HSR",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail is commonly explained as using turn-based combat, where characters and enemies take actions in turns. This makes it feel different from real-time action games. Belle should use this contrast when users compare Star Rail with Zenless Zone Zero.",
+    "tags": [
+      "game",
+      "hsr",
+      "turn based",
+      "combat",
+      "rpg"
+    ],
+    "aliases": [
+      "HSR combat",
+      "Star Rail turn based",
+      "Honkai Star Rail gameplay",
+      "HSR vs ZZZ combat"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_trailblazer_player_role",
+    "title": "Trailblazer player role",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "The Trailblazer is the player-connected protagonist role in Honkai: Star Rail. The term helps users understand who they are controlling or following in the story. A chatbot should treat Trailblazer as a game role and avoid confusing it with Proxy from Zenless Zone Zero.",
+    "tags": [
+      "game",
+      "hsr",
+      "trailblazer",
+      "player role",
+      "protagonist"
+    ],
+    "aliases": [
+      "Trailblazer là ai",
+      "HSR protagonist",
+      "Star Rail main character",
+      "Trailblazer meaning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_astral_express_context",
+    "title": "Astral Express context",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "The Astral Express is an important travel and story concept in Honkai: Star Rail. It helps frame the game's journey between worlds and locations. For Belle's RAG, it is useful when users ask why Star Rail has a space-travel or train-themed identity.",
+    "tags": [
+      "game",
+      "hsr",
+      "astral express",
+      "train",
+      "story"
+    ],
+    "aliases": [
+      "Astral Express là gì",
+      "Star Rail train",
+      "tàu trong HSR",
+      "Honkai train"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_setting_space_fantasy",
+    "title": "Space fantasy setting in HSR",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail uses a space-fantasy setting with travel between different worlds and civilizations. This broad setting helps separate it from the urban setting of Zenless Zone Zero. A beginner answer can describe the difference without going into complex lore.",
+    "tags": [
+      "game",
+      "hsr",
+      "space fantasy",
+      "setting",
+      "hoyoverse"
+    ],
+    "aliases": [
+      "HSR setting",
+      "Star Rail world",
+      "space fantasy game",
+      "HSR vs ZZZ setting"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_live_service_caution",
+    "title": "Live-service caution for HSR",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail receives updates, so current banners, events, rewards, and balance advice can become outdated. A stable knowledge base should focus on title identity, genre, setting, and general mechanics. Belle should seek fresh official information for time-sensitive Star Rail questions.",
+    "tags": [
+      "game",
+      "hsr",
+      "live service",
+      "banners",
+      "updates"
+    ],
+    "aliases": [
+      "HSR banner now",
+      "Star Rail update warning",
+      "current HSR event",
+      "Honkai Star Rail meta"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_not_same_as_honkai_impact",
+    "title": "HSR is not the same game as Honkai Impact 3rd",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail and Honkai Impact 3rd share the Honkai name and HoYoverse context, but they are different games. Their gameplay, story structure, and presentation should be explained separately. This prevents Belle from giving a mixed answer when users ask about only one title.",
+    "tags": [
+      "game",
+      "hsr",
+      "hi3",
+      "honkai",
+      "difference"
+    ],
+    "aliases": [
+      "HSR vs HI3",
+      "Star Rail and Impact difference",
+      "Honkai games same?",
+      "HSR khác HI3"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_rpg_beginner_description",
+    "title": "Beginner description for HSR as an RPG",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail can be described as an RPG where players build teams, progress through story content, and improve characters over time. This explanation is beginner-friendly and avoids exact meta advice. It is useful when users ask what kind of game Star Rail is.",
+    "tags": [
+      "game",
+      "hsr",
+      "rpg",
+      "team building",
+      "beginner"
+    ],
+    "aliases": [
+      "what kind of game is HSR",
+      "HSR RPG",
+      "Star Rail beginner",
+      "Honkai gameplay simple"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_gacha_neutral_explanation",
+    "title": "Neutral gacha explanation for HSR",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail includes gacha-style systems for obtaining characters or items. A neutral answer should explain that results are random and may involve in-game currency or spending. Belle should not promise lucky pulls, guaranteed outcomes beyond official rules, or financial advice.",
+    "tags": [
+      "game",
+      "hsr",
+      "gacha",
+      "random reward",
+      "pulls"
+    ],
+    "aliases": [
+      "HSR gacha",
+      "Star Rail pulls",
+      "warp system simple",
+      "Honkai gacha warning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_basic_identity",
+    "title": "Honkai Impact 3rd basic identity",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "Honkai Impact 3rd is an action role-playing game by miHoYo. It is one of the major games associated with the Honkai name. Belle should describe it separately from Honkai: Star Rail because users may confuse the titles due to similar branding.",
+    "tags": [
+      "game",
+      "hi3",
+      "honkai impact 3rd",
+      "mihoyo",
+      "action rpg"
+    ],
+    "aliases": [
+      "Honkai Impact 3rd là gì",
+      "HI3 là gì",
+      "Honkai Impact game",
+      "miHoYo action game"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_action_gameplay_context",
+    "title": "Action gameplay context in HI3",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "Honkai Impact 3rd is generally associated with action-focused gameplay rather than turn-based combat. Players control characters in real-time battles and progress through story and character systems. This makes it a useful comparison point when explaining differences between HoYoverse games.",
+    "tags": [
+      "game",
+      "hi3",
+      "action",
+      "combat",
+      "rpg"
+    ],
+    "aliases": [
+      "HI3 combat",
+      "Honkai Impact gameplay",
+      "action HoYoverse game",
+      "HI3 vs HSR combat"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_valkyrie_term",
+    "title": "Valkyrie term in Honkai Impact 3rd",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "In Honkai Impact 3rd, Valkyries are important character units and story figures. The term is tied to the game's identity and should not be automatically used for every HoYoverse character. Belle should explain it within HI3 context only.",
+    "tags": [
+      "game",
+      "hi3",
+      "valkyrie",
+      "character",
+      "honkai"
+    ],
+    "aliases": [
+      "Valkyrie HI3",
+      "Valkyrie là gì",
+      "Honkai Impact character unit",
+      "HI3 units"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_story_heavy_context",
+    "title": "Story-heavy context in HI3",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "Honkai Impact 3rd is often discussed as a story-heavy action game with a long-running cast. For a small chatbot, the safest explanation is to identify the title, developer, and general action RPG nature. Detailed plot summaries should be kept separate and sourced carefully.",
+    "tags": [
+      "game",
+      "hi3",
+      "story",
+      "action rpg",
+      "characters"
+    ],
+    "aliases": [
+      "HI3 story",
+      "Honkai Impact plot simple",
+      "story-heavy HoYoverse",
+      "HI3 beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_live_service_caution",
+    "title": "Live-service caution for HI3",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "Honkai Impact 3rd has had long-running updates, so details about events, banners, and current character strength can change. Stable knowledge should focus on general identity and mechanics. Belle should avoid pretending that old information is still current for active live-service questions.",
+    "tags": [
+      "game",
+      "hi3",
+      "live service",
+      "updates",
+      "events"
+    ],
+    "aliases": [
+      "HI3 current event",
+      "Honkai Impact banner warning",
+      "HI3 meta caution",
+      "Honkai update info"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_not_zzz",
+    "title": "HI3 is not Zenless Zone Zero",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "Honkai Impact 3rd and Zenless Zone Zero are different HoYoverse-related games with different settings and combat presentation. Both may be action-oriented in broad terms, but Belle should not merge their characters, factions, or story rules. This helps avoid cross-game hallucination.",
+    "tags": [
+      "game",
+      "hi3",
+      "zzz",
+      "difference",
+      "hoyoverse"
+    ],
+    "aliases": [
+      "HI3 vs ZZZ",
+      "Honkai Impact and Zenless",
+      "same game?",
+      "HI3 khác ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hi3_honkai_name_context",
+    "title": "Honkai name context",
+    "category": "game",
+    "subcategory": "honkai impact 3rd",
+    "content": "The Honkai name appears in more than one miHoYo game, so users may use it loosely. Belle should ask from context whether they mean Honkai Impact 3rd or Honkai: Star Rail. When the title is clear, the answer should stay inside that game's context.",
+    "tags": [
+      "game",
+      "honkai",
+      "hi3",
+      "hsr",
+      "title"
+    ],
+    "aliases": [
+      "Which Honkai game",
+      "Honkai meaning",
+      "Honkai là game nào",
+      "HI3 or HSR"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai_Impact_3rd",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_hi3_shared_brand_not_same_mechanics",
+    "title": "Shared brand does not mean same mechanics",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Honkai: Star Rail and Honkai Impact 3rd are both associated with miHoYo and the Honkai brand, but their mechanics are not the same. A RAG answer should describe turn-based Star Rail separately from action-focused Impact. Shared branding is not enough to copy gameplay facts between titles.",
+    "tags": [
+      "game",
+      "hsr",
+      "hi3",
+      "mechanics",
+      "honkai"
+    ],
+    "aliases": [
+      "Honkai mechanics difference",
+      "HSR HI3 gameplay",
+      "same Honkai brand",
+      "Honkai not same mechanics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_hsr_hi3_cross_title_search_aliases",
+    "title": "Cross-title search aliases for Honkai",
+    "category": "game",
+    "subcategory": "honkai star rail",
+    "content": "Users often shorten Honkai: Star Rail to HSR and Honkai Impact 3rd to HI3. A knowledge base should include both full titles and abbreviations in aliases. This helps Belle retrieve the correct object when a user asks in short gamer slang.",
+    "tags": [
+      "game",
+      "hsr",
+      "hi3",
+      "aliases",
+      "search"
+    ],
+    "aliases": [
+      "HSR meaning",
+      "HI3 meaning",
+      "Honkai abbreviation",
+      "viết tắt Honkai"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Honkai:_Star_Rail",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_engine_basic_identity",
+    "title": "Unity game engine basic identity",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity is a game engine used to build video games and interactive 3D or 2D applications. It provides tools for scenes, objects, scripting, physics, and exporting projects to different platforms. Belle should distinguish Unity the engine from Unity Technologies or Unity Software the company.",
+    "tags": [
+      "game",
+      "unity",
+      "game engine",
+      "2d",
+      "3d"
+    ],
+    "aliases": [
+      "Unity engine là gì",
+      "Unity là gì",
+      "game engine Unity",
+      "Unity for games"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_engine_not_only_games",
+    "title": "Unity is not only for games",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity is strongly associated with game development, but it can also be used for simulations, training tools, visualization, and interactive experiences. For beginner answers, it is safe to call it a game engine while noting that it supports other real-time interactive projects too.",
+    "tags": [
+      "game",
+      "unity",
+      "simulation",
+      "interactive",
+      "engine"
+    ],
+    "aliases": [
+      "Unity dùng làm gì",
+      "Unity only games?",
+      "interactive Unity",
+      "Unity simulation"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_scene_gameobject_concept",
+    "title": "Unity scenes and GameObjects concept",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "In Unity, a project is commonly built from scenes that contain GameObjects. GameObjects can represent characters, cameras, lights, items, or invisible managers. This simple mental model helps beginners understand how a Unity game level or screen is organized.",
+    "tags": [
+      "game",
+      "unity",
+      "scene",
+      "gameobject",
+      "beginner"
+    ],
+    "aliases": [
+      "Unity scene là gì",
+      "GameObject là gì",
+      "Unity level object",
+      "Unity beginner objects"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_csharp_scripting_context",
+    "title": "C# scripting in Unity",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity commonly uses C# scripting to define game behavior. Scripts can control movement, input, collisions, UI, and gameplay rules. A beginner-friendly answer should explain that Unity handles the engine side while C# scripts tell objects what to do.",
+    "tags": [
+      "game",
+      "unity",
+      "csharp",
+      "scripting",
+      "game development"
+    ],
+    "aliases": [
+      "Unity C#",
+      "script Unity là gì",
+      "C# game script",
+      "Unity coding"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_cross_platform_context",
+    "title": "Unity cross-platform context",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity is known for supporting deployment to multiple platforms, depending on project settings, licenses, and target requirements. This is one reason it is popular with many developers. Belle should avoid promising that every Unity project can be exported everywhere without extra work.",
+    "tags": [
+      "game",
+      "unity",
+      "cross platform",
+      "export",
+      "platforms"
+    ],
+    "aliases": [
+      "Unity export",
+      "cross-platform Unity",
+      "Unity build platforms",
+      "xuất game Unity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_2d_and_3d_support",
+    "title": "Unity 2D and 3D support",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity can be used for both 2D and 3D games. A 2D project may use sprites, tilemaps, and 2D physics, while a 3D project may use meshes, cameras, lighting, and 3D physics. The engine supports both styles inside the same broader toolset.",
+    "tags": [
+      "game",
+      "unity",
+      "2d",
+      "3d",
+      "sprites"
+    ],
+    "aliases": [
+      "Unity 2D",
+      "Unity 3D",
+      "Unity làm game 2D được không",
+      "2D vs 3D Unity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_engine_vs_editor",
+    "title": "Unity engine versus Unity Editor",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "The Unity engine is the runtime and technology that powers projects, while the Unity Editor is the tool developers use to build scenes, import assets, and configure behavior. Beginners often say Unity for both. Belle can clarify the difference only when needed.",
+    "tags": [
+      "game",
+      "unity",
+      "editor",
+      "engine",
+      "runtime"
+    ],
+    "aliases": [
+      "Unity Editor là gì",
+      "engine vs editor",
+      "Unity runtime",
+      "Unity tool"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_physics_beginner_context",
+    "title": "Unity physics beginner context",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity includes physics systems that can help simulate movement, collisions, gravity, and rigid bodies. Developers still need to configure objects, colliders, and scripts correctly. A simple answer should avoid implying that realistic physics works automatically without setup.",
+    "tags": [
+      "game",
+      "unity",
+      "physics",
+      "collision",
+      "rigidbody"
+    ],
+    "aliases": [
+      "Unity physics",
+      "Rigidbody là gì",
+      "Unity collision",
+      "vật lý Unity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_asset_workflow_context",
+    "title": "Unity asset workflow context",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity projects use assets such as models, textures, audio, scripts, animations, and prefabs. The editor helps organize and place these assets into scenes. For a beginner, assets are the building blocks that become visible or functional parts of the game.",
+    "tags": [
+      "game",
+      "unity",
+      "assets",
+      "prefab",
+      "workflow"
+    ],
+    "aliases": [
+      "Unity asset là gì",
+      "prefab Unity",
+      "Unity project files",
+      "tài nguyên Unity"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_technologies_company_identity",
+    "title": "Unity Technologies company identity",
+    "category": "game",
+    "subcategory": "unity technologies",
+    "content": "Unity Technologies, later associated with Unity Software, is the company behind the Unity engine. A search answer should separate the company from the engine itself. Users asking about installing, licensing, or company history may need the company context rather than gameplay concepts.",
+    "tags": [
+      "game",
+      "unity technologies",
+      "unity software",
+      "company",
+      "engine"
+    ],
+    "aliases": [
+      "Unity Technologies là gì",
+      "Unity company",
+      "who made Unity",
+      "Unity Software"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_Technologies",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_license_caution",
+    "title": "Unity license and pricing caution",
+    "category": "game",
+    "subcategory": "unity technologies",
+    "content": "Unity licensing and pricing can change over time, so a static knowledge base should not give fixed current prices or legal advice. Belle can explain that Unity has licensing terms and recommend checking official Unity information for current plans, fees, and conditions.",
+    "tags": [
+      "game",
+      "unity",
+      "license",
+      "pricing",
+      "caution"
+    ],
+    "aliases": [
+      "Unity pricing",
+      "Unity license now",
+      "Unity phí bao nhiêu",
+      "Unity runtime fee"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_Technologies",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_unity_good_for_learning",
+    "title": "Unity as a learning engine",
+    "category": "game",
+    "subcategory": "unity",
+    "content": "Unity is often used by beginners because it combines visual editing with C# scripting and many learning resources. It can teach general game development ideas such as scenes, objects, components, input, and physics. Belle should still explain that learning Unity takes practice, not just installing the editor.",
+    "tags": [
+      "game",
+      "unity",
+      "learning",
+      "beginner",
+      "game development"
+    ],
+    "aliases": [
+      "learn Unity",
+      "Unity beginner",
+      "học Unity",
+      "first game engine"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_basic_definition",
+    "title": "Role-playing video game basic definition",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "A role-playing video game is a game where players usually control one or more characters, improve abilities, and progress through quests, battles, or story choices. RPGs can be turn-based, action-based, single-player, or online. Belle should explain the genre broadly instead of forcing one fixed formula.",
+    "tags": [
+      "game",
+      "rpg",
+      "role playing",
+      "genre",
+      "characters"
+    ],
+    "aliases": [
+      "RPG là gì",
+      "role-playing game",
+      "game nhập vai là gì",
+      "what is an RPG"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_character_progression",
+    "title": "Character progression in RPGs",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "Character progression is a common RPG idea where characters become stronger or more specialized over time. This may involve levels, skills, equipment, stats, or story upgrades. The exact system depends on the game, so Belle should describe the idea without assuming every RPG uses the same mechanics.",
+    "tags": [
+      "game",
+      "rpg",
+      "progression",
+      "levels",
+      "skills"
+    ],
+    "aliases": [
+      "leveling in RPG",
+      "RPG progression",
+      "nâng cấp nhân vật",
+      "character growth"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_party_system_context",
+    "title": "Party system in RPGs",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "Many RPGs use a party system, where the player manages several characters instead of only one. Party members may have different roles, elements, weapons, or abilities. This concept helps explain team-building in games like Honkai: Star Rail without claiming all RPGs work the same way.",
+    "tags": [
+      "game",
+      "rpg",
+      "party",
+      "team",
+      "characters"
+    ],
+    "aliases": [
+      "RPG party là gì",
+      "party system",
+      "team RPG",
+      "đội hình RPG"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_quests_and_story",
+    "title": "Quests and story in RPGs",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "RPGs often use quests to guide players through story, exploration, combat, or character development. A quest can be a main story task or an optional side activity. Belle can explain quests as structured goals that give players direction inside a game world.",
+    "tags": [
+      "game",
+      "rpg",
+      "quest",
+      "story",
+      "mission"
+    ],
+    "aliases": [
+      "quest là gì",
+      "RPG mission",
+      "nhiệm vụ RPG",
+      "side quest"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_stats_beginner_context",
+    "title": "Stats in RPGs",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "Stats in RPGs are numbers that describe character abilities, such as health, attack, defense, speed, or special power. Different games choose different stats and formulas. A beginner answer should describe stats as gameplay values, not as real-world measurements of a character.",
+    "tags": [
+      "game",
+      "rpg",
+      "stats",
+      "attributes",
+      "character"
+    ],
+    "aliases": [
+      "RPG stats là gì",
+      "attributes game",
+      "chỉ số nhân vật",
+      "HP attack defense"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_rpg_action_vs_turn_based",
+    "title": "Action RPG versus turn-based RPG",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "An action RPG usually asks players to control timing and movement in real time, while a turn-based RPG separates actions into turns. Both can still be RPGs because they may include character growth, parties, quests, and story. Belle can use this difference for ZZZ, HI3, and HSR comparisons.",
+    "tags": [
+      "game",
+      "rpg",
+      "action rpg",
+      "turn based",
+      "combat"
+    ],
+    "aliases": [
+      "action RPG vs turn-based",
+      "ARPG là gì",
+      "turn-based RPG",
+      "ZZZ HSR difference"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_single_player_basic_definition",
+    "title": "Single-player video game basic definition",
+    "category": "game",
+    "subcategory": "single-player game",
+    "content": "A single-player video game is designed so one person can play the main experience alone. It may still have online updates, accounts, or optional features, but the core play does not require other human teammates. Belle should not confuse single-player with offline-only.",
+    "tags": [
+      "game",
+      "single player",
+      "solo",
+      "offline",
+      "definition"
+    ],
+    "aliases": [
+      "single-player là gì",
+      "game chơi một người",
+      "solo game",
+      "offline game difference"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Single-player_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_single_player_story_focus",
+    "title": "Story focus in single-player games",
+    "category": "game",
+    "subcategory": "single-player game",
+    "content": "Single-player games often focus on story, exploration, puzzles, or personal progression because the experience can be paced around one player. This is not required for every single-player game, but it is common. Belle can explain the appeal without saying multiplayer games cannot have story.",
+    "tags": [
+      "game",
+      "single player",
+      "story",
+      "solo",
+      "design"
+    ],
+    "aliases": [
+      "single-player story",
+      "solo game story",
+      "why single-player games",
+      "game một người cốt truyện"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Single-player_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_single_player_not_always_offline",
+    "title": "Single-player does not always mean offline",
+    "category": "game",
+    "subcategory": "single-player game",
+    "content": "Single-player means the main gameplay is for one player, but it does not always mean the game works fully offline. Some single-player or mostly solo games still use online accounts, downloads, events, or cloud saves. Belle should separate player count from internet requirements.",
+    "tags": [
+      "game",
+      "single player",
+      "online",
+      "offline",
+      "account"
+    ],
+    "aliases": [
+      "single-player offline?",
+      "solo but online",
+      "game một người cần mạng",
+      "offline vs single-player"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Single-player_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_gacha_random_reward_system",
+    "title": "Gacha random reward system",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "A gacha game uses a random reward system to obtain characters, items, or equipment. Players usually spend in-game currency, earned resources, or real money for pulls. A neutral answer should explain randomness and avoid encouraging spending or promising lucky results.",
+    "tags": [
+      "game",
+      "gacha",
+      "random reward",
+      "pulls",
+      "currency"
+    ],
+    "aliases": [
+      "gacha là gì",
+      "what is gacha",
+      "pull system",
+      "random character game"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_gacha_banner_caution",
+    "title": "Banner caution in gacha games",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "In many gacha games, banners are time-limited or rotating offers for certain rewards. Because banners change, a static knowledge base should not claim what is available right now. Belle should use fresh official information when users ask about current banners or dates.",
+    "tags": [
+      "game",
+      "gacha",
+      "banner",
+      "live service",
+      "updates"
+    ],
+    "aliases": [
+      "banner là gì",
+      "current banner",
+      "gacha banner warning",
+      "banner hiện tại"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_gacha_pity_neutral_explanation",
+    "title": "Pity system neutral explanation",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "Some gacha games use pity or guarantee systems that change the chance or certainty of receiving a reward after many pulls. Rules differ by game and can change. Belle should explain the concept generally and tell users to check the specific game's official details.",
+    "tags": [
+      "game",
+      "gacha",
+      "pity",
+      "guarantee",
+      "pulls"
+    ],
+    "aliases": [
+      "pity là gì",
+      "gacha pity",
+      "bảo hiểm gacha",
+      "guarantee pull"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_gacha_spending_safety",
+    "title": "Spending safety in gacha games",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "Gacha systems can involve real money, so answers should stay neutral and careful. Belle should not pressure users to spend, chase a character, or believe a lucky streak is guaranteed. A safer response encourages budgeting, reading rates, and treating pulls as random entertainment.",
+    "tags": [
+      "game",
+      "gacha",
+      "spending",
+      "safety",
+      "random"
+    ],
+    "aliases": [
+      "should I spend gacha",
+      "gacha money warning",
+      "nạp game gacha",
+      "gacha addiction caution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_gacha_rates_and_probability",
+    "title": "Rates and probability in gacha games",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "Gacha rewards are based on probability, so rare results may not appear even after many attempts unless a game has a guarantee rule. Published rates differ between games and banners. Belle should avoid inventing rates and should not say a result is due soon.",
+    "tags": [
+      "game",
+      "gacha",
+      "probability",
+      "rates",
+      "random"
+    ],
+    "aliases": [
+      "gacha rates",
+      "drop rate là gì",
+      "tỉ lệ gacha",
+      "why no rare pull"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_spiritual_successor_basic_definition",
+    "title": "Spiritual successor basic definition",
+    "category": "game",
+    "subcategory": "spiritual successor",
+    "content": "A spiritual successor is a work that feels related to an earlier work through style, themes, ideas, or design, even if it is not a direct sequel. The relationship should be supported by sources or clear creator statements. Belle should not label games this way only because fans feel they are similar.",
+    "tags": [
+      "game",
+      "spiritual successor",
+      "sequel",
+      "inspiration",
+      "concept"
+    ],
+    "aliases": [
+      "spiritual successor là gì",
+      "not a sequel",
+      "kế thừa tinh thần",
+      "game giống nhưng không phải phần tiếp"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spiritual_successor",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_spiritual_successor_not_direct_sequel",
+    "title": "Spiritual successor is not a direct sequel",
+    "category": "game",
+    "subcategory": "spiritual successor",
+    "content": "A direct sequel continues a previous work more explicitly, while a spiritual successor mainly carries a similar spirit or design approach. It may have different characters, setting, or ownership. This distinction helps Belle avoid saying one game is officially connected when it is only similar.",
+    "tags": [
+      "game",
+      "spiritual successor",
+      "sequel",
+      "difference",
+      "franchise"
+    ],
+    "aliases": [
+      "spiritual successor vs sequel",
+      "direct sequel là gì",
+      "game kế thừa tinh thần",
+      "not official sequel"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spiritual_successor",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_genre_search_for_rag",
+    "title": "Game genre search for RAG",
+    "category": "game",
+    "subcategory": "rpg",
+    "content": "Game genre terms such as RPG, action RPG, single-player, and gacha are useful search keys in a RAG system. Users often ask by genre before they remember a title. Belle should retrieve genre objects for definitions and title objects for specific game facts.",
+    "tags": [
+      "game",
+      "genre",
+      "rag",
+      "search",
+      "rpg"
+    ],
+    "aliases": [
+      "game genre RAG",
+      "RPG search",
+      "Belle genre answer",
+      "thể loại game"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "game_live_service_general_caution",
+    "title": "Live-service general caution",
+    "category": "game",
+    "subcategory": "gacha game",
+    "content": "Live-service games can change through updates, seasons, patches, and events. A static knowledge file is good for stable definitions and background facts, but it should not be treated as current patch data. Belle should use fresh sources for schedules, rewards, and balance changes.",
+    "tags": [
+      "game",
+      "live service",
+      "updates",
+      "patch",
+      "events"
+    ],
+    "aliases": [
+      "live-service là gì",
+      "game update warning",
+      "current patch caution",
+      "sự kiện game hiện tại"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Gacha_game",
+    "license": "CC BY-SA",
+    "language": "en"
+  }
+]

@@ -1,0 +1,5524 @@
+[
+  {
+    "id": "python_hello_world_first_program",
+    "title": "Hello World first program",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Hello World first program in Python is a tiny program that prints a simple message, often with print(\"Hello, world!\"). Beginners use it to see that code can produce visible output on the screen. It is a good first step before learning variables, input, and decisions.",
+    "tags": [
+      "python",
+      "beginner",
+      "hello"
+    ],
+    "aliases": [
+      "Hello World first program",
+      "Hello World first program là gì",
+      "hello world first program",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Hello_world_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_print_output_basic",
+    "title": "Python print output",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python print output in Python means showing text or values in the console with the print function. Beginners use it to check results, display messages, and understand what a program is doing. For beginners, print is also a simple debugging tool.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python print output",
+      "Python print output là gì",
+      "python print output",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_input_function_basic",
+    "title": "Python input function",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python input function in Python reads text typed by the user and returns it as a string. Beginners use it to make interactive console programs instead of fixed programs. If a number is needed, the text usually must be converted with int or float.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python input function",
+      "Python input function là gì",
+      "python input function",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_variable_assignment_equals",
+    "title": "Variable assignment with equals",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Variable assignment with equals in Python uses the equals sign to make a name refer to a value, such as score = 10. Beginners use it to store values that may be reused later in the program. This is assignment, not the same idea as mathematical equality in every context.",
+    "tags": [
+      "python",
+      "beginner",
+      "variable"
+    ],
+    "aliases": [
+      "Variable assignment with equals",
+      "Variable assignment with equals là gì",
+      "variable assignment with equals",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_variable_naming_rules",
+    "title": "Python variable naming rules",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python variable naming rules in Python allow letters, digits, and underscores, but the name should not start with a digit. Beginners use it to create readable names such as total_price or student_count. Good names help beginners understand code faster than short unclear names.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python variable naming rules",
+      "Python variable naming rules là gì",
+      "python variable naming rules",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_comment_usage_basic",
+    "title": "Python comments basic use",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python comments basic use in Python uses the hash symbol to write notes that Python ignores while running code. Beginners use it to explain why code exists or temporarily mark reminders. Comments should clarify intent, not repeat every obvious line.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python comments basic use",
+      "Python comments basic use là gì",
+      "python comments basic use",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_expression_basic",
+    "title": "Python expression basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python expression basic in Python is a piece of code that produces a value, such as 2 + 3 or name.upper(). Beginners use it to build calculations, conditions, and function arguments. Understanding expressions helps beginners read longer lines step by step.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python expression basic",
+      "Python expression basic là gì",
+      "python expression basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Expression_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_statement_basic",
+    "title": "Python statement basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python statement basic in Python is an instruction that Python can execute, such as assignment, import, or a function call. Beginners use it to make a program do work in a clear order. A program is usually a sequence of statements controlled by branches and loops.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python statement basic",
+      "Python statement basic là gì",
+      "python statement basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_assignment_vs_equality",
+    "title": "Assignment versus equality",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Assignment versus equality in Python separates changing a variable from testing two values for equality. Beginners use it to avoid confusing x = 5 with x == 5. In conditions, beginners usually need == to compare, not = to assign.",
+    "tags": [
+      "python",
+      "beginner",
+      "assignment"
+    ],
+    "aliases": [
+      "Assignment versus equality",
+      "Assignment versus equality là gì",
+      "assignment versus equality",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_arithmetic_operators_basic",
+    "title": "Python arithmetic operators",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python arithmetic operators in Python include addition, subtraction, multiplication, division, floor division, modulo, and exponentiation. Beginners use it to write calculations such as totals, averages, and remainders. Operator precedence can affect results, so parentheses are useful for clarity.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python arithmetic operators",
+      "Python arithmetic operators là gì",
+      "python arithmetic operators",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_modulo_operator_remainder",
+    "title": "Modulo operator remainder",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Modulo operator remainder in Python uses the percent sign to return a remainder after division. Beginners use it to check even numbers, cycle through positions, or wrap values around. For example, n % 2 == 0 is a common even-number test.",
+    "tags": [
+      "python",
+      "beginner",
+      "modulo"
+    ],
+    "aliases": [
+      "Modulo operator remainder",
+      "Modulo operator remainder là gì",
+      "modulo operator remainder",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_floor_division_operator",
+    "title": "Floor division operator",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Floor division operator in Python uses double slash to divide and round down toward a whole-number result. Beginners use it to get a quotient without the fractional part. It is different from normal division, which returns a floating-point result in Python 3.",
+    "tags": [
+      "python",
+      "beginner",
+      "floor"
+    ],
+    "aliases": [
+      "Floor division operator",
+      "Floor division operator là gì",
+      "floor division operator",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_operator_precedence_basic",
+    "title": "Operator precedence basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Operator precedence basic in Python means Python evaluates some operations before others, such as multiplication before addition. Beginners use it to predict calculation results and write clearer formulas. When in doubt, beginners should add parentheses instead of relying on memory.",
+    "tags": [
+      "python",
+      "beginner",
+      "operator"
+    ],
+    "aliases": [
+      "Operator precedence basic",
+      "Operator precedence basic là gì",
+      "operator precedence basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_concatenation_basic",
+    "title": "String concatenation basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "String concatenation basic in Python means joining strings together with the plus operator. Beginners use it to build simple messages from smaller text values. It only works directly with strings, so numbers often need conversion first.",
+    "tags": [
+      "python",
+      "beginner",
+      "string"
+    ],
+    "aliases": [
+      "String concatenation basic",
+      "String concatenation basic là gì",
+      "string concatenation basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_f_string_basic",
+    "title": "Python f-string basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python f-string basic in Python is a readable way to put values inside text using braces inside a string. Beginners use it to format output such as names, scores, and totals. F-strings are often clearer than repeated string concatenation for beginner programs.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python f-string basic",
+      "Python f-string basic là gì",
+      "python f-string basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_user_input_string_default",
+    "title": "User input is a string",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "User input is a string in Python means input returns text even when the user types digits. Beginners use it to avoid surprise TypeError problems in calculations. Use int or float conversion when the program needs numeric arithmetic.",
+    "tags": [
+      "python",
+      "beginner",
+      "user"
+    ],
+    "aliases": [
+      "User input is a string",
+      "User input is a string là gì",
+      "user input is a string",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_simple_calculator_input",
+    "title": "Simple calculator input pattern",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Simple calculator input pattern in Python usually combines input, type conversion, arithmetic operators, and print output. Beginners use it to practice the full flow of reading, computing, and displaying a result. The common beginner mistake is forgetting to convert input text into numbers.",
+    "tags": [
+      "python",
+      "beginner",
+      "simple"
+    ],
+    "aliases": [
+      "Simple calculator input pattern",
+      "Simple calculator input pattern là gì",
+      "simple calculator input pattern",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_indentation_blocks_basic",
+    "title": "Python indentation blocks",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python indentation blocks in Python uses indentation to group code inside if statements, loops, functions, and classes. Beginners use it to show which statements belong together. Wrong indentation can change program logic or cause an error.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python indentation blocks",
+      "Python indentation blocks là gì",
+      "python indentation blocks",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_case_sensitive_names",
+    "title": "Python names are case sensitive",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python names are case sensitive in Python treats Name, name, and NAME as different identifiers. Beginners use it to avoid bugs caused by inconsistent spelling or capitalization. Beginners should choose one clear naming style and use it consistently.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python names are case sensitive",
+      "Python names are case sensitive là gì",
+      "python names are case sensitive",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_reserved_keywords_basic",
+    "title": "Python reserved keywords",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python reserved keywords in Python are words with special meaning, such as if, for, while, def, and class. Beginners use it to understand why some words cannot be used as variable names. Choosing descriptive non-keyword names prevents confusing syntax errors.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python reserved keywords",
+      "Python reserved keywords là gì",
+      "python reserved keywords",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_import_statement_basic",
+    "title": "Python import statement",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python import statement in Python loads code from a module so a program can use extra functions or objects. Beginners use it to reuse standard library tools instead of writing everything from zero. The module must exist in the environment where the program runs.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python import statement",
+      "Python import statement là gì",
+      "python import statement",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Standard_library",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_standard_library_beginner",
+    "title": "Python standard library beginner use",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python standard library beginner use in Python is the collection of modules included with Python for common tasks. Beginners use it to use tools for math, dates, randomness, files, and more. Beginners should learn a few useful modules before installing many external packages.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python standard library beginner use",
+      "Python standard library beginner use là gì",
+      "python standard library beginner use",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Standard_library",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_script_execution_basic",
+    "title": "Running a Python script",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Running a Python script in Python means saving code in a .py file and executing it with Python. Beginners use it to test a complete program outside the interactive prompt. The terminal must run in the correct folder or use the correct file path.",
+    "tags": [
+      "python",
+      "beginner",
+      "running"
+    ],
+    "aliases": [
+      "Running a Python script",
+      "Running a Python script là gì",
+      "running a python script",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_repl_interactive_mode",
+    "title": "Python interactive mode",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python interactive mode in Python lets a learner type one expression or statement at a time and see results immediately. Beginners use it to experiment with small ideas before writing a full script. It is helpful for learning but not a replacement for saving real programs.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python interactive mode",
+      "Python interactive mode là gì",
+      "python interactive mode",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_readable_names_basic",
+    "title": "Readable variable names",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Readable variable names in Python make code easier to understand by describing the value's purpose. Beginners use it to communicate intent to the future reader of the program. Names like total_score are usually better than a, b, or temp for beginner code.",
+    "tags": [
+      "python",
+      "beginner",
+      "readable"
+    ],
+    "aliases": [
+      "Readable variable names",
+      "Readable variable names là gì",
+      "readable variable names",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_pseudocode_planning",
+    "title": "Pseudocode for planning",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Pseudocode for planning in Python is informal step-by-step writing before real code. Beginners use it to plan the logic of a program without worrying about syntax first. It can help beginners solve the problem before fighting Python errors.",
+    "tags": [
+      "python",
+      "beginner",
+      "pseudocode"
+    ],
+    "aliases": [
+      "Pseudocode for planning",
+      "Pseudocode for planning là gì",
+      "pseudocode for planning",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_console_program_basic",
+    "title": "Console program basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Console program basic in Python runs through text input and output in a terminal or command window. Beginners use it to practice programming logic without building a graphical interface. Many beginner exercises use console programs because they are simple to test.",
+    "tags": [
+      "python",
+      "beginner",
+      "console"
+    ],
+    "aliases": [
+      "Console program basic",
+      "Console program basic là gì",
+      "console program basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_code_order_top_down",
+    "title": "Python code order top down",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Python code order top down in Python usually runs statements from top to bottom unless control flow changes the path. Beginners use it to predict what happens first, next, and last. Functions and classes may be defined before they are called later.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Python code order top down",
+      "Python code order top down là gì",
+      "python code order top down",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_literal_value_basic",
+    "title": "Literal value basic",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Literal value basic in Python is a value written directly in code, such as 10, 3.14, \"cat\", or True. Beginners use it to understand examples before variables are introduced. Literals are useful, but repeated raw values can make larger programs harder to maintain.",
+    "tags": [
+      "python",
+      "beginner",
+      "literal"
+    ],
+    "aliases": [
+      "Literal value basic",
+      "Literal value basic là gì",
+      "literal value basic",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_beginner_program_structure",
+    "title": "Beginner program structure",
+    "category": "python",
+    "subcategory": "python basics",
+    "content": "Beginner program structure in Python often follows input, processing, and output as a simple pattern. Beginners use it to organize small programs like calculators, converters, and quizzes. Keeping these parts clear makes debugging easier for new learners.",
+    "tags": [
+      "python",
+      "beginner"
+    ],
+    "aliases": [
+      "Beginner program structure",
+      "Beginner program structure là gì",
+      "beginner program structure",
+      "Python beginner"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_integer_type_basic",
+    "title": "Python integer type",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python integer type in Python represents whole numbers without a fractional part. Beginners use it to count items, store ages, and work with exact whole-number values. Integers can be very large in Python, but they still must be used with the correct operations.",
+    "tags": [
+      "python",
+      "data type",
+      "integer"
+    ],
+    "aliases": [
+      "Python integer type",
+      "Python integer type là gì",
+      "kiểu dữ liệu Python",
+      "python integer type"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Integer_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_float_type_basic",
+    "title": "Python float type",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python float type in Python represents numbers with decimal points using floating-point arithmetic. Beginners use it to handle measurements, division results, and approximate real-number calculations. Floating-point values may have tiny rounding errors, so exact equality can surprise beginners.",
+    "tags": [
+      "python",
+      "data type",
+      "float"
+    ],
+    "aliases": [
+      "Python float type",
+      "Python float type là gì",
+      "kiểu dữ liệu Python",
+      "python float type"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_floating_precision_warning",
+    "title": "Floating-point precision warning",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Floating-point precision warning in Python means decimal values may not be stored exactly inside the computer. Beginners use it to understand why 0.1 + 0.2 may display a tiny error. For money or exact decimal work, special approaches may be needed.",
+    "tags": [
+      "python",
+      "data type",
+      "precision"
+    ],
+    "aliases": [
+      "Floating-point precision warning",
+      "Floating-point precision warning là gì",
+      "kiểu dữ liệu Python",
+      "floating-point precision warning"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_type_basic",
+    "title": "Python string type",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python string type in Python represents text as a sequence of characters. Beginners use it to store names, messages, file lines, and user input. Strings are immutable, so operations usually create a new string instead of changing the old one.",
+    "tags": [
+      "python",
+      "data type",
+      "string"
+    ],
+    "aliases": [
+      "Python string type",
+      "Python string type là gì",
+      "kiểu dữ liệu Python",
+      "python string type"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_boolean_type_basic",
+    "title": "Python boolean type",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python boolean type in Python has two main truth values, True and False. Beginners use it to control decisions, loop conditions, and validation checks. Boolean values often come from comparisons like score >= 50.",
+    "tags": [
+      "python",
+      "data type",
+      "boolean"
+    ],
+    "aliases": [
+      "Python boolean type",
+      "Python boolean type là gì",
+      "kiểu dữ liệu Python",
+      "python boolean type"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_none_value_basic",
+    "title": "Python None value",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python None value in Python represents the absence of a normal value. Beginners use it to mark missing results, default states, or functions that do not return useful data. It is not the same as zero, an empty string, or False.",
+    "tags": [
+      "python",
+      "data type",
+      "none"
+    ],
+    "aliases": [
+      "Python None value",
+      "Python None value là gì",
+      "kiểu dữ liệu Python",
+      "python none value"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_type_function_basic",
+    "title": "Python type function",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python type function in Python shows the type of a value, such as int, str, list, or dict. Beginners use it to inspect data while learning or debugging. It helps beginners confirm what input or conversion produced.",
+    "tags": [
+      "python",
+      "data type",
+      "type"
+    ],
+    "aliases": [
+      "Python type function",
+      "Python type function là gì",
+      "kiểu dữ liệu Python",
+      "python type function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_int_conversion_basic",
+    "title": "Python int conversion",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python int conversion in Python tries to convert a value into an integer. Beginners use it to turn numeric text from input into a number for arithmetic. It raises an error when the text is not a valid whole number.",
+    "tags": [
+      "python",
+      "data type",
+      "int"
+    ],
+    "aliases": [
+      "Python int conversion",
+      "Python int conversion là gì",
+      "kiểu dữ liệu Python",
+      "python int conversion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Type_conversion",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_float_conversion_basic",
+    "title": "Python float conversion",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python float conversion in Python tries to convert a value into a floating-point number. Beginners use it to read decimal input such as height, price, or temperature. It can still fail if the input contains letters or invalid formatting.",
+    "tags": [
+      "python",
+      "data type",
+      "float"
+    ],
+    "aliases": [
+      "Python float conversion",
+      "Python float conversion là gì",
+      "kiểu dữ liệu Python",
+      "python float conversion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Type_conversion",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_str_conversion_basic",
+    "title": "Python str conversion",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python str conversion in Python turns a value into text. Beginners use it to combine numbers with messages or prepare output. It does not change the original value unless the result is stored.",
+    "tags": [
+      "python",
+      "data type",
+      "str"
+    ],
+    "aliases": [
+      "Python str conversion",
+      "Python str conversion là gì",
+      "kiểu dữ liệu Python",
+      "python str conversion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Type_conversion",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_input_int_conversion",
+    "title": "Input to integer conversion",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Input to integer conversion in Python is needed because input returns text by default. Beginners use it to use typed digits in calculations like age + 1. A beginner should handle invalid input when users may type non-numeric text.",
+    "tags": [
+      "python",
+      "data type",
+      "to"
+    ],
+    "aliases": [
+      "Input to integer conversion",
+      "Input to integer conversion là gì",
+      "kiểu dữ liệu Python",
+      "input to integer conversion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Type_conversion",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_value_error_conversion",
+    "title": "ValueError from conversion",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "ValueError from conversion in Python often happens when int or float cannot understand the given text. Beginners use it to find mistakes in user input or file data. The fix is usually to validate the input or catch the exception.",
+    "tags": [
+      "python",
+      "data type",
+      "from"
+    ],
+    "aliases": [
+      "ValueError from conversion",
+      "ValueError from conversion là gì",
+      "kiểu dữ liệu Python",
+      "valueerror from conversion"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Type_conversion",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_boolean_conversion_caution",
+    "title": "Boolean conversion caution",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Boolean conversion caution in Python can make many values truthy or falsy rather than simply reading words as true or false. Beginners use it to write conditions based on actual Python behavior. For example, bool(\"False\") is True because the string is not empty.",
+    "tags": [
+      "python",
+      "data type",
+      "conversion"
+    ],
+    "aliases": [
+      "Boolean conversion caution",
+      "Boolean conversion caution là gì",
+      "kiểu dữ liệu Python",
+      "boolean conversion caution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_comparison_result_bool",
+    "title": "Comparison result is boolean",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Comparison result is boolean in Python means expressions like a < b produce True or False. Beginners use it to build if conditions and loop checks. This helps beginners see that comparisons are values, not just questions.",
+    "tags": [
+      "python",
+      "data type",
+      "result"
+    ],
+    "aliases": [
+      "Comparison result is boolean",
+      "Comparison result is boolean là gì",
+      "kiểu dữ liệu Python",
+      "comparison result is boolean"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_mutable_immutable_basic",
+    "title": "Mutable and immutable values",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Mutable and immutable values in Python separates objects that can be changed from objects that cannot be changed in place. Beginners use it to understand why lists behave differently from strings and tuples. This idea matters when passing data into functions.",
+    "tags": [
+      "python",
+      "data type",
+      "and"
+    ],
+    "aliases": [
+      "Mutable and immutable values",
+      "Mutable and immutable values là gì",
+      "kiểu dữ liệu Python",
+      "mutable and immutable values"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_immutable_basic",
+    "title": "String immutability",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "String immutability in Python means an existing string cannot be changed character by character. Beginners use it to avoid expecting name[0] = \"A\" to work. String methods return new strings, so the result should be stored if needed.",
+    "tags": [
+      "python",
+      "data type",
+      "immutability"
+    ],
+    "aliases": [
+      "String immutability",
+      "String immutability là gì",
+      "kiểu dữ liệu Python",
+      "string immutability"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_mutable_basic",
+    "title": "List mutability",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "List mutability in Python means a list can be changed after it is created. Beginners use it to append, remove, sort, or update items in a collection. Mutability is useful but can cause aliasing bugs when two names refer to the same list.",
+    "tags": [
+      "python",
+      "data type",
+      "mutability"
+    ],
+    "aliases": [
+      "List mutability",
+      "List mutability là gì",
+      "kiểu dữ liệu Python",
+      "list mutability"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_tuple_immutable_basic",
+    "title": "Tuple immutability",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Tuple immutability in Python means the tuple structure cannot be changed after creation. Beginners use it to store fixed groups of values such as coordinates or return pairs. A tuple can still contain mutable objects, so beginners should read examples carefully.",
+    "tags": [
+      "python",
+      "data type",
+      "immutability"
+    ],
+    "aliases": [
+      "Tuple immutability",
+      "Tuple immutability là gì",
+      "kiểu dữ liệu Python",
+      "tuple immutability"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tuple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_truthy_falsy_basic",
+    "title": "Truthy and falsy values",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Truthy and falsy values in Python means Python can treat certain values as true or false in conditions. Beginners use it to write shorter checks for empty strings, empty lists, zero, or None. Clear comparisons may be better for beginners when logic is confusing.",
+    "tags": [
+      "python",
+      "data type",
+      "and"
+    ],
+    "aliases": [
+      "Truthy and falsy values",
+      "Truthy and falsy values là gì",
+      "kiểu dữ liệu Python",
+      "truthy and falsy values"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_empty_collection_false",
+    "title": "Empty collections are falsy",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Empty collections are falsy in Python means empty lists, dictionaries, sets, and tuples act like False in conditions. Beginners use it to check whether a collection has any data. This is common Python style, but explicit len checks can be clearer at first.",
+    "tags": [
+      "python",
+      "data type",
+      "collections"
+    ],
+    "aliases": [
+      "Empty collections are falsy",
+      "Empty collections are falsy là gì",
+      "kiểu dữ liệu Python",
+      "empty collections are falsy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_is_vs_equals_basic",
+    "title": "is versus equals",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "is versus equals in Python separates object identity from value equality. Beginners use it to avoid using is when == is needed to compare normal values. Use is mainly for identity checks such as value is None.",
+    "tags": [
+      "python",
+      "data type",
+      "versus"
+    ],
+    "aliases": [
+      "is versus equals",
+      "is versus equals là gì",
+      "kiểu dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dynamic_typing_basic",
+    "title": "Python dynamic typing",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python dynamic typing in Python means variable names can refer to values of different types during program execution. Beginners use it to write flexible code without declaring variable types first. Beginners still need to track types mentally to avoid wrong operations.",
+    "tags": [
+      "python",
+      "data type",
+      "dynamic"
+    ],
+    "aliases": [
+      "Python dynamic typing",
+      "Python dynamic typing là gì",
+      "kiểu dữ liệu Python",
+      "python dynamic typing"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_type_annotation_hint_basic",
+    "title": "Python type annotation hint",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python type annotation hint in Python is an optional note about the expected type of a variable, parameter, or return value. Beginners use it to make code easier to read and check with tools. Annotations do not automatically force runtime type safety in normal Python.",
+    "tags": [
+      "python",
+      "data type",
+      "type"
+    ],
+    "aliases": [
+      "Python type annotation hint",
+      "Python type annotation hint là gì",
+      "kiểu dữ liệu Python",
+      "python type annotation hint"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_round_function_caution",
+    "title": "Python round function caution",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python round function caution in Python rounds a number for display or approximate calculation. Beginners use it to format decimal output in beginner programs. Floating-point behavior can still surprise learners, so rounded output is not always exact storage.",
+    "tags": [
+      "python",
+      "data type",
+      "round"
+    ],
+    "aliases": [
+      "Python round function caution",
+      "Python round function caution là gì",
+      "kiểu dữ liệu Python",
+      "python round function caution"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_abs_function_basic",
+    "title": "Python abs function",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python abs function in Python returns the non-negative magnitude of a number. Beginners use it to calculate distances from zero or compare differences. It is simple but useful in math exercises and error measurements.",
+    "tags": [
+      "python",
+      "data type",
+      "abs"
+    ],
+    "aliases": [
+      "Python abs function",
+      "Python abs function là gì",
+      "kiểu dữ liệu Python",
+      "python abs function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_len_function_basic",
+    "title": "Python len function",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python len function in Python returns the number of items in a sequence or collection. Beginners use it to check string length, list size, or dictionary entries. It is often used with loops, validation, and beginner statistics tasks.",
+    "tags": [
+      "python",
+      "data type",
+      "len"
+    ],
+    "aliases": [
+      "Python len function",
+      "Python len function là gì",
+      "kiểu dữ liệu Python",
+      "python len function"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_strip_method",
+    "title": "Python strip method",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python strip method in Python removes whitespace from the start and end of a string. Beginners use it to clean user input or file lines before comparison. It does not remove spaces inside the middle of the text.",
+    "tags": [
+      "python",
+      "data type",
+      "strip"
+    ],
+    "aliases": [
+      "Python strip method",
+      "Python strip method là gì",
+      "kiểu dữ liệu Python",
+      "python strip method"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_split_method",
+    "title": "Python split method",
+    "category": "python",
+    "subcategory": "data types",
+    "content": "Python split method in Python breaks a string into a list of smaller strings using a separator. Beginners use it to process words, CSV-like text, or space-separated numbers. Beginners should remember the result is a list of strings.",
+    "tags": [
+      "python",
+      "data type",
+      "split"
+    ],
+    "aliases": [
+      "Python split method",
+      "Python split method là gì",
+      "kiểu dữ liệu Python",
+      "python split method"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_if_statement_basic",
+    "title": "Python if statement",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python if statement in Python runs a block of code only when a condition is true. Beginners use it to make decisions such as pass or fail, yes or no, and valid or invalid. The condition should produce a boolean-like result.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python if statement",
+      "Python if statement là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_elif_chain_basic",
+    "title": "Python elif chain",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python elif chain in Python checks another condition when the earlier if condition was false. Beginners use it to handle several possible cases without writing many separate if statements. Order matters because Python stops after the first matching branch.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python elif chain",
+      "Python elif chain là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_else_default_case",
+    "title": "Python else default case",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python else default case in Python runs when none of the earlier conditions in the same chain matched. Beginners use it to provide a fallback result or error message. It should not have its own condition.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python else default case",
+      "Python else default case là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_comparison_operators_basic",
+    "title": "Comparison operators basic",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Comparison operators basic in Python compare values using symbols such as ==, !=, <, <=, >, and >=. Beginners use it to create conditions for decisions and loops. Beginners should not confuse == comparison with = assignment. A beginner answer should stay concrete, use small examples, and avoid confusing advanced details.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Comparison operators basic",
+      "Comparison operators basic là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_logical_and_basic",
+    "title": "Logical and operator",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Logical and operator in Python requires both conditions to be true. Beginners use it to combine checks such as age >= 18 and has_ticket. If the first condition is false, Python may not need to evaluate the second one.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Logical and operator",
+      "Logical and operator là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_logical_or_basic",
+    "title": "Logical or operator",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Logical or operator in Python requires at least one condition to be true. Beginners use it to accept multiple valid choices or alternative cases. Parentheses can make mixed and-or logic easier to read.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Logical or operator",
+      "Logical or operator là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_logical_not_basic",
+    "title": "Logical not operator",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Logical not operator in Python reverses a truth value. Beginners use it to write conditions such as not found or not is_empty. Too many not operators can make beginner logic hard to follow.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Logical not operator",
+      "Logical not operator là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_nested_if_basic",
+    "title": "Nested if statement",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Nested if statement in Python places one decision inside another decision. Beginners use it to represent logic where a second check only matters after the first check passes. Deep nesting can become hard to read, so simple structure is preferred.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Nested if statement",
+      "Nested if statement là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_condition_order_caution",
+    "title": "Condition order caution",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Condition order caution in Python means earlier branches in an if-elif chain can prevent later branches from running. Beginners use it to avoid unreachable or wrong cases. Put more specific checks before broader checks when both could match.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Condition order caution",
+      "Condition order caution là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_boolean_flag_variable",
+    "title": "Boolean flag variable",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Boolean flag variable in Python stores True or False to remember a state such as found, valid, or running. Beginners use it to control loops and decisions more clearly. A good flag name should sound like a yes-or-no question.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Boolean flag variable",
+      "Boolean flag variable là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_for_loop_iterable",
+    "title": "For loop over iterable",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "For loop over iterable in Python repeats code for each item in a sequence or collection. Beginners use it to process every number, word, row, or object in a group. It is usually simpler than a while loop when the number of items is known.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "For loop over iterable",
+      "For loop over iterable là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_for_range_basic",
+    "title": "For loop with range",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "For loop with range in Python uses range to generate a sequence of numbers for repeated steps. Beginners use it to repeat code a fixed number of times or loop through indexes. Remember that range often stops before the final number.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "For loop with range",
+      "For loop with range là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_range_stop_exclusive",
+    "title": "Range stop is exclusive",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Range stop is exclusive in Python means range(5) gives 0 through 4, not 0 through 5. Beginners use it to avoid off-by-one mistakes in loops. This rule is common in Python indexing and beginner exercises.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Range stop is exclusive",
+      "Range stop is exclusive là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_range_start_stop_step",
+    "title": "Range start stop step",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Range start stop step in Python lets a loop choose a start number, stop boundary, and step size. Beginners use it to count upward, skip values, or count backward. The stop value is still excluded, even with a custom step.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Range start stop step",
+      "Range start stop step là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_for_loop_index_caution",
+    "title": "For loop index caution",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "For loop index caution in Python means indexes are sometimes useful but not always needed. Beginners use it to avoid writing complicated index code when direct item iteration is enough. Use enumerate when both the index and item are needed.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "For loop index caution",
+      "For loop index caution là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_while_loop_basic",
+    "title": "Python while loop",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python while loop in Python repeats code while a condition remains true. Beginners use it to continue until input is valid, a game ends, or a counter reaches a limit. The loop must have a clear way to stop.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Python while loop",
+      "Python while loop là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_while_loop_infinite_warning",
+    "title": "While loop infinite warning",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "While loop infinite warning in Python can happen when the loop condition never becomes false. Beginners use it to recognize why a program appears stuck. Update a counter, change state, or use a clear stopping condition.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "While loop infinite warning",
+      "While loop infinite warning là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Infinite_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_counter_update_loop",
+    "title": "Counter update in loop",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Counter update in loop in Python changes a counter value during repeated execution. Beginners use it to count attempts, positions, or repeated actions. Forgetting the update is a common reason a while loop never stops.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Counter update in loop",
+      "Counter update in loop là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_break_statement_basic",
+    "title": "Python break statement",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python break statement in Python exits the nearest loop immediately. Beginners use it to stop searching after a result is found or leave a menu loop. It should be used carefully so the loop logic remains easy to understand.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python break statement",
+      "Python break statement là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_continue_statement_basic",
+    "title": "Python continue statement",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python continue statement in Python skips the rest of the current loop iteration and moves to the next one. Beginners use it to ignore invalid or unwanted items without stopping the whole loop. Too many continue statements can make control flow harder to trace.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python continue statement",
+      "Python continue statement là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_loop_else_basic",
+    "title": "Python loop else basic",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python loop else basic in Python runs an else block after a loop finishes normally without break. Beginners use it to handle search failure in a clean way. This feature is useful but may confuse beginners, so explain it with small examples.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Python loop else basic",
+      "Python loop else basic là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_nested_loops_basic",
+    "title": "Nested loops basic",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Nested loops basic in Python use one loop inside another loop. Beginners use it to process tables, grids, pairs, or matrices. Nested loops can grow runtime quickly, so beginners should understand what each level repeats.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Nested loops basic",
+      "Nested loops basic là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_accumulator_pattern",
+    "title": "Accumulator pattern",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Accumulator pattern in Python uses a variable that is updated repeatedly inside a loop. Beginners use it to build totals, products, joined text, or collected results. Initialize the accumulator before the loop and update it in the correct place.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Accumulator pattern",
+      "Accumulator pattern là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_counting_matches_loop",
+    "title": "Counting matches in a loop",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Counting matches in a loop in Python uses a counter that increases when an item meets a condition. Beginners use it to count vowels, passing scores, or matching words. The condition and update must be inside the loop body.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Counting matches in a loop",
+      "Counting matches in a loop là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_menu_loop_basic",
+    "title": "Menu loop basic",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Menu loop basic in Python keeps showing choices until the user selects an exit option. Beginners use it to build small console programs with repeated actions. A clear exit condition prevents the menu from becoming an accidental infinite loop.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Menu loop basic",
+      "Menu loop basic là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_sentinel_value_loop",
+    "title": "Sentinel value loop",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Sentinel value loop in Python uses a special input value to stop repeated reading. Beginners use it to accept many numbers or names until the user types a stop word. The sentinel should be documented so users know how to finish.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Sentinel value loop",
+      "Sentinel value loop là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_input_validation_loop",
+    "title": "Input validation loop",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Input validation loop in Python repeats until the user gives acceptable input. Beginners use it to prevent invalid values from breaking later calculations. The loop should explain what went wrong and ask again clearly.",
+    "tags": [
+      "python",
+      "control flow",
+      "loops"
+    ],
+    "aliases": [
+      "Input validation loop",
+      "Input validation loop là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_off_by_one_range",
+    "title": "Off-by-one range error",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Off-by-one range error in Python happens when a loop runs one time too many or too few. Beginners use it to debug indexing, counting, and boundary conditions. Checking the first and last loop values usually reveals the mistake.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Off-by-one range error",
+      "Off-by-one range error là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_membership_in_operator",
+    "title": "Membership in operator",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Membership in operator in Python checks whether a value appears in a collection or string. Beginners use it to write readable conditions like name in students. It works with many containers, but speed depends on the container type.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Membership in operator",
+      "Membership in operator là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_enumerate_basic",
+    "title": "Python enumerate basic",
+    "category": "python",
+    "subcategory": "control flow",
+    "content": "Python enumerate basic in Python gives both an index and an item while looping. Beginners use it to avoid manually updating a separate index counter. It is useful when output should show item numbers or positions.",
+    "tags": [
+      "python",
+      "control flow",
+      "condition"
+    ],
+    "aliases": [
+      "Python enumerate basic",
+      "Python enumerate basic là gì",
+      "if else Python",
+      "vòng lặp Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_definition_def",
+    "title": "Function definition with def",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function definition with def in Python creates a reusable named block of code with the def keyword. Beginners use it to organize repeated behavior into one place. The function body must be indented under the definition line.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function definition with def",
+      "Function definition with def là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_call_basic",
+    "title": "Function call basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function call basic in Python runs a function by writing its name followed by parentheses. Beginners use it to execute reusable logic whenever it is needed. Defining a function does not run it automatically.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function call basic",
+      "Function call basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_parameter_basic",
+    "title": "Function parameter basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function parameter basic in Python is a name in a function definition that receives a value. Beginners use it to make a function work with different inputs. Good parameter names make the function easier to understand.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function parameter basic",
+      "Function parameter basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_argument_basic",
+    "title": "Function argument basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function argument basic in Python is the actual value passed into a function call. Beginners use it to supply data for the function to use. Beginners often mix up parameter names in definitions and argument values in calls.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function argument basic",
+      "Function argument basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_return_value_basic",
+    "title": "Function return value",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function return value in Python sends a result back to the caller. Beginners use it to use the output in another calculation or condition. A function without an explicit return gives None.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function return value",
+      "Function return value là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_return_vs_print",
+    "title": "Return versus print",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Return versus print in Python separates giving a value back from displaying text on the screen. Beginners use it to write functions that can be reused in many contexts. Printing is visible output, while return is program data.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Return versus print",
+      "Return versus print là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_no_return_none",
+    "title": "Function with no return gives None",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function with no return gives None in Python means Python returns None when a function finishes without a return statement. Beginners use it to debug unexpected None values in beginner programs. Use return when the caller needs a result.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function with no return gives None",
+      "Function with no return gives None là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_default_parameter_basic",
+    "title": "Default parameter basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Default parameter basic in Python provides a value used when the caller does not pass an argument. Beginners use it to make simple options without requiring every argument. Avoid mutable default values like empty lists unless you know the consequences.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Default parameter basic",
+      "Default parameter basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_keyword_argument_basic",
+    "title": "Keyword argument basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Keyword argument basic in Python passes a value by naming the parameter in the call. Beginners use it to make function calls clearer when there are several inputs. The keyword must match a parameter name in the function definition.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Keyword argument basic",
+      "Keyword argument basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_positional_argument_basic",
+    "title": "Positional argument basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Positional argument basic in Python passes values based on their order in the function call. Beginners use it to write short calls when the meaning is obvious. Wrong order can cause subtle bugs if values have compatible types.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Positional argument basic",
+      "Positional argument basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_local_scope_basic",
+    "title": "Local scope basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Local scope basic in Python means a variable created inside a function normally belongs to that function. Beginners use it to prevent names inside functions from accidentally changing outside code. Trying to use a local variable outside the function causes confusion.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Local scope basic",
+      "Local scope basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_global_variable_caution",
+    "title": "Global variable caution",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Global variable caution in Python means a variable outside functions can be accessed broadly. Beginners use it to share simple constants or settings when appropriate. Changing globals from many places makes beginner programs harder to debug.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Global variable caution",
+      "Global variable caution là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Variable_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_docstring_basic",
+    "title": "Function docstring basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function docstring basic in Python is a string placed near the start of a function to describe its purpose. Beginners use it to document inputs, outputs, and behavior for readers. A short docstring is better than no explanation for reusable functions.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function docstring basic",
+      "Function docstring basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_small_function_decomposition",
+    "title": "Small function decomposition",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Small function decomposition in Python means breaking a larger task into smaller named functions. Beginners use it to make code easier to test, read, and repair. Each function should have one clear job when possible.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Small function decomposition",
+      "Small function decomposition là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_boolean_return",
+    "title": "Function returning boolean",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function returning boolean in Python returns True or False to answer a yes-or-no question. Beginners use it to build helpers such as is_prime or is_valid_name. The function name should make the boolean meaning clear.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function returning boolean",
+      "Function returning boolean là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_helper_function_basic",
+    "title": "Helper function basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Helper function basic in Python is a smaller function used by another part of the program. Beginners use it to avoid repeating logic and keep main code cleaner. It should still have a clear name and clear inputs.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Helper function basic",
+      "Helper function basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_lambda_beginner_caution",
+    "title": "Lambda beginner caution",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Lambda beginner caution in Python creates a small anonymous function expression. Beginners use it to use short one-line behavior in places that expect a function. Beginners should prefer def when the logic needs a clear name or multiple steps.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Lambda beginner caution",
+      "Lambda beginner caution là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_side_effect_basic",
+    "title": "Function side effect basic",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function side effect basic in Python is a change a function makes outside returning a value, such as printing or modifying a list. Beginners use it to understand why a function affects program state. Side effects are useful but should be intentional and easy to see.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function side effect basic",
+      "Function side effect basic là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_pure_function_beginner",
+    "title": "Pure function beginner idea",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Pure function beginner idea in Python returns a result based only on its inputs and avoids changing outside state. Beginners use it to make code easier to test and reason about. Not every function must be pure, but pure helpers are beginner-friendly.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Pure function beginner idea",
+      "Pure function beginner idea là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_main_function_pattern",
+    "title": "Main function pattern",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Main function pattern in Python puts the main program flow inside a function often named main. Beginners use it to organize scripts and separate setup from helper functions. It is common in larger beginner programs but not required for every tiny exercise.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Main function pattern",
+      "Main function pattern là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_testing_function_inputs",
+    "title": "Testing function with inputs",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Testing function with inputs in Python means calling a function with known values and checking the result. Beginners use it to confirm behavior before using the function in a bigger program. Testing edge cases helps catch mistakes early.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Testing function with inputs",
+      "Testing function with inputs là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_function_type_expectation",
+    "title": "Function type expectation",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Function type expectation in Python means a function often expects certain kinds of inputs. Beginners use it to avoid TypeError or wrong results from invalid arguments. Clear names, checks, or annotations can help communicate expectations.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Function type expectation",
+      "Function type expectation là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_optional_parameter_none",
+    "title": "Optional parameter with None",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Optional parameter with None in Python uses None as a default to mean no value was provided. Beginners use it to avoid mutable default traps and represent missing optional data. The function can then create a fresh value inside when needed.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Optional parameter with None",
+      "Optional parameter with None là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Parameter_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_refactor_repeated_code",
+    "title": "Refactor repeated code into function",
+    "category": "python",
+    "subcategory": "functions",
+    "content": "Refactor repeated code into function in Python means moving repeated logic into a reusable function. Beginners use it to reduce copy-paste errors and make changes in one place. Beginners should look for repeated blocks that do the same job.",
+    "tags": [
+      "python",
+      "function",
+      "parameter"
+    ],
+    "aliases": [
+      "Refactor repeated code into function",
+      "Refactor repeated code into function là gì",
+      "hàm Python",
+      "function return"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_indexing_zero_based",
+    "title": "List indexing is zero based",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List indexing is zero based in Python means the first item of a list is at index 0. Beginners use it to access a specific item by position. This is a common source of off-by-one mistakes for beginners.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List indexing is zero based",
+      "List indexing is zero based là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_negative_indexing_basic",
+    "title": "Negative indexing in Python",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Negative indexing in Python in Python uses negative numbers to count from the end of a sequence. Beginners use it to get the last item with index -1. It is convenient, but beginners should still understand normal positive indexes.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Negative indexing in Python",
+      "Negative indexing in Python là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_slicing_basic",
+    "title": "List slicing basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List slicing basic in Python creates a smaller sequence from a start, stop, and optional step. Beginners use it to copy part of a list or string. The stop index is excluded, like range.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List slicing basic",
+      "List slicing basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_append_basic",
+    "title": "List append basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List append basic in Python adds one item to the end of an existing list. Beginners use it to collect results during a loop. Append changes the list in place and does not return the updated list.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List append basic",
+      "List append basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_remove_basic",
+    "title": "List remove basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List remove basic in Python deletes the first matching value from a list. Beginners use it to remove a known item when it exists. It raises an error if the value is not found.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List remove basic",
+      "List remove basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_pop_basic",
+    "title": "List pop basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List pop basic in Python removes and returns an item, usually the last one by default. Beginners use it to use a list like a simple stack. Using pop on an empty list causes an error.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List pop basic",
+      "List pop basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_iteration_basic",
+    "title": "List iteration basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List iteration basic in Python means looping over each item in a list. Beginners use it to process many values with the same code. Direct item iteration is often clearer than indexing.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List iteration basic",
+      "List iteration basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_comprehension_basic",
+    "title": "List comprehension basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List comprehension basic in Python builds a new list from an expression and a loop in one line. Beginners use it to create transformed or filtered lists compactly. Very complex comprehensions can be harder to read than normal loops.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "List comprehension basic",
+      "List comprehension basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_nested_list_matrix",
+    "title": "Nested list as matrix",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Nested list as matrix in Python uses a list of lists to represent rows and columns. Beginners use it to store simple table or matrix data. Beginners should track row index and column index carefully.",
+    "tags": [
+      "python",
+      "data structure",
+      "matrix"
+    ],
+    "aliases": [
+      "Nested list as matrix",
+      "Nested list as matrix là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_tuple_basic_use",
+    "title": "Tuple basic use",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Tuple basic use in Python stores an ordered group of values that should not change. Beginners use it to represent fixed pairs like coordinates or multiple return values. Use a list instead when items need frequent editing.",
+    "tags": [
+      "python",
+      "data structure",
+      "tuple"
+    ],
+    "aliases": [
+      "Tuple basic use",
+      "Tuple basic use là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tuple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_tuple_unpacking_basic",
+    "title": "Tuple unpacking basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Tuple unpacking basic in Python assigns multiple values from a tuple or sequence to multiple names. Beginners use it to read pairs such as x, y or key, value clearly. The number of target names must match the number of values.",
+    "tags": [
+      "python",
+      "data structure",
+      "tuple"
+    ],
+    "aliases": [
+      "Tuple unpacking basic",
+      "Tuple unpacking basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tuple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_key_value",
+    "title": "Dictionary key value basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary key value basic in Python stores values by keys instead of numeric positions. Beginners use it to look up information such as a student's score by name. Keys should be unique and usually immutable.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary key value basic",
+      "Dictionary key value basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_lookup_basic",
+    "title": "Dictionary lookup basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary lookup basic in Python gets a value by using its key. Beginners use it to retrieve data quickly when the key is known. Looking up a missing key directly causes KeyError.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary lookup basic",
+      "Dictionary lookup basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_get_method",
+    "title": "Dictionary get method",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary get method in Python returns a value for a key or a default when the key is missing. Beginners use it to avoid KeyError in simple cases. It is helpful for counting and optional settings.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary get method",
+      "Dictionary get method là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_add_update",
+    "title": "Dictionary add and update",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary add and update in Python assigns a value to a key, creating or replacing the entry. Beginners use it to store new facts or change existing data. Beginners should know that assigning the same key overwrites the old value.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary add and update",
+      "Dictionary add and update là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_iteration",
+    "title": "Dictionary iteration basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary iteration basic in Python can loop over keys, values, or key-value pairs. Beginners use it to process records stored by names or identifiers. The items method is useful when both key and value are needed.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary iteration basic",
+      "Dictionary iteration basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_set_uniqueness_basic",
+    "title": "Set uniqueness basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Set uniqueness basic in Python keeps only unique values and removes duplicates. Beginners use it to find distinct items such as unique words or IDs. Sets are not designed to preserve a meaningful order.",
+    "tags": [
+      "python",
+      "data structure",
+      "set"
+    ],
+    "aliases": [
+      "Set uniqueness basic",
+      "Set uniqueness basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_set_membership_basic",
+    "title": "Set membership check",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Set membership check in Python is often efficient for checking whether a value exists. Beginners use it to speed up repeated membership tests. A set is a good choice when uniqueness and lookup matter more than order.",
+    "tags": [
+      "python",
+      "data structure",
+      "set"
+    ],
+    "aliases": [
+      "Set membership check",
+      "Set membership check là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_set_add_remove_basic",
+    "title": "Set add and remove",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Set add and remove in Python changes the contents of a set by inserting or deleting values. Beginners use it to maintain a collection of unique items. Remove can error if the value is missing, while discard avoids that error.",
+    "tags": [
+      "python",
+      "data structure",
+      "set"
+    ],
+    "aliases": [
+      "Set add and remove",
+      "Set add and remove là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_vs_tuple_basic",
+    "title": "List versus tuple",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List versus tuple in Python compares editable lists with fixed tuples. Beginners use it to choose the right container for changing or fixed data. A tuple can signal that the group of values should stay stable.",
+    "tags": [
+      "python",
+      "data structure",
+      "tuple"
+    ],
+    "aliases": [
+      "List versus tuple",
+      "List versus tuple là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tuple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_list_vs_set_basic",
+    "title": "List versus set",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List versus set in Python compares ordered, indexable lists with unique, unordered sets. Beginners use it to choose between keeping duplicates and removing duplicates. Use a list when order and repeated values matter.",
+    "tags": [
+      "python",
+      "data structure",
+      "set"
+    ],
+    "aliases": [
+      "List versus set",
+      "List versus set là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dict_vs_list_lookup",
+    "title": "Dictionary versus list lookup",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary versus list lookup in Python compares finding data by key with scanning a sequence by position or condition. Beginners use it to store records when each item has a clear key. A dictionary often makes lookup code simpler than many if statements.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary versus list lookup",
+      "Dictionary versus list lookup là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_stack_with_list",
+    "title": "Stack with Python list",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Stack with Python list in Python uses append and pop to follow last-in, first-out behavior. Beginners use it to model undo steps, nested parsing, or simple backtracking. It is a concept beginners can practice before advanced data structures.",
+    "tags": [
+      "python",
+      "data structure",
+      "stack"
+    ],
+    "aliases": [
+      "Stack with Python list",
+      "Stack with Python list là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_queue_concept_basic",
+    "title": "Queue concept basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Queue concept basic in Python follows first-in, first-out behavior. Beginners use it to model lines, tasks, or messages waiting to be processed. For efficient large queues in Python, specialized containers are better than popping from the front of a list.",
+    "tags": [
+      "python",
+      "data structure",
+      "queue"
+    ],
+    "aliases": [
+      "Queue concept basic",
+      "Queue concept basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_string_as_sequence",
+    "title": "String as sequence",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "String as sequence in Python means a string can be indexed, sliced, and looped over like other sequences. Beginners use it to inspect characters in text exercises. Strings are immutable, so character changes require making a new string.",
+    "tags": [
+      "python",
+      "data structure",
+      "string"
+    ],
+    "aliases": [
+      "String as sequence",
+      "String as sequence là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_mutable_default_list_warning",
+    "title": "Mutable default list warning",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Mutable default list warning in Python happens when a default list parameter is reused across function calls. Beginners use it to avoid surprising shared state in functions. Use None as the default and create a new list inside the function.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Mutable default list warning",
+      "Mutable default list warning là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_shallow_copy_list",
+    "title": "Shallow copy of list",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Shallow copy of list in Python copies the outer list but not necessarily nested objects inside it. Beginners use it to avoid changing the original top-level list by accident. Nested lists may still be shared and need special care.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Shallow copy of list",
+      "Shallow copy of list là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_aliasing_mutable_lists",
+    "title": "Aliasing mutable lists",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Aliasing mutable lists in Python means two names can refer to the same list object. Beginners use it to understand why changing one name may appear to change another. Use copying when independent lists are needed.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Aliasing mutable lists",
+      "Aliasing mutable lists là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_sort_list_method",
+    "title": "List sort method",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "List sort method in Python sorts a list in place. Beginners use it to arrange values directly inside the original list. It returns None, so beginners should not assign the result back to the list variable.",
+    "tags": [
+      "python",
+      "data structure",
+      "sorting"
+    ],
+    "aliases": [
+      "List sort method",
+      "List sort method là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sorting_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_sorted_function_basic",
+    "title": "Sorted function basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Sorted function basic in Python returns a new sorted list from an iterable. Beginners use it to keep the original data unchanged while getting sorted output. It is different from the list sort method.",
+    "tags": [
+      "python",
+      "data structure",
+      "sorting"
+    ],
+    "aliases": [
+      "Sorted function basic",
+      "Sorted function basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sorting_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_reverse_list_basic",
+    "title": "Reverse list basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Reverse list basic in Python changes or produces items in the opposite order depending on the technique used. Beginners use it to display data backward or undo simple sequences. Beginners should distinguish reversed output from modifying the original list.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Reverse list basic",
+      "Reverse list basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_key_error",
+    "title": "Dictionary KeyError basic",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Dictionary KeyError basic in Python happens when code tries to read a missing dictionary key directly. Beginners use it to debug missing data or wrong key spelling. The get method or an in check can prevent this error.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Dictionary KeyError basic",
+      "Dictionary KeyError basic là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_tuple_as_dict_key",
+    "title": "Tuple as dictionary key",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Tuple as dictionary key in Python works because tuples are immutable when their contents are hashable. Beginners use it to store combined keys like row and column or first and last name. Lists cannot be dictionary keys because they are mutable.",
+    "tags": [
+      "python",
+      "data structure",
+      "tuple"
+    ],
+    "aliases": [
+      "Tuple as dictionary key",
+      "Tuple as dictionary key là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Tuple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_table_list_of_dicts",
+    "title": "Table as list of dictionaries",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Table as list of dictionaries in Python represents rows as dictionaries inside a list. Beginners use it to store simple records such as students, products, or contacts. This pattern is beginner-friendly before using a real database.",
+    "tags": [
+      "python",
+      "data structure",
+      "dict"
+    ],
+    "aliases": [
+      "Table as list of dictionaries",
+      "Table as list of dictionaries là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_data_structure_choice",
+    "title": "Choosing a data structure",
+    "category": "python",
+    "subcategory": "data structures",
+    "content": "Choosing a data structure in Python means selecting a container based on the job. Beginners use it to write simpler programs with fewer bugs. Use lists for order, dictionaries for key lookup, sets for uniqueness, and tuples for fixed groups.",
+    "tags": [
+      "python",
+      "data structure",
+      "list"
+    ],
+    "aliases": [
+      "Choosing a data structure",
+      "Choosing a data structure là gì",
+      "list tuple dict set",
+      "cấu trúc dữ liệu Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_linear_search_basic",
+    "title": "Linear search basic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Linear search basic checks items one by one until the target is found or the data ends. It is useful when programmers need to search small or unsorted collections. It is simple but can be slow for very large data.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "linear"
+    ],
+    "aliases": [
+      "Linear search basic",
+      "Linear search basic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_search",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_binary_search_sorted_requirement",
+    "title": "Binary search sorted requirement",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Binary search sorted requirement checks the middle of a sorted list and discards half the range each step. It is useful when programmers need to search large sorted data efficiently. It only works correctly when the data is sorted in the expected order.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "binary"
+    ],
+    "aliases": [
+      "Binary search sorted requirement",
+      "Binary search sorted requirement là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Binary_search_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_bubble_sort_idea",
+    "title": "Bubble sort idea",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Bubble sort idea repeatedly compares neighboring items and swaps them when they are out of order. It is useful when programmers need to learn sorting logic with a simple method. It is usually not efficient for large lists.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "bubble"
+    ],
+    "aliases": [
+      "Bubble sort idea",
+      "Bubble sort idea là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bubble_sort",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_selection_sort_idea",
+    "title": "Selection sort idea",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Selection sort idea repeatedly selects the smallest remaining item and moves it into place. It is useful when programmers need to understand sorting through clear repeated choices. It is easy to explain but not usually the fastest sort.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "selection"
+    ],
+    "aliases": [
+      "Selection sort idea",
+      "Selection sort idea là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Selection_sort",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_insertion_sort_idea",
+    "title": "Insertion sort idea",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Insertion sort idea builds a sorted part by inserting each new item into the right position. It is useful when programmers need to sort small or nearly sorted lists conceptually. It helps beginners understand how ordered sections grow.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "insertion"
+    ],
+    "aliases": [
+      "Insertion sort idea",
+      "Insertion sort idea là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Insertion_sort",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_time_complexity_beginner",
+    "title": "Time complexity beginner idea",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Time complexity beginner idea describes how running time tends to grow as input size grows. It is useful when programmers need to compare algorithms without testing every possible input. It is an estimate of growth, not an exact stopwatch measurement.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "sorting"
+    ],
+    "aliases": [
+      "Time complexity beginner idea",
+      "Time complexity beginner idea là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sorting_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_big_o_simple",
+    "title": "Big O simple meaning",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Big O simple meaning is a common notation for describing growth of time or memory use. It is useful when programmers need to talk about algorithms at a high level. Beginners should focus on broad patterns like linear, logarithmic, and quadratic.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "sorting"
+    ],
+    "aliases": [
+      "Big O simple meaning",
+      "Big O simple meaning là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Sorting_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_recursion_base_case",
+    "title": "Recursion needs base case",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Recursion needs base case means a function calls itself to solve a smaller version of a problem. It is useful when programmers need to write solutions for factorial, tree-like data, or repeated structure. A base case is required to stop infinite recursive calls.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "recursion"
+    ],
+    "aliases": [
+      "Recursion needs base case",
+      "Recursion needs base case là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_factorial_recursive",
+    "title": "Factorial recursive idea",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Factorial recursive idea multiplies a positive integer by all smaller positive integers down to one. It is useful when programmers need to practice recursion or loops with a clear mathematical rule. The base case usually handles 0 or 1.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "factorial"
+    ],
+    "aliases": [
+      "Factorial recursive idea",
+      "Factorial recursive idea là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Factorial",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_factorial_loop",
+    "title": "Factorial loop version",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Factorial loop version uses a loop and an accumulator to multiply values from 1 to n. It is useful when programmers need to solve factorial without recursion. It is often easier for beginners to trace than recursive calls.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "factorial"
+    ],
+    "aliases": [
+      "Factorial loop version",
+      "Factorial loop version là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Factorial",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_fibonacci_basic",
+    "title": "Fibonacci sequence basic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Fibonacci sequence basic starts with small initial values and makes each next value from the previous two. It is useful when programmers need to practice loops, recursion, and sequence generation. Naive recursion can become very slow because it repeats work.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "fibonacci"
+    ],
+    "aliases": [
+      "Fibonacci sequence basic",
+      "Fibonacci sequence basic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_fibonacci_loop",
+    "title": "Fibonacci loop version",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Fibonacci loop version stores the previous two values and updates them repeatedly. It is useful when programmers need to generate Fibonacci numbers efficiently for beginner exercises. Carefully handle the first few positions before the loop.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "fibonacci"
+    ],
+    "aliases": [
+      "Fibonacci loop version",
+      "Fibonacci loop version là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_prime_number_check",
+    "title": "Prime number check",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Prime number check tests whether a number greater than one has no positive divisors except one and itself. It is useful when programmers need to practice loops, modulo, and early stopping. Checking divisors up to the square root is a common improvement.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "prime"
+    ],
+    "aliases": [
+      "Prime number check",
+      "Prime number check là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Prime_number",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_even_odd_check",
+    "title": "Even or odd check",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Even or odd check uses the remainder after division by two. It is useful when programmers need to practice modulo and simple conditions. A number is even when n % 2 equals 0.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "operator"
+    ],
+    "aliases": [
+      "Even or odd check",
+      "Even or odd check là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_palindrome_string",
+    "title": "Palindrome string check",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Palindrome string check tests whether text reads the same forward and backward. It is useful when programmers need to practice strings, slicing, and normalization. Spaces, punctuation, and case can affect the answer unless cleaned first.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "palindrome"
+    ],
+    "aliases": [
+      "Palindrome string check",
+      "Palindrome string check là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Palindrome",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_gcd_euclid",
+    "title": "Greatest common divisor Euclid",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Greatest common divisor Euclid finds the largest positive integer that divides two numbers. It is useful when programmers need to practice loops and repeated remainders. The Euclidean algorithm is a classic efficient method.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "gcd"
+    ],
+    "aliases": [
+      "Greatest common divisor Euclid",
+      "Greatest common divisor Euclid là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Greatest_common_divisor",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_lcm_using_gcd",
+    "title": "Least common multiple using GCD",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Least common multiple using GCD can be computed from two numbers using their product and greatest common divisor. It is useful when programmers need to connect related number theory exercises. Special care is needed when one of the numbers is zero.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "lcm"
+    ],
+    "aliases": [
+      "Least common multiple using GCD",
+      "Least common multiple using GCD là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Least_common_multiple",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_leap_year_rules",
+    "title": "Leap year rules",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Leap year rules decide whether a year has an extra day in February under calendar rules. It is useful when programmers need to practice compound conditions with and and or. The century rule makes the exercise more than just divisible by four.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "leap"
+    ],
+    "aliases": [
+      "Leap year rules",
+      "Leap year rules là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Leap_year",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_matrix_addition",
+    "title": "Matrix addition basic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Matrix addition basic adds matching entries from two matrices with the same shape. It is useful when programmers need to practice nested loops or nested list comprehensions. The row and column sizes must match.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "matrix"
+    ],
+    "aliases": [
+      "Matrix addition basic",
+      "Matrix addition basic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_matrix_multiplication_intro",
+    "title": "Matrix multiplication intro",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Matrix multiplication intro combines rows from the first matrix with columns from the second matrix. It is useful when programmers need to practice nested loops and dot-product style calculations. The number of columns in the first matrix must match the number of rows in the second.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "matrix"
+    ],
+    "aliases": [
+      "Matrix multiplication intro",
+      "Matrix multiplication intro là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_find_max_min_list",
+    "title": "Find max and min in list",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Find max and min in list scans values to find the largest or smallest item. It is useful when programmers need to practice loops, comparisons, and initialization. Built-in functions exist, but writing the loop teaches the algorithm.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "list"
+    ],
+    "aliases": [
+      "Find max and min in list",
+      "Find max and min in list là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_sum_average_list",
+    "title": "Sum and average list",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Sum and average list adds values and divides by the count when the list is not empty. It is useful when programmers need to practice accumulators and simple statistics. Check for an empty list before dividing.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "list"
+    ],
+    "aliases": [
+      "Sum and average list",
+      "Sum and average list là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_count_frequency_dict",
+    "title": "Count frequency with dictionary",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Count frequency with dictionary uses keys as items and values as counts. It is useful when programmers need to count words, letters, or repeated numbers. A default value or get method prevents missing-key errors.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "dict"
+    ],
+    "aliases": [
+      "Count frequency with dictionary",
+      "Count frequency with dictionary là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_remove_duplicates_set",
+    "title": "Remove duplicates with set",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Remove duplicates with set uses set uniqueness to keep only distinct values. It is useful when programmers need to clean simple lists or count unique items. A plain set may not preserve the original order.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "set"
+    ],
+    "aliases": [
+      "Remove duplicates with set",
+      "Remove duplicates with set là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_reverse_string",
+    "title": "Reverse string exercise",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Reverse string exercise creates text in the opposite order using slicing, a loop, or reversed. It is useful when programmers need to practice sequence operations. It is often paired with palindrome checking.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "string"
+    ],
+    "aliases": [
+      "Reverse string exercise",
+      "Reverse string exercise là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_count_vowels",
+    "title": "Count vowels exercise",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Count vowels exercise loops through characters and counts those that match a vowel set. It is useful when programmers need to practice strings, membership tests, and counters. Case conversion helps avoid missing uppercase vowels.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "string"
+    ],
+    "aliases": [
+      "Count vowels exercise",
+      "Count vowels exercise là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_anagram_check_basic",
+    "title": "Anagram check basic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Anagram check basic tests whether two words or phrases contain the same letters in different order. It is useful when programmers need to practice sorting or frequency dictionaries. Cleaning spaces and case makes the result more meaningful.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "string"
+    ],
+    "aliases": [
+      "Anagram check basic",
+      "Anagram check basic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_two_sum_bruteforce",
+    "title": "Two sum brute force",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Two sum brute force checks pairs of numbers to find two values that reach a target sum. It is useful when programmers need to practice nested loops and pair logic. It is simple but can be slow for large lists.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "list"
+    ],
+    "aliases": [
+      "Two sum brute force",
+      "Two sum brute force là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_running_sum_basic",
+    "title": "Running sum basic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Running sum basic builds a new list where each value is the total so far. It is useful when programmers need to practice accumulators and list construction. Initialize the total before the loop and update it in order.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "list"
+    ],
+    "aliases": [
+      "Running sum basic",
+      "Running sum basic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_nested_loop_pairs",
+    "title": "Nested loop pairs",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Nested loop pairs uses two loops to examine combinations or pairs of items. It is useful when programmers need to solve beginner problems such as pair sums or comparison tables. The number of checks grows quickly as data gets larger.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "for"
+    ],
+    "aliases": [
+      "Nested loop pairs",
+      "Nested loop pairs là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/For_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_break_when_found",
+    "title": "Break when target found",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Break when target found stops a search loop as soon as the answer is found. It is useful when programmers need to avoid unnecessary extra checks. The program should still handle the case where the target is never found.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "search"
+    ],
+    "aliases": [
+      "Break when target found",
+      "Break when target found là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Search_algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_input_until_valid",
+    "title": "Input until valid",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Input until valid keeps asking until the user gives acceptable input. It is useful when programmers need to practice while loops and validation logic. The prompt should explain the expected format or range.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "while"
+    ],
+    "aliases": [
+      "Input until valid",
+      "Input until valid là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/While_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_menu_program_design",
+    "title": "Menu program design",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Menu program design lets users choose actions from repeated numbered or named options. It is useful when programmers need to practice loops, conditions, and functions together. A menu should include a clear exit choice.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "control"
+    ],
+    "aliases": [
+      "Menu program design",
+      "Menu program design là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_number_guessing_game",
+    "title": "Number guessing game",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Number guessing game uses random numbers, input, conditions, and loops. It is useful when programmers need to practice interactive program flow. The program should tell the user whether the guess is too high, too low, or correct.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise"
+    ],
+    "aliases": [
+      "Number guessing game",
+      "Number guessing game là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_rock_paper_scissors_logic",
+    "title": "Rock paper scissors logic",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Rock paper scissors logic compares two choices to decide win, lose, or draw. It is useful when programmers need to practice conditionals and random choice. The outcome rules should be written clearly to avoid missing cases.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "rps"
+    ],
+    "aliases": [
+      "Rock paper scissors logic",
+      "Rock paper scissors logic là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rock_paper_scissors",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_simple_calculator_project",
+    "title": "Simple calculator project",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Simple calculator project combines input, conversion, operators, and branching. It is useful when programmers need to practice a full beginner console program. Handle division by zero and invalid operator choices.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "operator"
+    ],
+    "aliases": [
+      "Simple calculator project",
+      "Simple calculator project là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_temperature_converter_project",
+    "title": "Temperature converter project",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Temperature converter project converts values between temperature scales using formulas. It is useful when programmers need to practice numeric input, arithmetic, and formatted output. The exercise is about programming logic, not advanced physics.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "operator"
+    ],
+    "aliases": [
+      "Temperature converter project",
+      "Temperature converter project là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_text_file_word_count",
+    "title": "Text file word count",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Text file word count reads text and counts words or lines. It is useful when programmers need to practice file handling, strings, and dictionaries. File paths and encoding can cause errors if not handled carefully.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "file"
+    ],
+    "aliases": [
+      "Text file word count",
+      "Text file word count là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_grade_average_project",
+    "title": "Grade average project",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Grade average project stores several scores and computes totals, averages, and simple labels. It is useful when programmers need to practice lists, loops, and conditions. Check that the list is not empty before calculating an average.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "list"
+    ],
+    "aliases": [
+      "Grade average project",
+      "Grade average project là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_student_list_project",
+    "title": "Student list project",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Student list project stores student records using lists or dictionaries. It is useful when programmers need to practice data structures and menu actions. It is a small step toward database-style thinking without using a real database.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "dict"
+    ],
+    "aliases": [
+      "Student list project",
+      "Student list project là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_matrix_input_project",
+    "title": "Matrix input project",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Matrix input project asks users for rows and columns and stores numbers in nested lists. It is useful when programmers need to practice loops, conversion, and indexing. Validate dimensions and numeric input to avoid confusing errors.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "matrix"
+    ],
+    "aliases": [
+      "Matrix input project",
+      "Matrix input project là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_testing_edge_cases",
+    "title": "Testing edge cases",
+    "category": "programming",
+    "subcategory": "algorithms",
+    "content": "Testing edge cases means checking unusual inputs such as empty lists, zero, one item, or repeated values. It is useful when programmers need to find bugs that normal examples miss. Beginner solutions often fail at boundaries rather than typical cases.",
+    "tags": [
+      "algorithm",
+      "python",
+      "exercise",
+      "debug"
+    ],
+    "aliases": [
+      "Testing edge cases",
+      "Testing edge cases là gì",
+      "bài tập Python",
+      "Python exercise"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_class_template_basic",
+    "title": "Python class template",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python class template in Python defines a blueprint for creating objects with related data and behavior. Beginners use it to group attributes and methods into a reusable design. A class is not the same as one specific object.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python class template",
+      "Python class template là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_object_instance_basic",
+    "title": "Python object instance",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python object instance in Python is a specific value created from a class. Beginners use it to represent one student, account, player, or item. Many objects can be created from the same class template.",
+    "tags": [
+      "python",
+      "oop"
+    ],
+    "aliases": [
+      "Python object instance",
+      "Python object instance là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_attribute_basic",
+    "title": "Python attribute basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python attribute basic in Python is data stored on an object or class. Beginners use it to remember properties such as name, score, or balance. Attributes should be named clearly so object state is easy to understand.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python attribute basic",
+      "Python attribute basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_method_basic",
+    "title": "Python method basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python method basic in Python is a function that belongs to a class or object. Beginners use it to make an object perform behavior using its own data. Instance methods usually receive self as the first parameter.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python method basic",
+      "Python method basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_constructor_init",
+    "title": "Python __init__ constructor",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python __init__ constructor in Python sets up a new object when it is created. Beginners use it to give initial values to attributes. It is often called the constructor in beginner explanations.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python __init__ constructor",
+      "Python __init__ constructor là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_self_parameter_basic",
+    "title": "Python self parameter",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python self parameter in Python refers to the current object inside an instance method. Beginners use it to access that object's attributes and other methods. Beginners should include self in method definitions even though it is not passed manually in normal calls.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python self parameter",
+      "Python self parameter là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_instance_vs_class_attribute",
+    "title": "Instance versus class attribute",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Instance versus class attribute in Python separates data stored on each object from data shared by the class. Beginners use it to avoid accidental shared state between objects. Most beginner object data should usually be instance attributes.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Instance versus class attribute",
+      "Instance versus class attribute là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_inheritance_basic",
+    "title": "Inheritance basic idea",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Inheritance basic idea in Python lets one class reuse or extend behavior from another class. Beginners use it to model an is-a relationship at a simple level. It should not be used just to avoid typing code when composition is clearer.",
+    "tags": [
+      "python",
+      "oop"
+    ],
+    "aliases": [
+      "Inheritance basic idea",
+      "Inheritance basic idea là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dunder_str_basic",
+    "title": "Python __str__ method",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python __str__ method in Python defines a human-readable string for an object. Beginners use it to make print output clearer for custom classes. It is useful in debugging and small OOP exercises.",
+    "tags": [
+      "python",
+      "oop",
+      "class"
+    ],
+    "aliases": [
+      "Python __str__ method",
+      "Python __str__ method là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Class_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_exception_try_except",
+    "title": "Try except basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Try except basic in Python handles errors so the program can respond instead of stopping immediately. Beginners use it to deal with invalid input, missing files, or failed conversions. Catch specific exceptions when possible instead of hiding every problem.",
+    "tags": [
+      "python",
+      "oop",
+      "exception"
+    ],
+    "aliases": [
+      "Try except basic",
+      "Try except basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Exception_handling",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_raise_exception_basic",
+    "title": "Raise exception basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Raise exception basic in Python intentionally signals that something went wrong. Beginners use it to reject invalid states or inputs inside functions. The error message should explain the problem clearly.",
+    "tags": [
+      "python",
+      "oop",
+      "exception"
+    ],
+    "aliases": [
+      "Raise exception basic",
+      "Raise exception basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Exception_handling",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_finally_block_basic",
+    "title": "Finally block basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Finally block basic in Python runs cleanup code after try and except handling. Beginners use it to close resources or perform steps that should happen either way. With file handling, a with statement is often simpler.",
+    "tags": [
+      "python",
+      "oop",
+      "exception"
+    ],
+    "aliases": [
+      "Finally block basic",
+      "Finally block basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Exception_handling",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_file_reading_basic",
+    "title": "File reading basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "File reading basic in Python loads data from a file stored on the file system. Beginners use it to process text, configuration, or saved records. The path must point to the correct file location.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "File reading basic",
+      "File reading basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_file_writing_basic",
+    "title": "File writing basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "File writing basic in Python saves text or data to a file. Beginners use it to store output, logs, or simple user records. Writing with the wrong mode can overwrite existing content.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "File writing basic",
+      "File writing basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_with_open_context_manager",
+    "title": "With open context manager",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "With open context manager in Python opens a file and closes it automatically when the block finishes. Beginners use it to avoid forgetting to close files. It is the common beginner-friendly pattern for file reading and writing.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "With open context manager",
+      "With open context manager là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_file_path_basic",
+    "title": "File path basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "File path basic in Python describes where a file is located in folders. Beginners use it to find files correctly when reading or writing. Relative paths depend on the current working directory.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "File path basic",
+      "File path basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_file_encoding_utf8",
+    "title": "UTF-8 encoding caution",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "UTF-8 encoding caution in Python describes how text characters are stored as bytes. Beginners use it to read and write non-English text more reliably. Specifying UTF-8 can prevent many Vietnamese text problems.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "UTF-8 encoding caution",
+      "UTF-8 encoding caution là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_csv_basic_format",
+    "title": "CSV basic format",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "CSV basic format in Python stores table-like data as rows of text with separated values. Beginners use it to exchange simple spreadsheet-style data. CSV is a file format, not a full database system.",
+    "tags": [
+      "python",
+      "oop",
+      "csv"
+    ],
+    "aliases": [
+      "CSV basic format",
+      "CSV basic format là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Comma-separated_values",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_csv_reader_use",
+    "title": "CSV reader use",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "CSV reader use in Python helps parse rows and fields from comma-separated text. Beginners use it to avoid manual splitting problems with quoted commas. It is useful for beginner data processing projects.",
+    "tags": [
+      "python",
+      "oop",
+      "csv"
+    ],
+    "aliases": [
+      "CSV reader use",
+      "CSV reader use là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Comma-separated_values",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_regex_basic_pattern",
+    "title": "Regular expression basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Regular expression basic in Python is a pattern language for matching text. Beginners use it to find formats like emails, numbers, or repeated words. Regex is powerful but can become hard to read when patterns are too complex.",
+    "tags": [
+      "python",
+      "oop",
+      "regex"
+    ],
+    "aliases": [
+      "Regular expression basic",
+      "Regular expression basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Regular_expression",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_regex_readability_caution",
+    "title": "Regex readability caution",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Regex readability caution in Python means a clever pattern can be difficult to understand later. Beginners use it to keep text matching maintainable. Beginners should use small patterns and comments when a regex grows complicated.",
+    "tags": [
+      "python",
+      "oop",
+      "regex"
+    ],
+    "aliases": [
+      "Regex readability caution",
+      "Regex readability caution là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Regular_expression",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_random_module_basic",
+    "title": "Random module basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Random module basic in Python provides tools for random choices and random numbers. Beginners use it to build games, simulations, and practice exercises. Random output makes tests less predictable unless the design accounts for it.",
+    "tags": [
+      "python",
+      "oop",
+      "library"
+    ],
+    "aliases": [
+      "Random module basic",
+      "Random module basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Standard_library",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_math_module_basic",
+    "title": "Math module basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Math module basic in Python provides common mathematical functions and constants. Beginners use it to use square roots, trigonometry, and other numeric tools. It is different from basic operators like + and *.",
+    "tags": [
+      "python",
+      "oop",
+      "library"
+    ],
+    "aliases": [
+      "Math module basic",
+      "Math module basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Standard_library",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_json_file_basic",
+    "title": "Python JSON file basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python JSON file basic in Python uses JSON text to store structured data like lists and dictionaries. Beginners use it to save simple configuration or records. The file must contain valid JSON syntax before it can be parsed.",
+    "tags": [
+      "python",
+      "oop",
+      "file"
+    ],
+    "aliases": [
+      "Python JSON file basic",
+      "Python JSON file basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_module_file_basic",
+    "title": "Python module file basic",
+    "category": "python",
+    "subcategory": "oop and expanded skills",
+    "content": "Python module file basic in Python is a Python file that can be imported by another Python file. Beginners use it to organize reusable functions and classes. Avoid circular imports when modules depend on each other.",
+    "tags": [
+      "python",
+      "oop",
+      "library"
+    ],
+    "aliases": [
+      "Python module file basic",
+      "Python module file basic là gì",
+      "class Python",
+      "try except Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Standard_library",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_syntax_error_basic",
+    "title": "Python syntax error",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python syntax error in Python happens when Python cannot understand the structure of the code. Beginners use it to find mistakes such as missing colons, unmatched quotes, or incomplete parentheses. Read the reported line and nearby lines first.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python syntax error",
+      "Python syntax error là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Syntax_error",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_indentation_error_basic",
+    "title": "Python indentation error",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python indentation error in Python happens when spaces or tabs do not form a valid block structure. Beginners use it to fix code inside if statements, loops, functions, or classes. Consistent indentation is essential in Python.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python indentation error",
+      "Python indentation error là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Syntax_error",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_name_error_basic",
+    "title": "Python NameError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python NameError basic in Python happens when code uses a name Python cannot find. Beginners use it to spot misspelled variables or variables used before assignment. Check spelling, capitalization, and where the name was created.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python NameError basic",
+      "Python NameError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_type_error_basic",
+    "title": "Python TypeError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python TypeError basic in Python happens when an operation receives a value of an unsuitable type. Beginners use it to debug mistakes like adding a string to an integer. Use type checks or conversions when input types are uncertain.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python TypeError basic",
+      "Python TypeError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_value_error_basic",
+    "title": "Python ValueError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python ValueError basic in Python happens when the type is acceptable but the value itself is invalid. Beginners use it to understand failed conversions like int(\"abc\"). Validate or handle user input instead of assuming it is correct.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python ValueError basic",
+      "Python ValueError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_index_error_basic",
+    "title": "Python IndexError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python IndexError basic in Python happens when code asks for a sequence position that does not exist. Beginners use it to debug list, tuple, or string indexing. Check the length and remember that indexes start at zero.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python IndexError basic",
+      "Python IndexError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_key_error_basic",
+    "title": "Python KeyError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python KeyError basic in Python happens when a dictionary key is missing. Beginners use it to debug lookups in dictionaries and JSON-like data. Use in checks or get when missing keys are possible.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python KeyError basic",
+      "Python KeyError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_zero_division_error",
+    "title": "Python ZeroDivisionError",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python ZeroDivisionError in Python happens when code divides by zero. Beginners use it to debug calculators and average formulas. Check the divisor before division. A beginner answer should stay concrete, use small examples, and avoid confusing advanced details.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python ZeroDivisionError",
+      "Python ZeroDivisionError là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_attribute_error_basic",
+    "title": "Python AttributeError basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python AttributeError basic in Python happens when an object does not have the requested attribute or method. Beginners use it to spot wrong object types or misspelled method names. Printing the type can help reveal the mistake.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python AttributeError basic",
+      "Python AttributeError basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_import_error_basic",
+    "title": "Python import error basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Python import error basic in Python happens when Python cannot import a module or name. Beginners use it to debug missing files, wrong names, or environment problems. Check the module name, installation, and current project folder.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Python import error basic",
+      "Python import error basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_traceback_reading",
+    "title": "Reading a Python traceback",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Reading a Python traceback in Python means following the error report that shows where the program failed. Beginners use it to locate the file, line number, and error type. The last line often contains the most important error name.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Reading a Python traceback",
+      "Reading a Python traceback là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_print_debugging_basic",
+    "title": "Print debugging basic",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Print debugging basic in Python uses print statements to show values while the program runs. Beginners use it to check which branch ran or how a variable changed. Remove or clean up extra prints after fixing the problem.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Print debugging basic",
+      "Print debugging basic là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_test_small_parts",
+    "title": "Test small parts first",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Test small parts first in Python means checking one function or small block before running the whole program. Beginners use it to find bugs faster and reduce confusion. Large programs are easier to debug when pieces are trusted.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Test small parts first",
+      "Test small parts first là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_reproduce_error_input",
+    "title": "Reproduce error input",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Reproduce error input in Python means finding the exact input or action that triggers a bug. Beginners use it to turn a vague problem into a specific test case. Write the failing example down before trying many fixes.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Reproduce error input",
+      "Reproduce error input là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_check_variable_type",
+    "title": "Check variable type while debugging",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Check variable type while debugging in Python means using type or simple prints to see what kind of value a name holds. Beginners use it to explain TypeError, wrong input, or failed conversion. It is especially useful after input, file reading, and JSON parsing.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Check variable type while debugging",
+      "Check variable type while debugging là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_type",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_infinite_loop_debugging",
+    "title": "Debugging infinite loop",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Debugging infinite loop in Python means checking whether the loop condition can ever become false. Beginners use it to fix programs that never stop running. Inspect counter updates, break conditions, and user input paths.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Debugging infinite loop",
+      "Debugging infinite loop là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Infinite_loop",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_wrong_condition_debugging",
+    "title": "Wrong condition debugging",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Wrong condition debugging in Python happens when an if or while condition does not match the intended logic. Beginners use it to fix branches that run too often or not at all. Test boundary values and print the condition result.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Wrong condition debugging",
+      "Wrong condition debugging là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_float_comparison_bug",
+    "title": "Float comparison bug",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Float comparison bug in Python can happen when tiny floating-point rounding errors make exact equality unreliable. Beginners use it to debug decimal calculations. Compare within a small tolerance when exact equality is not safe.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Float comparison bug",
+      "Float comparison bug là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_shadow_builtin_name",
+    "title": "Shadowing built-in names",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Shadowing built-in names in Python happens when a variable uses a name like list, str, or input. Beginners use it to avoid breaking access to useful built-in functions. Rename the variable to something more specific.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Shadowing built-in names",
+      "Shadowing built-in names là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_missing_return_bug",
+    "title": "Missing return bug",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Missing return bug in Python happens when a function computes a value but does not return it. Beginners use it to debug unexpected None results. Check all branches of the function, not only the main path.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Missing return bug",
+      "Missing return bug là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Subroutine",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_beginner_debugging_workflow",
+    "title": "Beginner debugging workflow",
+    "category": "python",
+    "subcategory": "debugging",
+    "content": "Beginner debugging workflow in Python starts with reading the error, reproducing the problem, checking inputs, and testing a small section. Beginners use it to fix bugs methodically instead of guessing. Changing many things at once can hide the real cause.",
+    "tags": [
+      "python",
+      "debugging",
+      "error"
+    ],
+    "aliases": [
+      "Beginner debugging workflow",
+      "Beginner debugging workflow là gì",
+      "lỗi Python",
+      "debug Python"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Debugging",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_number_guessing",
+    "title": "Number guessing mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Number guessing mini project in Python asks the program to choose a number and the user to guess it. Beginners use it to practice loops, input, comparisons, and random numbers. Give feedback such as too high or too low after each guess.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Number guessing mini project",
+      "Number guessing mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_rock_paper_scissors",
+    "title": "Rock paper scissors mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Rock paper scissors mini project in Python lets the user play against a random computer choice. Beginners use it to practice conditionals, input cleaning, and repeated rounds. Write the win rules clearly so draw and invalid input cases are handled.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Rock paper scissors mini project",
+      "Rock paper scissors mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Rock_paper_scissors",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_simple_calculator",
+    "title": "Simple calculator mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Simple calculator mini project in Python takes two numbers and an operation from the user. Beginners use it to practice conversion, branching, and formatted output. Check invalid operators and division by zero.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Simple calculator mini project",
+      "Simple calculator mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_unit_converter",
+    "title": "Unit converter mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Unit converter mini project in Python changes values from one unit to another using formulas. Beginners use it to practice numeric input and clear output. The program should state which units it supports.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Unit converter mini project",
+      "Unit converter mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Operator_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_grade_average",
+    "title": "Grade average mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Grade average mini project in Python stores scores and computes an average or simple grade label. Beginners use it to practice lists, loops, and validation. Handle an empty score list before division.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Grade average mini project",
+      "Grade average mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_shopping_list",
+    "title": "Shopping list mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Shopping list mini project in Python lets users add, view, and remove items from a list. Beginners use it to practice menu loops and list operations. The project teaches how user choices change program state.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Shopping list mini project",
+      "Shopping list mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_todo_list",
+    "title": "To-do list mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "To-do list mini project in Python stores tasks and lets the user mark or remove them. Beginners use it to practice lists, dictionaries, and simple menus. Saving tasks to a file can be added after the basic version works.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "To-do list mini project",
+      "To-do list mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_(abstract_data_type)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_contact_book",
+    "title": "Contact book mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Contact book mini project in Python stores names with phone numbers or emails. Beginners use it to practice dictionary lookup, update, and deletion. It is a beginner example of key-value data.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Contact book mini project",
+      "Contact book mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Associative_array",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_password_checker",
+    "title": "Password checker mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Password checker mini project in Python checks a password against simple rules such as length or character types. Beginners use it to practice strings, loops, and conditions. It should be described as practice, not as complete security advice.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Password checker mini project",
+      "Password checker mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/String_(computer_science)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_word_counter",
+    "title": "Word counter mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Word counter mini project in Python reads text and counts words or word frequencies. Beginners use it to practice file reading, string splitting, and dictionaries. Cleaning punctuation and case changes the result.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Word counter mini project",
+      "Word counter mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/File_system",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_csv_reader",
+    "title": "CSV reader mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "CSV reader mini project in Python loads rows from a comma-separated file and prints or summarizes them. Beginners use it to practice file paths, CSV parsing, and table-like data. CSV data may contain headers, missing values, or quoted fields.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "CSV reader mini project",
+      "CSV reader mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Comma-separated_values",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_quiz_game",
+    "title": "Quiz game mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Quiz game mini project in Python asks questions, checks answers, and tracks score. Beginners use it to practice input, conditions, loops, and counters. Normalize answers so capitalization does not cause unfair wrong results.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Quiz game mini project",
+      "Quiz game mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_matrix_calculator",
+    "title": "Matrix calculator mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Matrix calculator mini project in Python performs simple matrix input, display, addition, or multiplication. Beginners use it to practice nested lists and nested loops. Check matrix dimensions before doing operations.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Matrix calculator mini project",
+      "Matrix calculator mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_prime_checker",
+    "title": "Prime checker mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Prime checker mini project in Python asks for a number and reports whether it is prime. Beginners use it to practice loops, modulo, and edge cases. Numbers less than two are not prime.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Prime checker mini project",
+      "Prime checker mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Prime_number",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_project_text_adventure",
+    "title": "Text adventure mini project",
+    "category": "python",
+    "subcategory": "beginner exercises",
+    "content": "Text adventure mini project in Python uses menu choices and conditions to move through a simple story. Beginners use it to practice branching logic and state variables. Keep the first version small so the paths are easy to test.",
+    "tags": [
+      "python",
+      "mini project",
+      "beginner exercise"
+    ],
+    "aliases": [
+      "Text adventure mini project",
+      "Text adventure mini project Python",
+      "bài tập Python",
+      "Python project"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Control_flow",
+    "license": "CC BY-SA",
+    "language": "en"
+  }
+]

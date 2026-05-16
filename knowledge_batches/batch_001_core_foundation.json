@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "zenless_zone_zero_overview",
+    "title": "Zenless Zone Zero Overview",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Zenless Zone Zero is an action role-playing game from HoYoverse. It is set in a stylish urban world where dangerous zones called Hollows threaten human life. Players guide characters through combat missions, story scenes, and city activities. For Belle, this topic helps answer basic questions about the game world and its tone.",
+    "tags": [
+      "Zenless Zone Zero",
+      "ZZZ",
+      "HoYoverse",
+      "action RPG"
+    ],
+    "aliases": [
+      "ZZZ",
+      "Zenless",
+      "New Eridu"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "new_eridu_setting",
+    "title": "New Eridu Setting",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "New Eridu is the main city setting of Zenless Zone Zero. It is shown as a lively modern city that survives beside supernatural disasters called Hollows. The city mixes everyday shops, entertainment, technology, and dangerous hidden work. This contrast gives the game a bright surface with darker action underneath.",
+    "tags": [
+      "New Eridu",
+      "ZZZ setting",
+      "city",
+      "Hollows"
+    ],
+    "aliases": [
+      "New Eridu City",
+      "ZZZ city"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "hollows_in_zzz",
+    "title": "Hollows in Zenless Zone Zero",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Hollows are abnormal spaces in Zenless Zone Zero. They are dangerous because normal rules can break down inside them, and hostile creatures may appear. Many missions involve entering or investigating these areas. In a RAG answer, Hollows can be explained as the main hazard that drives the story and combat.",
+    "tags": [
+      "Hollows",
+      "Ether",
+      "ZZZ lore",
+      "danger zones"
+    ],
+    "aliases": [
+      "Hollow",
+      "Hollow zone"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "proxy_role_zzz",
+    "title": "Proxy Role in ZZZ",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "In Zenless Zone Zero, a Proxy helps guide others through dangerous Hollow missions. The role is important because Hollow navigation is risky and confusing. The player perspective is connected to this support role. A chatbot persona based on Belle can use this idea to sound helpful, quick, and mission-focused.",
+    "tags": [
+      "Proxy",
+      "Belle",
+      "Wise",
+      "Hollow navigation"
+    ],
+    "aliases": [
+      "Proxies",
+      "Proxy guide"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_character_basic",
+    "title": "Belle Character Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Belle is one of the sibling protagonists connected to the Proxy identity in Zenless Zone Zero. She is often presented as energetic, casual, and clever. For a chatbot project, Belle can be modeled as friendly and confident without pretending to be an official game service. This keeps the persona fun but clear.",
+    "tags": [
+      "Belle",
+      "Proxy",
+      "ZZZ character",
+      "persona"
+    ],
+    "aliases": [
+      "Belle ZZZ",
+      "female Proxy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "wise_character_basic",
+    "title": "Wise Character Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Wise is the other sibling protagonist associated with the Proxy role in Zenless Zone Zero. He is usually read as calmer and more reserved than Belle. When building dialogue data, Wise can be useful as a contrast point for tone. Belle may sound more playful while still being useful and direct.",
+    "tags": [
+      "Wise",
+      "Proxy",
+      "ZZZ character",
+      "siblings"
+    ],
+    "aliases": [
+      "Wise ZZZ",
+      "male Proxy"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "bangboo_basic",
+    "title": "Bangboo Basic Concept",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Bangboo are small mascot-like helpers in Zenless Zone Zero. They are strongly tied to the game's visual identity and can appear cute while still supporting missions. A simple explanation is that Bangboo are robotic assistants in the ZZZ world. They make the setting feel playful instead of only dangerous.",
+    "tags": [
+      "Bangboo",
+      "mascot",
+      "robot assistant",
+      "ZZZ"
+    ],
+    "aliases": [
+      "Bangboos",
+      "Eous"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_combat_style",
+    "title": "ZZZ Combat Style",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Zenless Zone Zero uses fast action combat with character switching, dodging, and attack timing. Players often build teams and use each character's role to create stronger chains of attacks. The system is easy to describe as arcade-like action with RPG team building. This is useful for simple chatbot answers.",
+    "tags": [
+      "combat",
+      "action RPG",
+      "team switching",
+      "ZZZ gameplay"
+    ],
+    "aliases": [
+      "ZZZ combat",
+      "battle system"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_gacha_structure",
+    "title": "ZZZ Gacha Structure",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Zenless Zone Zero uses a gacha-style character and item acquisition system, similar to several other HoYoverse games. Players can obtain agents and resources through limited or standard banners. A careful chatbot answer should explain the mechanic neutrally and avoid promising luck, rates, or results unless the current game data is checked.",
+    "tags": [
+      "gacha",
+      "banners",
+      "agents",
+      "HoYoverse"
+    ],
+    "aliases": [
+      "signal search",
+      "pulls"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_agents_basic",
+    "title": "Agents in ZZZ",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Agents are playable characters in Zenless Zone Zero. Each agent has a combat style, personality, faction connection, and role in the story. A RAG object should treat an agent as a small unit of knowledge, not mix many characters together. This helps search return focused answers about one character or mechanic.",
+    "tags": [
+      "agents",
+      "playable characters",
+      "ZZZ",
+      "factions"
+    ],
+    "aliases": [
+      "ZZZ agents",
+      "characters"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "cunning_hares_basic",
+    "title": "Cunning Hares Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "The Cunning Hares are a group associated with early Zenless Zone Zero story content. They are often linked with odd jobs, risky commissions, and a lively street-level tone. For a simple answer, describe them as a colorful team of agents rather than a formal military unit. This keeps the explanation beginner-friendly.",
+    "tags": [
+      "Cunning Hares",
+      "faction",
+      "ZZZ characters",
+      "agents"
+    ],
+    "aliases": [
+      "Gentle House",
+      "Cunning Hares ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "victoria_housekeeping_basic",
+    "title": "Victoria Housekeeping Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Victoria Housekeeping is a Zenless Zone Zero faction with a polished servant-like theme. Its members combine elegant presentation with combat ability. The group shows how ZZZ uses strong visual motifs for character teams. A chatbot can explain it as a faction where style, service imagery, and action gameplay are blended.",
+    "tags": [
+      "Victoria Housekeeping",
+      "faction",
+      "ZZZ",
+      "agents"
+    ],
+    "aliases": [
+      "Victoria Housekeeping Co.",
+      "maid faction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belobog_heavy_industries_basic",
+    "title": "Belobog Heavy Industries Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Belobog Heavy Industries is a Zenless Zone Zero faction with an industrial worksite identity. Its theme connects characters to construction, machinery, and heavy labor. This makes the faction visually different from more urban or elegant groups. A short RAG answer can describe it as the engineering-flavored side of ZZZ's agent roster.",
+    "tags": [
+      "Belobog Heavy Industries",
+      "faction",
+      "construction",
+      "ZZZ"
+    ],
+    "aliases": [
+      "Belobog ZZZ",
+      "industrial faction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "section_six_basic",
+    "title": "Section Six Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "Section 6 is a Zenless Zone Zero group often associated with more official or specialized operations. Compared with street-level teams, it can feel more disciplined and mission-focused. A simple explanation should avoid overloading the user with every member. It is enough to say it is a major agent faction in the ZZZ setting.",
+    "tags": [
+      "Section 6",
+      "faction",
+      "ZZZ",
+      "agents"
+    ],
+    "aliases": [
+      "Hollow Special Operations",
+      "Section Six"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sons_of_calydon_basic",
+    "title": "Sons of Calydon Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero Characters",
+    "content": "The Sons of Calydon are a Zenless Zone Zero faction with a rougher biker or outer-area style. Their identity helps expand the world beyond polished city streets. In a search layer, this object should answer basic faction questions without listing every character. The key idea is attitude, mobility, and strong group flavor.",
+    "tags": [
+      "Sons of Calydon",
+      "faction",
+      "biker theme",
+      "ZZZ"
+    ],
+    "aliases": [
+      "Calydon",
+      "Sons of Calydon ZZZ"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Zenless_Zone_Zero_characters",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "hoyoverse_brand_basic",
+    "title": "HoYoverse Brand Basic",
+    "category": "Game",
+    "subcategory": "miHoYo",
+    "content": "HoYoverse is the global brand used by miHoYo for several entertainment products and games. It is closely associated with titles such as Genshin Impact, Honkai: Star Rail, and Zenless Zone Zero. A chatbot should not confuse HoYoverse with a game title. It is better described as the publishing and entertainment brand.",
+    "tags": [
+      "HoYoverse",
+      "miHoYo",
+      "games",
+      "brand"
+    ],
+    "aliases": [
+      "Hoyoverse",
+      "miHoYo global"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mihoyo_company_basic",
+    "title": "miHoYo Company Basic",
+    "category": "Game",
+    "subcategory": "miHoYo",
+    "content": "miHoYo is a Chinese video game company known for anime-styled games and live-service titles. The company became internationally recognized through several successful releases. For simple knowledge retrieval, miHoYo can be described as the developer behind major HoYoverse games. Keep the answer neutral and separate company facts from fandom opinions.",
+    "tags": [
+      "miHoYo",
+      "developer",
+      "China",
+      "HoYoverse"
+    ],
+    "aliases": [
+      "Mihoyo",
+      "miHoYo Co."
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MiHoYo",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_audio_visual_identity",
+    "title": "ZZZ Audio Visual Identity",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Zenless Zone Zero has a strong urban visual identity, with modern fashion, comic-like presentation, and energetic music. The style helps separate it from fantasy or space-themed HoYoverse games. A simple answer can say ZZZ feels like city action mixed with anime presentation. This helps users understand its vibe quickly.",
+    "tags": [
+      "ZZZ style",
+      "urban fantasy",
+      "music",
+      "visual design"
+    ],
+    "aliases": [
+      "Zenless vibe",
+      "ZZZ aesthetic"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_team_building_basic",
+    "title": "ZZZ Team Building Basic",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "Team building in Zenless Zone Zero means choosing agents that work well together in combat. Players usually consider attack roles, support effects, enemy weakness, and timing. A beginner answer should not force one perfect team. It should explain that good teams depend on available characters, upgrades, and the mission being played.",
+    "tags": [
+      "team building",
+      "agents",
+      "combat",
+      "ZZZ"
+    ],
+    "aliases": [
+      "ZZZ teams",
+      "team comp"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "zzz_rag_safe_fandom_answer",
+    "title": "Safe ZZZ Fandom Answer",
+    "category": "Game",
+    "subcategory": "Zenless Zone Zero",
+    "content": "When answering about Zenless Zone Zero, a chatbot should separate confirmed game information from speculation or fan interpretation. It can explain known terms like Proxies, Hollows, agents, and factions. For character popularity, future banners, or recent patches, the bot should say that fresh game data may need checking.",
+    "tags": [
+      "RAG",
+      "fandom",
+      "ZZZ",
+      "answer safety"
+    ],
+    "aliases": [
+      "ZZZ facts",
+      "game knowledge"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Zenless_Zone_Zero",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mathematics_basic_definition",
+    "title": "Mathematics Basic Definition",
+    "category": "Mathematics",
+    "subcategory": "General",
+    "content": "Mathematics is the study of patterns, quantities, structures, and logical relationships. It includes topics such as numbers, shapes, functions, probability, and change. In a chatbot, a simple math answer should focus on the method, not only the final result. This helps users learn how the solution works.",
+    "tags": [
+      "mathematics",
+      "patterns",
+      "logic",
+      "numbers"
+    ],
+    "aliases": [
+      "math",
+      "maths"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "arithmetic_basic_operations",
+    "title": "Arithmetic Basic Operations",
+    "category": "Mathematics",
+    "subcategory": "Arithmetic",
+    "content": "Arithmetic is the part of mathematics that deals with basic operations such as addition, subtraction, multiplication, and division. These operations are used in daily calculations and in larger topics like algebra. For Belle, arithmetic answers should be clear, short, and step-by-step when the user is learning.",
+    "tags": [
+      "arithmetic",
+      "addition",
+      "division",
+      "basic math"
+    ],
+    "aliases": [
+      "basic operations",
+      "simple math"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "linear_algebra_vectors",
+    "title": "Linear Algebra and Vectors",
+    "category": "Mathematics",
+    "subcategory": "Linear Algebra",
+    "content": "Linear algebra studies vectors, matrices, and linear transformations. It is important in computer graphics, machine learning, physics, and data analysis. A vector can represent a direction, a point, or a list of numbers. In AI, vectors are often used to store features or embeddings for search.",
+    "tags": [
+      "linear algebra",
+      "vectors",
+      "matrices",
+      "embeddings"
+    ],
+    "aliases": [
+      "vector math",
+      "matrix math"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "calculus_change_and_area",
+    "title": "Calculus Change and Area",
+    "category": "Mathematics",
+    "subcategory": "Calculus",
+    "content": "Calculus studies change and accumulation. Derivatives describe how fast something changes, while integrals can describe total area, distance, or accumulated value. It is useful in physics, engineering, economics, and machine learning. A simple explanation should connect calculus to motion, curves, and continuous change.",
+    "tags": [
+      "calculus",
+      "derivative",
+      "integral",
+      "change"
+    ],
+    "aliases": [
+      "differentiation",
+      "integration"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Calculus",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "statistics_data_summary",
+    "title": "Statistics Data Summary",
+    "category": "Mathematics",
+    "subcategory": "Statistics",
+    "content": "Statistics helps people collect, summarize, and interpret data. Common ideas include average, median, variance, samples, and uncertainty. In AI work, statistics helps evaluate models and understand whether results are meaningful. A chatbot should explain statistical results carefully because numbers can be misleading without context.",
+    "tags": [
+      "statistics",
+      "data",
+      "average",
+      "uncertainty"
+    ],
+    "aliases": [
+      "stats",
+      "data summary"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Statistics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "probability_basic_chance",
+    "title": "Probability Basic Chance",
+    "category": "Mathematics",
+    "subcategory": "Probability",
+    "content": "Probability measures how likely an event is to happen. It is often written from 0 to 1, where 0 means impossible and 1 means certain. Probability is useful in games, risk, statistics, and machine learning. For simple questions, examples with dice, coins, or cards are often easiest.",
+    "tags": [
+      "probability",
+      "chance",
+      "risk",
+      "random"
+    ],
+    "aliases": [
+      "likelihood",
+      "odds"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Probability",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "function_input_output",
+    "title": "Function Input and Output",
+    "category": "Mathematics",
+    "subcategory": "General",
+    "content": "A function connects each input to an output according to a rule. For example, a rule may double a number or add a constant. Functions are used in algebra, programming, physics, and machine learning models. In chatbot explanations, functions are easier to understand when shown with a small example.",
+    "tags": [
+      "function",
+      "input",
+      "output",
+      "rule"
+    ],
+    "aliases": [
+      "math function",
+      "mapping"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "equation_solving_basic",
+    "title": "Equation Solving Basic",
+    "category": "Mathematics",
+    "subcategory": "Algebra",
+    "content": "Solving an equation means finding the value that makes the statement true. The main idea is to keep both sides balanced while simplifying. For example, doing the same operation to both sides keeps the equality valid. A good assistant should show each step when the user is learning algebra.",
+    "tags": [
+      "equation",
+      "algebra",
+      "solving",
+      "balance"
+    ],
+    "aliases": [
+      "solve equation",
+      "unknown value"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Mathematics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "physics_basic_definition",
+    "title": "Physics Basic Definition",
+    "category": "Physics",
+    "subcategory": "General",
+    "content": "Physics studies matter, energy, motion, forces, space, and time. It tries to describe how the natural world behaves using experiments and mathematical models. Physics can explain everyday events like falling objects and advanced topics like quantum systems. A simple answer should connect abstract laws to real examples.",
+    "tags": [
+      "physics",
+      "matter",
+      "energy",
+      "motion"
+    ],
+    "aliases": [
+      "physical science",
+      "natural laws"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "classical_mechanics_motion",
+    "title": "Classical Mechanics Motion",
+    "category": "Physics",
+    "subcategory": "Classical Mechanics",
+    "content": "Classical mechanics studies the motion of objects and the forces acting on them. It works very well for many everyday situations, such as cars, balls, machines, and projectiles. The topic includes ideas like velocity, acceleration, force, and momentum. It is often the first major physics area students learn.",
+    "tags": [
+      "classical mechanics",
+      "motion",
+      "force",
+      "acceleration"
+    ],
+    "aliases": [
+      "Newtonian mechanics",
+      "mechanics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "force_mass_acceleration",
+    "title": "Force Mass and Acceleration",
+    "category": "Physics",
+    "subcategory": "Classical Mechanics",
+    "content": "Force, mass, and acceleration are closely linked in classical mechanics. A stronger net force can make an object accelerate more, while a larger mass resists acceleration more. This relationship is often used to solve motion problems. A beginner explanation should identify the object, forces, direction, and units.",
+    "tags": [
+      "force",
+      "mass",
+      "acceleration",
+      "Newton"
+    ],
+    "aliases": [
+      "F equals ma",
+      "net force"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Classical_mechanics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "energy_basic_concept",
+    "title": "Energy Basic Concept",
+    "category": "Physics",
+    "subcategory": "General",
+    "content": "Energy is a quantity used to describe the ability to do work or cause change. It can appear as kinetic energy, potential energy, heat, light, chemical energy, and more. Energy can change form, but in an isolated system the total amount is conserved. This idea is central in physics.",
+    "tags": [
+      "energy",
+      "kinetic",
+      "potential",
+      "conservation"
+    ],
+    "aliases": [
+      "work energy",
+      "energy forms"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "waves_basic_concept",
+    "title": "Waves Basic Concept",
+    "category": "Physics",
+    "subcategory": "General",
+    "content": "A wave carries energy or information through space or a medium. Examples include sound waves, water waves, and light waves. Important properties include wavelength, frequency, amplitude, and speed. In simple explanations, sound is useful because people can connect frequency with pitch and amplitude with loudness.",
+    "tags": [
+      "waves",
+      "frequency",
+      "wavelength",
+      "amplitude"
+    ],
+    "aliases": [
+      "wave motion",
+      "sound waves"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "electricity_basic_concept",
+    "title": "Electricity Basic Concept",
+    "category": "Physics",
+    "subcategory": "General",
+    "content": "Electricity involves electric charge and the movement or interaction of charged particles. In circuits, current describes charge flow, voltage describes electric potential difference, and resistance limits current. These ideas are used in electronics and computers. A beginner answer should use simple circuit examples before advanced theory.",
+    "tags": [
+      "electricity",
+      "current",
+      "voltage",
+      "resistance"
+    ],
+    "aliases": [
+      "electric circuit",
+      "charge"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "quantum_computing_basic",
+    "title": "Quantum Computing Basic",
+    "category": "Physics",
+    "subcategory": "Quantum Computing",
+    "content": "Quantum computing uses quantum-mechanical systems to process information. Instead of ordinary bits, it uses qubits, which can represent information in ways linked to superposition and entanglement. Quantum computers are not simply faster for every task. They are promising for certain algorithms, simulations, and cryptography-related problems.",
+    "tags": [
+      "quantum computing",
+      "qubit",
+      "superposition",
+      "entanglement"
+    ],
+    "aliases": [
+      "quantum computer",
+      "qubits"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "machine_learning_in_physics_basic",
+    "title": "Machine Learning in Physics Basic",
+    "category": "Physics",
+    "subcategory": "Computational Physics",
+    "content": "Machine learning can help physics by finding patterns in data, improving simulations, and supporting analysis of complex systems. It does not replace physical laws, but it can assist when data is large or models are difficult. Good explanations should state whether a result comes from theory, measurement, or learned prediction.",
+    "tags": [
+      "machine learning",
+      "physics",
+      "simulation",
+      "data"
+    ],
+    "aliases": [
+      "AI in physics",
+      "ML physics"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning_in_physics",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_language_basic",
+    "title": "Python Language Basic",
+    "category": "Programming",
+    "subcategory": "Python",
+    "content": "Python is a high-level programming language known for readable syntax and a large ecosystem. It is widely used in web development, automation, data science, AI, and education. Python code often looks close to plain English compared with lower-level languages. This makes it a good choice for fast prototyping.",
+    "tags": [
+      "Python",
+      "programming",
+      "syntax",
+      "automation"
+    ],
+    "aliases": [
+      "Python language",
+      "py"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_lists_basic",
+    "title": "Python Lists Basic",
+    "category": "Programming",
+    "subcategory": "Python",
+    "content": "A Python list stores multiple values in order. Lists can hold numbers, strings, objects, or mixed data. They are useful for loops, datasets, queues, and temporary collections. A simple chatbot answer should mention that list indexes start at zero, so the first item is at index 0.",
+    "tags": [
+      "Python",
+      "list",
+      "array",
+      "index"
+    ],
+    "aliases": [
+      "Python array",
+      "list object"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "python_dictionary_basic",
+    "title": "Python Dictionary Basic",
+    "category": "Programming",
+    "subcategory": "Python",
+    "content": "A Python dictionary stores data as key-value pairs. It is useful when each value has a name, such as user settings, JSON-like data, or lookup tables. Keys should usually be stable and unique. Dictionaries are important for APIs because many responses can be represented as nested key-value data.",
+    "tags": [
+      "Python",
+      "dictionary",
+      "key value",
+      "JSON"
+    ],
+    "aliases": [
+      "dict",
+      "map"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_language_basic",
+    "title": "JavaScript Language Basic",
+    "category": "Programming",
+    "subcategory": "JavaScript",
+    "content": "JavaScript is a programming language commonly used to make web pages interactive. It also runs outside the browser through environments such as Node.js. In a full-stack project, JavaScript may power the React frontend and the Node.js backend. A beginner should learn variables, functions, objects, arrays, and async code.",
+    "tags": [
+      "JavaScript",
+      "web",
+      "frontend",
+      "backend"
+    ],
+    "aliases": [
+      "JS",
+      "ECMAScript"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "javascript_async_basic",
+    "title": "JavaScript Async Basic",
+    "category": "Programming",
+    "subcategory": "JavaScript",
+    "content": "Asynchronous JavaScript lets a program wait for slow work, such as network requests, without freezing everything. Promises and async-await make this style easier to read. In a Belle chatbot project, async code is important when calling FastAPI, MongoDB, or an AI model endpoint. Missing await can cause confusing bugs.",
+    "tags": [
+      "JavaScript",
+      "async",
+      "promise",
+      "await"
+    ],
+    "aliases": [
+      "async await",
+      "Promises"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JavaScript",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_runtime_basic",
+    "title": "Node.js Runtime Basic",
+    "category": "Programming",
+    "subcategory": "Node.js",
+    "content": "Node.js is a runtime that lets JavaScript run on a server or local machine outside a web browser. It is often used for APIs, real-time apps, tools, and backend services. In a chatbot stack, Node.js can handle routes, authentication, logging, and communication between React, MongoDB, and FastAPI.",
+    "tags": [
+      "Node.js",
+      "backend",
+      "runtime",
+      "JavaScript"
+    ],
+    "aliases": [
+      "Node",
+      "node server"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "nodejs_express_api_basic",
+    "title": "Node.js API Basic",
+    "category": "Programming",
+    "subcategory": "Node.js",
+    "content": "A Node.js backend often exposes API routes that the frontend can call. Frameworks such as Express make it easier to define routes for login, chat messages, search, and project data. The backend should validate input before sending it to databases or AI services. This protects the app from bad requests.",
+    "tags": [
+      "Node.js",
+      "API",
+      "Express",
+      "backend"
+    ],
+    "aliases": [
+      "REST API",
+      "server route"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "computer_program_basic",
+    "title": "Computer Program Basic",
+    "category": "Programming",
+    "subcategory": "General",
+    "content": "A computer program is a set of instructions that tells a computer what to do. Programs can calculate values, store data, control devices, or communicate through networks. Good programs are not only correct, but also readable and maintainable. Comments, names, and structure help future developers understand the code.",
+    "tags": [
+      "program",
+      "software",
+      "instructions",
+      "code"
+    ],
+    "aliases": [
+      "computer program",
+      "application"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "algorithm_basic_definition",
+    "title": "Algorithm Basic Definition",
+    "category": "Programming",
+    "subcategory": "Algorithms",
+    "content": "An algorithm is a step-by-step method for solving a problem. It can be written in plain language, pseudocode, or code. Searching, sorting, routing, and recommendation systems all use algorithms. A good explanation should describe the input, the steps, the output, and why the method works.",
+    "tags": [
+      "algorithm",
+      "steps",
+      "problem solving",
+      "logic"
+    ],
+    "aliases": [
+      "procedure",
+      "method"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Algorithm",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "data_structure_basic_definition",
+    "title": "Data Structure Basic Definition",
+    "category": "Programming",
+    "subcategory": "Data Structures",
+    "content": "A data structure is a way to organize data so a program can use it efficiently. Examples include arrays, linked lists, stacks, queues, trees, hash maps, and graphs. The best data structure depends on the task. Fast search, fast insertion, and low memory use are different goals.",
+    "tags": [
+      "data structure",
+      "array",
+      "tree",
+      "hash map"
+    ],
+    "aliases": [
+      "structures",
+      "collections"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Data_structure",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_basic_definition",
+    "title": "JSON Basic Definition",
+    "category": "Programming",
+    "subcategory": "JSON",
+    "content": "JSON is a lightweight text format for storing and exchanging structured data. It uses objects, arrays, strings, numbers, booleans, and null. JSON is common in web APIs, configuration files, and datasets. For a RAG knowledge file, valid JSON is important because one trailing comma can break JSON.parse().",
+    "tags": [
+      "JSON",
+      "data format",
+      "API",
+      "JSON.parse"
+    ],
+    "aliases": [
+      "JavaScript Object Notation",
+      "json file"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "json_object_array_difference",
+    "title": "JSON Object and Array Difference",
+    "category": "Programming",
+    "subcategory": "JSON",
+    "content": "In JSON, an object uses named keys, while an array stores ordered items. An object is good for one record with fields like id, title, and content. An array is good for a list of records. A knowledge.json file usually stores an array of knowledge objects.",
+    "tags": [
+      "JSON",
+      "object",
+      "array",
+      "schema"
+    ],
+    "aliases": [
+      "JSON object",
+      "JSON array"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mongodb_basic_definition",
+    "title": "MongoDB Basic Definition",
+    "category": "Database",
+    "subcategory": "MongoDB",
+    "content": "MongoDB is a document-oriented database that stores data in flexible documents instead of fixed rows. It is often used with JavaScript stacks because its documents look similar to JSON objects. MongoDB is useful when records may have nested fields. However, schema design and indexes still matter for performance.",
+    "tags": [
+      "MongoDB",
+      "document database",
+      "NoSQL",
+      "JSON"
+    ],
+    "aliases": [
+      "mongo",
+      "Mongo database"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "document_database_basic",
+    "title": "Document Database Basic",
+    "category": "Database",
+    "subcategory": "Document Database",
+    "content": "A document-oriented database stores records as documents with fields and nested structures. This model can be flexible for user profiles, chat history, settings, and knowledge objects. It is different from a strict table design, but it still needs clear rules. Without structure, search and debugging become harder.",
+    "tags": [
+      "document database",
+      "NoSQL",
+      "documents",
+      "schema"
+    ],
+    "aliases": [
+      "document-oriented database",
+      "document store"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Document-oriented_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "sql_basic_definition",
+    "title": "SQL Basic Definition",
+    "category": "Database",
+    "subcategory": "SQL",
+    "content": "SQL is a language used to manage and query relational databases. It can create tables, insert data, update records, and ask questions using SELECT queries. SQL is powerful because it works with structured relationships between tables. Even if a project uses MongoDB, learning SQL helps understand database thinking.",
+    "tags": [
+      "SQL",
+      "query",
+      "database",
+      "tables"
+    ],
+    "aliases": [
+      "Structured Query Language",
+      "SQL query"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/SQL",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "relational_database_basic",
+    "title": "Relational Database Basic",
+    "category": "Database",
+    "subcategory": "Relational Database",
+    "content": "A relational database stores data in tables made of rows and columns. Relationships are created with keys, such as a user id linking users to orders or messages. This model is strong for structured data and consistency. It is commonly used in business systems, banking, inventory, and reporting.",
+    "tags": [
+      "relational database",
+      "tables",
+      "rows",
+      "keys"
+    ],
+    "aliases": [
+      "RDBMS",
+      "SQL database"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Relational_database",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "database_transaction_basic",
+    "title": "Database Transaction Basic",
+    "category": "Database",
+    "subcategory": "Transactions",
+    "content": "A database transaction is a group of operations treated as one unit. If every step succeeds, the transaction can be committed. If something fails, it can be rolled back. Transactions are important when data must stay consistent, such as payments, account balances, or multi-step updates in an application.",
+    "tags": [
+      "transaction",
+      "commit",
+      "rollback",
+      "database"
+    ],
+    "aliases": [
+      "ACID",
+      "database transaction"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Database_transaction",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "artificial_intelligence_basic",
+    "title": "Artificial Intelligence Basic",
+    "category": "AI",
+    "subcategory": "General",
+    "content": "Artificial intelligence is the field of building systems that can perform tasks normally associated with human intelligence. These tasks may include reasoning, language, vision, planning, and decision-making. AI can be rule-based or learned from data. A simple chatbot should avoid claiming that all AI systems truly understand like humans.",
+    "tags": [
+      "AI",
+      "artificial intelligence",
+      "reasoning",
+      "automation"
+    ],
+    "aliases": [
+      "A.I.",
+      "machine intelligence"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "machine_learning_basic",
+    "title": "Machine Learning Basic",
+    "category": "AI",
+    "subcategory": "Machine Learning",
+    "content": "Machine learning is a branch of AI where systems improve at a task by learning from data. Instead of writing every rule by hand, developers train a model on examples. The model then makes predictions or classifications. Good training data, evaluation, and testing are essential for useful results.",
+    "tags": [
+      "machine learning",
+      "training data",
+      "model",
+      "prediction"
+    ],
+    "aliases": [
+      "ML",
+      "learn from data"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "deep_learning_basic",
+    "title": "Deep Learning Basic",
+    "category": "AI",
+    "subcategory": "Deep Learning",
+    "content": "Deep learning is a type of machine learning that uses neural networks with many layers. It is strong in areas such as speech, images, translation, and language modeling. Deep learning models often need large datasets and significant computing power. They can be powerful but difficult to interpret fully.",
+    "tags": [
+      "deep learning",
+      "neural network",
+      "layers",
+      "AI"
+    ],
+    "aliases": [
+      "DL",
+      "deep neural network"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "neural_network_basic",
+    "title": "Neural Network Basic",
+    "category": "AI",
+    "subcategory": "Neural Networks",
+    "content": "A neural network is a model made of connected units that transform input data into output predictions. During training, the network adjusts internal weights to reduce errors. Neural networks can learn complex patterns, but they need careful data preparation and evaluation. They are a foundation of many modern AI systems.",
+    "tags": [
+      "neural network",
+      "weights",
+      "training",
+      "prediction"
+    ],
+    "aliases": [
+      "NN",
+      "artificial neural network"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Neural_network",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "natural_language_processing_basic",
+    "title": "Natural Language Processing Basic",
+    "category": "AI",
+    "subcategory": "NLP",
+    "content": "Natural language processing focuses on how computers handle human language. It includes tasks such as text classification, translation, summarization, search, and chatbots. NLP is difficult because language depends on context and meaning. A Belle chatbot uses NLP ideas when it reads a user message and generates a response.",
+    "tags": [
+      "NLP",
+      "language",
+      "chatbot",
+      "text"
+    ],
+    "aliases": [
+      "natural language processing",
+      "text AI"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "computer_vision_basic",
+    "title": "Computer Vision Basic",
+    "category": "AI",
+    "subcategory": "Computer Vision",
+    "content": "Computer vision is an AI area that helps computers analyze images and video. It can detect objects, recognize patterns, segment images, or describe scenes. Vision models are used in phones, medical imaging, robotics, and security. Good answers should mention that image understanding can still make mistakes.",
+    "tags": [
+      "computer vision",
+      "images",
+      "video",
+      "object detection"
+    ],
+    "aliases": [
+      "CV",
+      "image AI"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_vision",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "large_language_model_basic",
+    "title": "Large Language Model Basic",
+    "category": "AI",
+    "subcategory": "Large Language Models",
+    "content": "A large language model is trained on large amounts of text to predict and generate language. It can answer questions, write code, summarize text, and roleplay characters. However, it can also produce wrong or invented information. A RAG system helps by giving the model relevant knowledge before answering.",
+    "tags": [
+      "LLM",
+      "language model",
+      "text generation",
+      "RAG"
+    ],
+    "aliases": [
+      "large language model",
+      "chat model"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "generative_ai_basic",
+    "title": "Generative AI Basic",
+    "category": "AI",
+    "subcategory": "Generative AI",
+    "content": "Generative AI creates new content such as text, images, audio, code, or video. It learns patterns from training data and produces outputs that match a prompt. It is useful for drafting and creativity, but outputs should be reviewed. For factual answers, retrieval and verification are important.",
+    "tags": [
+      "generative AI",
+      "content generation",
+      "prompt",
+      "AI"
+    ],
+    "aliases": [
+      "GenAI",
+      "generative model"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "rag_basic_concept",
+    "title": "RAG Basic Concept",
+    "category": "AI",
+    "subcategory": "Retrieval-Augmented Generation",
+    "content": "Retrieval-augmented generation, or RAG, improves answers by searching a knowledge source before the model responds. The retrieved text gives context that the model may not know or may forget. For Belle, knowledge.json can act as a small retrieval layer. Good chunks should be short, focused, and searchable.",
+    "tags": [
+      "RAG",
+      "retrieval",
+      "knowledge base",
+      "chatbot"
+    ],
+    "aliases": [
+      "retrieval augmented generation",
+      "search layer"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "embedding_search_basic",
+    "title": "Embedding Search Basic",
+    "category": "AI",
+    "subcategory": "Search",
+    "content": "Embedding search turns text into vectors so similar meanings can be compared. This helps a chatbot find relevant knowledge even when the user does not use exact keywords. For example, a question about database records may match a chunk about MongoDB documents. Good chunk titles and tags still improve retrieval.",
+    "tags": [
+      "embeddings",
+      "semantic search",
+      "vectors",
+      "RAG"
+    ],
+    "aliases": [
+      "vector search",
+      "similarity search"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "big_data_basic",
+    "title": "Big Data Basic",
+    "category": "Data",
+    "subcategory": "Big Data",
+    "content": "Big data refers to datasets that are too large, fast, or complex for simple manual processing. It often requires distributed storage, parallel processing, and careful data engineering. Big data is not only about size; quality and usefulness matter too. AI projects can fail if the data is large but messy.",
+    "tags": [
+      "big data",
+      "data engineering",
+      "scale",
+      "datasets"
+    ],
+    "aliases": [
+      "large data",
+      "massive datasets"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Big_data",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "apache_spark_basic",
+    "title": "Apache Spark Basic",
+    "category": "Data",
+    "subcategory": "Apache Spark",
+    "content": "Apache Spark is a system for large-scale data processing. It can run jobs across a cluster and is often used for analytics, machine learning pipelines, and big data transformations. Spark is useful when data is too large for one machine. For small projects, simpler tools may be enough.",
+    "tags": [
+      "Apache Spark",
+      "big data",
+      "cluster",
+      "data processing"
+    ],
+    "aliases": [
+      "Spark",
+      "PySpark"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "git_version_control_basic",
+    "title": "Git Version Control Basic",
+    "category": "Programming",
+    "subcategory": "Git",
+    "content": "Git is a version control system that tracks changes in files over time. Developers use it to save progress, compare versions, create branches, and collaborate. In a Belle project, Git can protect working code before experiments with models or dependencies. Committing often makes mistakes easier to recover from.",
+    "tags": [
+      "Git",
+      "version control",
+      "commit",
+      "branch"
+    ],
+    "aliases": [
+      "git repo",
+      "source control"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Git",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "frontend_backend_basic",
+    "title": "Frontend and Backend Basic",
+    "category": "Programming",
+    "subcategory": "Web Development",
+    "content": "The frontend is the part of an app that users see, while the backend handles server logic, data, and APIs. In a Belle stack, React can be the frontend, Node.js can manage web routes, MongoDB stores data, and FastAPI may serve model inference. Clear boundaries reduce debugging pain.",
+    "tags": [
+      "frontend",
+      "backend",
+      "React",
+      "FastAPI"
+    ],
+    "aliases": [
+      "full stack",
+      "web stack"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "api_request_response_basic",
+    "title": "API Request and Response Basic",
+    "category": "Programming",
+    "subcategory": "Web API",
+    "content": "An API lets software components communicate using requests and responses. A frontend may send a chat message to a backend route, and the backend returns an answer. APIs should use clear status codes, predictable JSON, and helpful error messages. This makes debugging easier when multiple services work together.",
+    "tags": [
+      "API",
+      "request",
+      "response",
+      "JSON"
+    ],
+    "aliases": [
+      "web API",
+      "HTTP API"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Computer_program",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "model_finetuning_basic",
+    "title": "Model Fine-Tuning Basic",
+    "category": "AI",
+    "subcategory": "Machine Learning",
+    "content": "Fine-tuning adjusts a pretrained model on a smaller dataset for a specific task or style. It can teach format, tone, and domain behavior, but it does not guarantee perfect factual knowledge. For a Belle chatbot, fine-tuning can shape personality while RAG supplies facts. Both parts should be tested separately.",
+    "tags": [
+      "fine-tuning",
+      "LoRA",
+      "model training",
+      "chatbot"
+    ],
+    "aliases": [
+      "finetune",
+      "adapter training"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "lora_basic_concept",
+    "title": "LoRA Basic Concept",
+    "category": "AI",
+    "subcategory": "Deep Learning",
+    "content": "LoRA is a common method for adapting large neural networks by training small additional parameters instead of updating the whole model. This can reduce memory and storage needs. In a small chatbot project, a LoRA adapter may teach style or task behavior. It still depends on clean data and correct formatting.",
+    "tags": [
+      "LoRA",
+      "adapter",
+      "fine-tuning",
+      "deep learning"
+    ],
+    "aliases": [
+      "low rank adaptation",
+      "adapter model"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnam_country_basic",
+    "title": "Vietnam Country Basic",
+    "category": "Vietnam",
+    "subcategory": "Country",
+    "content": "Vietnam is a country in Southeast Asia with a long coastline along the South China Sea. Its capital is Hanoi, and Ho Chi Minh City is its largest city by population. Vietnam has a rich history, diverse regions, and a fast-growing economy. A basic answer should avoid reducing it to one stereotype.",
+    "tags": [
+      "Vietnam",
+      "Southeast Asia",
+      "Hanoi",
+      "Ho Chi Minh City"
+    ],
+    "aliases": [
+      "Viet Nam",
+      "Vietnam country"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "hanoi_basic",
+    "title": "Hanoi Basic",
+    "category": "Vietnam",
+    "subcategory": "Geography",
+    "content": "Hanoi is the capital of Vietnam and one of the country's major cultural and political centers. It is known for old streets, lakes, government institutions, universities, and historical sites. For a beginner answer, Hanoi can be described as a city where traditional architecture and modern urban life exist together.",
+    "tags": [
+      "Hanoi",
+      "capital",
+      "Vietnam",
+      "city"
+    ],
+    "aliases": [
+      "Ha Noi",
+      "Vietnam capital"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "ho_chi_minh_city_basic",
+    "title": "Ho Chi Minh City Basic",
+    "category": "Vietnam",
+    "subcategory": "Geography",
+    "content": "Ho Chi Minh City is Vietnam's largest city by population and a major economic center. It is located in southern Vietnam and is known for business, education, food, and busy urban life. The city was formerly known as Saigon. Many people still use Saigon informally in daily speech.",
+    "tags": [
+      "Ho Chi Minh City",
+      "Saigon",
+      "Vietnam",
+      "economy"
+    ],
+    "aliases": [
+      "HCMC",
+      "Sai Gon"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnam_geography_basic",
+    "title": "Vietnam Geography Basic",
+    "category": "Vietnam",
+    "subcategory": "Geography",
+    "content": "Vietnam stretches along the eastern side of the Indochinese Peninsula. It has mountains, river deltas, forests, beaches, and long coastal areas. The Red River Delta in the north and the Mekong Delta in the south are important for agriculture and settlement. Geography strongly shapes Vietnam's food, travel, and history.",
+    "tags": [
+      "Vietnam geography",
+      "coastline",
+      "deltas",
+      "mountains"
+    ],
+    "aliases": [
+      "Vietnam map",
+      "Vietnam regions"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnam_history_basic",
+    "title": "Vietnam History Basic",
+    "category": "Vietnam",
+    "subcategory": "History",
+    "content": "Vietnam has a long history shaped by local kingdoms, periods of Chinese rule, independence movements, colonial rule, wars, and reunification. Because the history is complex, a short answer should focus on the user's exact question. It is better to explain one period clearly than compress everything into one paragraph.",
+    "tags": [
+      "Vietnam history",
+      "independence",
+      "colonial period",
+      "reunification"
+    ],
+    "aliases": [
+      "history of Vietnam",
+      "Vietnam past"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnamese_language_basic",
+    "title": "Vietnamese Language Basic",
+    "category": "Vietnam",
+    "subcategory": "Language",
+    "content": "Vietnamese is the official language of Vietnam. It is a tonal language, so pitch can change word meaning. Modern Vietnamese writing uses a Latin-based alphabet with diacritics. For English speakers, pronunciation and tones are often harder than the basic writing system. Simple examples can help learners understand the difference.",
+    "tags": [
+      "Vietnamese",
+      "language",
+      "tones",
+      "alphabet"
+    ],
+    "aliases": [
+      "Tieng Viet",
+      "Vietnamese language"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnam_culture_basic",
+    "title": "Vietnam Culture Basic",
+    "category": "Vietnam",
+    "subcategory": "Culture",
+    "content": "Vietnamese culture includes family traditions, ancestor remembrance, festivals, regional food, literature, music, and community values. It has been shaped by local practices and contact with other cultures. A good answer should respect regional differences between north, central, and south Vietnam. Culture is not the same everywhere in the country.",
+    "tags": [
+      "Vietnam culture",
+      "family",
+      "festival",
+      "food"
+    ],
+    "aliases": [
+      "Vietnamese culture",
+      "culture of Vietnam"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "vietnam_economy_basic",
+    "title": "Vietnam Economy Basic",
+    "category": "Vietnam",
+    "subcategory": "Economy",
+    "content": "Vietnam's economy has grown strongly in recent decades, with manufacturing, agriculture, services, technology, and trade all playing important roles. Major exports include electronics, textiles, footwear, seafood, and agricultural products. A simple answer should say that Vietnam is both a traditional agricultural country and a modern manufacturing hub.",
+    "tags": [
+      "Vietnam economy",
+      "manufacturing",
+      "trade",
+      "exports"
+    ],
+    "aliases": [
+      "Vietnam business",
+      "Vietnam industry"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Vietnam",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mcu_basic_definition",
+    "title": "Marvel Cinematic Universe Basic",
+    "category": "Marvel",
+    "subcategory": "MCU",
+    "content": "The Marvel Cinematic Universe, or MCU, is a shared film and television franchise based on Marvel Comics characters. Its stories connect across many movies and series. Characters often appear in each other's stories, creating a larger timeline. For beginners, the MCU can be explained as a connected superhero universe.",
+    "tags": [
+      "MCU",
+      "Marvel",
+      "shared universe",
+      "films"
+    ],
+    "aliases": [
+      "Marvel Cinematic Universe",
+      "Marvel movies"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "spider_man_basic",
+    "title": "Spider-Man Basic",
+    "category": "Marvel",
+    "subcategory": "Spider-Man",
+    "content": "Spider-Man is a superhero identity most famously associated with Peter Parker. He is known for wall-crawling, web-swinging, spider-sense, and a strong sense of responsibility. The character often balances hero work with school, work, family, and personal problems. This makes Spider-Man easy to connect with for many audiences.",
+    "tags": [
+      "Spider-Man",
+      "Peter Parker",
+      "webs",
+      "superhero"
+    ],
+    "aliases": [
+      "Spiderman",
+      "web slinger"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spider-Man",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "iron_man_basic",
+    "title": "Iron Man Basic",
+    "category": "Marvel",
+    "subcategory": "Iron Man",
+    "content": "Iron Man is a superhero identity most associated with Tony Stark, a genius inventor and wealthy industrialist. He uses advanced powered armor instead of natural superpowers. In many stories, the character explores responsibility, ego, technology, and sacrifice. For MCU questions, Tony Stark is played by Robert Downey Jr.",
+    "tags": [
+      "Iron Man",
+      "Tony Stark",
+      "armor",
+      "technology"
+    ],
+    "aliases": [
+      "Tony Stark",
+      "Ironman"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Iron_Man",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "captain_america_basic",
+    "title": "Captain America Basic",
+    "category": "Marvel",
+    "subcategory": "Captain America",
+    "content": "Captain America is a superhero identity most associated with Steve Rogers. He is known for courage, leadership, a shield, and a strong moral code. His origin often connects to World War II and a super-soldier experiment. In team stories, he often represents discipline, loyalty, and doing what he believes is right.",
+    "tags": [
+      "Captain America",
+      "Steve Rogers",
+      "shield",
+      "super soldier"
+    ],
+    "aliases": [
+      "Cap",
+      "Steve Rogers"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Captain_America",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "avengers_2012_basic",
+    "title": "The Avengers 2012 Basic",
+    "category": "Marvel",
+    "subcategory": "Films",
+    "content": "The Avengers is a 2012 superhero film that brings several Marvel heroes together as a team. It helped prove that connected superhero movies could build toward a large crossover event. The film features heroes such as Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye working against a major threat.",
+    "tags": [
+      "The Avengers",
+      "2012 film",
+      "MCU",
+      "team"
+    ],
+    "aliases": [
+      "Avengers 2012",
+      "Marvel's The Avengers"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "thanos_basic",
+    "title": "Thanos Basic",
+    "category": "Marvel",
+    "subcategory": "Villains",
+    "content": "Thanos is a Marvel villain often connected with cosmic power, conquest, and the Infinity Stones. In the MCU, he becomes the central threat of the Infinity Saga. A simple answer should describe him as a powerful antagonist with a destructive plan, not as a normal hero or ordinary warrior.",
+    "tags": [
+      "Thanos",
+      "villain",
+      "Infinity Stones",
+      "MCU"
+    ],
+    "aliases": [
+      "Mad Titan",
+      "Thanos Marvel"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Thanos",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "avengers_endgame_basic",
+    "title": "Avengers Endgame Basic",
+    "category": "Marvel",
+    "subcategory": "Films",
+    "content": "Avengers: Endgame is a major MCU crossover film that follows the heroes after a catastrophic defeat. It focuses on loss, teamwork, time-related plans, and final battles. The film concludes many long-running character arcs from earlier MCU movies. Beginners should watch some earlier films first to understand the emotional weight.",
+    "tags": [
+      "Avengers Endgame",
+      "MCU",
+      "crossover",
+      "final battle"
+    ],
+    "aliases": [
+      "Endgame",
+      "Avengers 4"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Avengers:_Endgame",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "black_panther_film_basic",
+    "title": "Black Panther Film Basic",
+    "category": "Marvel",
+    "subcategory": "Films",
+    "content": "Black Panther is an MCU film centered on T'Challa and the nation of Wakanda. It combines superhero action with questions about leadership, tradition, technology, and responsibility. Wakanda is shown as highly advanced while preserving its own cultural identity. The film became one of Marvel's most culturally significant releases.",
+    "tags": [
+      "Black Panther",
+      "T'Challa",
+      "Wakanda",
+      "MCU"
+    ],
+    "aliases": [
+      "Black Panther movie",
+      "Wakanda"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "wolverine_basic",
+    "title": "Wolverine Basic",
+    "category": "Marvel",
+    "subcategory": "Wolverine",
+    "content": "Wolverine is a Marvel character known for claws, healing ability, enhanced senses, and a rough personality. He is strongly associated with the X-Men. Many stories explore his long life, memory, violence, and loyalty to teammates. A basic answer can describe him as a tough mutant with a complicated past.",
+    "tags": [
+      "Wolverine",
+      "X-Men",
+      "mutant",
+      "healing"
+    ],
+    "aliases": [
+      "Logan",
+      "James Howlett"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Wolverine_(character)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "scarlet_witch_basic",
+    "title": "Scarlet Witch Basic",
+    "category": "Marvel",
+    "subcategory": "Scarlet Witch",
+    "content": "Scarlet Witch is a Marvel character associated with Wanda Maximoff. Her powers are often linked to magic, probability, reality change, or chaos depending on the version. In the MCU, her story includes grief, power, and moral conflict. A careful answer should separate comic versions from film versions.",
+    "tags": [
+      "Scarlet Witch",
+      "Wanda Maximoff",
+      "magic",
+      "MCU"
+    ],
+    "aliases": [
+      "Wanda",
+      "Wanda Maximoff"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Scarlet_Witch",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "infinity_stones_basic",
+    "title": "Infinity Stones Basic",
+    "category": "Marvel",
+    "subcategory": "MCU Lore",
+    "content": "The Infinity Stones are powerful objects in Marvel stories, especially in the MCU's Infinity Saga. Each stone is connected to a different aspect such as space, time, mind, power, reality, or soul. Together, they can create enormous power. They are central to Thanos's plan in the MCU.",
+    "tags": [
+      "Infinity Stones",
+      "MCU",
+      "Thanos",
+      "cosmic objects"
+    ],
+    "aliases": [
+      "Infinity Gems",
+      "stones"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Thanos",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "avengers_team_basic",
+    "title": "Avengers Team Basic",
+    "category": "Marvel",
+    "subcategory": "Teams",
+    "content": "The Avengers are a superhero team that brings together powerful characters to face threats too large for one hero. The team lineup changes across comics and films. In the MCU, the group begins with heroes like Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Team conflict is part of the drama.",
+    "tags": [
+      "Avengers",
+      "team",
+      "MCU",
+      "heroes"
+    ],
+    "aliases": [
+      "Earth's Mightiest Heroes",
+      "Avengers team"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "mcu_phase_basic",
+    "title": "MCU Phase Basic",
+    "category": "Marvel",
+    "subcategory": "MCU",
+    "content": "The MCU is often organized into phases. A phase is a group of films and series released during a certain part of the franchise plan. This helps viewers understand broad story eras, although release order and timeline order are not always the same. Beginners usually follow release order for context.",
+    "tags": [
+      "MCU phases",
+      "release order",
+      "timeline",
+      "Marvel"
+    ],
+    "aliases": [
+      "Marvel phases",
+      "MCU timeline"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "superhero_origin_story_basic",
+    "title": "Superhero Origin Story Basic",
+    "category": "Marvel",
+    "subcategory": "Story Concepts",
+    "content": "A superhero origin story explains how a character becomes a hero and why they choose that path. It often includes a personal loss, discovery of powers, training, or a moral lesson. Spider-Man, Iron Man, and Captain America all have famous origins. Origin stories help audiences understand motivation before big team events.",
+    "tags": [
+      "origin story",
+      "superhero",
+      "motivation",
+      "Marvel"
+    ],
+    "aliases": [
+      "hero origin",
+      "backstory"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Spider-Man",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "marvel_comics_vs_mcu_basic",
+    "title": "Marvel Comics vs MCU Basic",
+    "category": "Marvel",
+    "subcategory": "Comparison",
+    "content": "Marvel Comics and the MCU are related but not identical. Comics have many decades of stories, alternate versions, and changing continuities. The MCU adapts characters and events for film and television. A chatbot should ask or infer whether the user means the comic version or the movie version before giving details.",
+    "tags": [
+      "Marvel Comics",
+      "MCU",
+      "adaptation",
+      "continuity"
+    ],
+    "aliases": [
+      "comics vs movies",
+      "Marvel versions"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_json_parse_troubleshooting",
+    "title": "Belle JSON Parse Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "JSON",
+    "content": "If Belle's knowledge file fails to load, first check whether the JSON is valid. Common problems include trailing commas, comments, unescaped quotes, missing brackets, or duplicate keys. Use JSON.parse() or a JSON validator before debugging the whole app. A broken knowledge.json can make the search layer fail before the model runs.",
+    "tags": [
+      "Belle",
+      "JSON.parse",
+      "knowledge.json",
+      "debugging"
+    ],
+    "aliases": [
+      "JSON error",
+      "parse error"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/JSON",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_rag_chunk_size_troubleshooting",
+    "title": "Belle RAG Chunk Size Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "RAG",
+    "content": "If RAG answers feel noisy, the chunks may be too large or too broad. Each knowledge object should cover one small idea with clear title, tags, and aliases. Short focused chunks are easier to retrieve than long mixed articles. For Belle, this means one object for one concept, character, or fix.",
+    "tags": [
+      "Belle",
+      "RAG",
+      "chunking",
+      "retrieval"
+    ],
+    "aliases": [
+      "chunk size",
+      "knowledge objects"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_mongodb_connection_troubleshooting",
+    "title": "Belle MongoDB Connection Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "MongoDB",
+    "content": "If the Belle backend cannot read stored knowledge or chat history, check the MongoDB connection string, database name, collection name, and network access. Also confirm the server actually starts before the frontend sends requests. Many database errors are configuration problems, not model problems. Logging the exact error message helps.",
+    "tags": [
+      "Belle",
+      "MongoDB",
+      "connection string",
+      "backend"
+    ],
+    "aliases": [
+      "mongo error",
+      "database connection"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/MongoDB",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_node_fastapi_bridge_troubleshooting",
+    "title": "Belle Node FastAPI Bridge Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "Backend",
+    "content": "In a React, Node.js, and FastAPI stack, the Node backend may call FastAPI for model inference. If chat fails, check the URL, port, CORS settings, request body shape, and response JSON. A mismatch between expected fields, such as prompt versus messages, can break the pipeline even when the model works.",
+    "tags": [
+      "Belle",
+      "Node.js",
+      "FastAPI",
+      "API"
+    ],
+    "aliases": [
+      "backend bridge",
+      "model endpoint"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Node.js",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_chatml_format_troubleshooting",
+    "title": "Belle ChatML Format Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "LLM",
+    "content": "Instruction-tuned chat models can be sensitive to message format. If Belle answers strangely after fine-tuning, verify the system, user, and assistant roles are formatted exactly as expected by the tokenizer or chat template. Bad formatting can teach the model the wrong pattern. Test with a tiny clean dataset first.",
+    "tags": [
+      "Belle",
+      "ChatML",
+      "fine-tuning",
+      "Qwen"
+    ],
+    "aliases": [
+      "chat template",
+      "message format"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_lora_overfitting_troubleshooting",
+    "title": "Belle LoRA Overfitting Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "LoRA",
+    "content": "If a LoRA-tuned Belle model repeats phrases or fails on normal questions, it may be overfitting to a small or narrow dataset. Reduce repetitive examples, mix persona data with general tasks, and evaluate on unseen prompts. RAG should provide knowledge, while LoRA should mainly guide style and behavior.",
+    "tags": [
+      "Belle",
+      "LoRA",
+      "overfitting",
+      "fine-tuning"
+    ],
+    "aliases": [
+      "adapter issue",
+      "training issue"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  },
+  {
+    "id": "belle_search_ranking_troubleshooting",
+    "title": "Belle Search Ranking Troubleshooting",
+    "category": "Troubleshooting",
+    "subcategory": "Search",
+    "content": "If Belle retrieves the wrong knowledge object, improve ranking before blaming the language model. Check titles, tags, aliases, embedding quality, and whether chunks overlap too much. Add obvious synonyms users may type, such as ZZZ for Zenless Zone Zero. Good retrieval makes the final answer much easier to generate.",
+    "tags": [
+      "Belle",
+      "search",
+      "ranking",
+      "embeddings"
+    ],
+    "aliases": [
+      "retrieval bug",
+      "bad search result"
+    ],
+    "source": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "license": "CC BY-SA",
+    "language": "en"
+  }
+]
