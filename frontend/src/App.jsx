@@ -1,10 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-const [responseMode, setResponseMode] = useState('normal');
-const [belleStyle, setBelleStyle] = useState('technical');
-const [autoScroll, setAutoScroll] = useState(true);
-
 
 const MODEL_LABELS = {
   'belle-1': 'Belle-1 RNN',
@@ -40,7 +36,10 @@ const TypewriterText = ({ text, animate, scrollRef }) => {
 };
 
 function App() {
-  const [messages, setMessages] = useState([
+    const [responseMode, setResponseMode] = useState('normal');
+    const [belleStyle, setBelleStyle] = useState('technical');
+    const [autoScroll, setAutoScroll] = useState(true);
+    const [messages, setMessages] = useState([
     {
       role: 'bot',
       text: 'My name is Belle. Has your system successfully connected?',
