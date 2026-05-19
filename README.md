@@ -127,7 +127,7 @@ ai-models/rnn-intent/label_encoder.pickle
 Model download link:
 
 ```txt
-ADD_GOOGLE_DRIVE_LINK_HERE
+...
 ```
 
 After downloading, extract the files and place them into the matching folders.
@@ -477,7 +477,7 @@ ai-models/rnn-intent/label_encoder.pickle
 Link tải model:
 
 ```txt
-THÊM_LINK_GOOGLE_DRIVE_Ở_ĐÂY
+...
 ```
 
 Sau khi tải, giải nén và đặt các thư mục/file vào đúng vị trí trong `ai-models/`.
