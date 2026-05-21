@@ -15,6 +15,11 @@ const mongoURI = 'mongodb://localhost:27017/belle_chatbot';
 const PYTHON_API_URL = 'http://localhost:8000/predict';
 const ALLOW_MODEL_FALLBACK_FOR_FACTUAL = false;
 
+const PERSONA_SERVICE_URL = 'http://127.0.0.1:8104';
+const ENABLE_PERSONA_EVALUATION = true;
+const ENABLE_PERSONA_REWRITE = true;
+const MAX_PERSONA_REWRITE_ATTEMPTS = 2;
+
 const MODEL_ENDPOINTS = {
   "belle-1": "http://127.0.0.1:8101/predict-intent",
   "belle-2": "http://127.0.0.1:8102/predict",
@@ -48,7 +53,8 @@ async function callBelle1Rnn(userMessage) {
   return {
     botResponse,
     intent,
-    context: `Belle-1 RNN confidence: ${(confidence * 100).toFixed(2)}%`
+    context: `Belle-1 RNN confidence: ${(confidence * 100).toFixed(2)}%`,
+    modelUsed: 'belle-1'
   };
 }
 
@@ -61,7 +67,8 @@ async function callBelle2Gpt2(userMessage) {
   return {
     botResponse: response.data.reply,
     intent: response.data.intent || "gpt2_chat",
-    context: "Belle-2 GPT-2 transformer model was used."
+    context: "Belle-2 GPT-2 transformer model was used.",
+    modelUsed: 'belle-2'
   };
 }
 
@@ -75,7 +82,8 @@ async function callBelle3Qwen(userMessage, history = [], context = "") {
   return {
     botResponse: response.data.reply,
     intent: response.data.intent || "qwen_chat",
-    context: context || "Belle-3 Qwen RAG model was used."
+    context: context || "Belle-3 Qwen RAG model was used.",
+    modelUsed: 'belle-3'
   };
 }
 
@@ -232,6 +240,112 @@ function buildSuccessResponse(newChat, extra = {}) {
   };
 }
 
+// =========================
+// 5.5 PERSONA EVALUATOR LAYER
+// =========================
+
+async function evaluatePersona(userMessage, botResponse) {
+  if (!ENABLE_PERSONA_EVALUATION) {
+    return {
+      ok: false,
+      label: 'disabled',
+      belle_score: null,
+      not_belle_score: null,
+      decision: 'disabled'
+    };
+  }
+
+  try {
+    const response = await axios.post(
+      `${PERSONA_SERVICE_URL}/persona/evaluate`,
+      {
+        userMessage,
+        response: botResponse
+      },
+      {
+        timeout: 8000
+      }
+    );
+
+    return {
+      ok: true,
+      ...response.data
+    };
+  } catch (error) {
+    console.error('[Persona Evaluator Error]', error.message);
+
+    return {
+      ok: false,
+      label: 'unknown',
+      belle_score: null,
+      not_belle_score: null,
+      decision: 'persona_service_unavailable'
+    };
+  }
+}
+
+function printPersonaLog({
+  userMessage,
+  botResponse,
+  intent,
+  personaResult,
+  personaAttempts = []
+}) {
+  console.log('===== PERSONA ENGINE LOG START =====');
+  console.log('Intent:', intent);
+  console.log('User message:', userMessage);
+  console.log('Final response:', botResponse);
+  console.log('Persona result:', personaResult);
+
+  if (Array.isArray(personaAttempts) && personaAttempts.length > 0) {
+    for (const item of personaAttempts) {
+      console.log(`Persona attempt ${item.attempt}:`);
+      console.log('Response:', item.response);
+      console.log('Persona:', item.persona);
+    }
+  }
+
+  console.log('===== PERSONA ENGINE LOG END =====');
+}
+
+async function saveAndRespondWithPersona(res, {
+  userMessage,
+  botResponse,
+  intent,
+  extra = {},
+  statusCode = 201
+}) {
+  const refined = await refinePersonaResponse({
+    userMessage,
+    botResponse,
+    intent
+  });
+
+  printPersonaLog({
+    userMessage,
+    botResponse: refined.finalResponse,
+    intent,
+    personaResult: refined.personaResult,
+    personaAttempts: refined.attempts
+  });
+
+  const newChat = await saveChat(
+    userMessage,
+    refined.finalResponse,
+    intent
+  );
+
+  return res.status(statusCode).json(
+    buildSuccessResponse(newChat, {
+      ...extra,
+      persona: refined.personaResult,
+      personaAttempts: refined.attempts,
+      personaRewritten: refined.rewritten,
+      originalBotResponse: botResponse
+    })
+  );
+}
+
 
 // =========================
 // 6. MATH CALCULATOR LAYER
@@ -244,6 +358,7 @@ function safeCalculateExpression(expression) {
     .replace(/×/g, '*')
     .replace(/÷/g, '/')
     .replace(/,/g, '')
+    .replace(/[?？]/g, '')
     .trim();
 
   // Chi cho phep so, dau toan, dau cham, ngoac va khoang trang.
@@ -273,7 +388,9 @@ function extractMathExpression(userMessage) {
   // Vi du: "What is (10+20) / 5"
   const whatIsMatch = text.match(/(?:what is|calculate|solve|tinh|tính|hay tinh|hãy tính)\s+(.+)/i);
   if (whatIsMatch) {
-    return whatIsMatch[1].trim();
+    return whatIsMatch[1]
+      .replace(/[?？]/g, '')
+      .trim();
   }
 
   // Vi du: "10 + 20 / 5"
@@ -437,7 +554,7 @@ async function retrieveKnowledge(query, limit = 3) {
         `Tags: ${(doc.tags || []).join(', ')}`,
         `Aliases: ${(doc.aliases || []).join(', ')}`,
         `Source URL: ${doc.source_url || ''}`
-      ].join('\n');
+  ].join("\n");
     }).join('\n\n');
 
   } catch (err) {
@@ -695,19 +812,406 @@ function smallTalkReply(userMessage) {
   }
 
   if (/thanks|thank you|cam on|cảm ơn/.test(text)) {
-    return 'You are welcome.';
+    return 'You are welcome. Commission cleared.';
   }
 
   if (/how are you/.test(text)) {
-    return 'I am doing fine. How can I help you?';
+    return "I'm doing fine. Ready for the next commission.";
   }
 
   if (/ok|okay|nice|great|cool|duoc|được/.test(text)) {
-    return 'Got it.';
+    return "Got it. I'll keep it clean.";
   }
 
-  return 'Hello, you!';
+  return "Hey, I'm here. What's the next commission?";
 }
+
+function getPersonaThreshold(intent) {
+  const thresholds = {
+    small_talk: 0.85,
+    persona: 0.85,
+
+    math_calculation: 0.70,
+    math_quiz_request: 0.70,
+    math_quiz_answer: 0.70,
+
+    factual_question: 0.70,
+    normal_chat: 0.80,
+    teach_command: 0.60
+  };
+
+  return thresholds[intent] ?? 0.80;
+}
+
+function needsTonePolish(botResponse, intent) {
+  const text = String(botResponse || '').trim().toLowerCase();
+
+  if (!text) return false;
+
+  if (intent === 'normal_chat') {
+    if (text.startsWith("i can't")) return true;
+    if (text.startsWith('i cannot')) return true;
+    if (text.startsWith('i can’t')) return true;
+    if (text.includes('without seeing it')) return true;
+    if (text.includes('unless you show me')) return true;
+  }
+
+  if (intent === 'factual_question') {
+    if (text.includes('category on wikipedia')) return true;
+    if (text.includes('wikipedia category')) return true;
+  }
+
+  return false;
+}
+
+function polishBadFactualPhrases(botResponse) {
+  let text = String(botResponse || '').trim();
+
+  if (!text) return text;
+
+  // 1. Xoa nguyen cau chua metadata noi bo / category / Wikipedia.
+  // Vi du:
+  // "The game is set in a Zenless Zone Zero category and is known for..."
+  // "It has a Zenless Zone Zero category on Wikipedia."
+  // "For Belle, this topic helps answer basic questions about the game world and its tone."
+  const sentences = text.match(/[^.!?]+[.!?]*/g) || [text];
+
+  const cleanedSentences = sentences
+    .map(sentence => sentence.trim())
+    .filter(sentence => {
+      const s = sentence.toLowerCase();
+
+      const isBadMetadata =
+        s.includes('category on wikipedia') ||
+        s.includes('wikipedia category') ||
+        s.includes('zenless zone zero category') ||
+        s.startsWith('for belle,') ||
+        s.includes('for belle, this topic') ||
+        s.includes('helps answer basic questions') ||
+        s.includes('game world and its tone') ||
+        /\bcategory\b/.test(s);
+
+      return !isBadMetadata;
+    });
+
+  text = cleanedSentences.join(' ').trim();
+
+  // 2. Sua mot so cum xau neu con sot.
+  const badPatterns = [
+    /\bFor Belle,\s*this topic helps answer basic questions about the game world and its tone\.?/gi,
+    /\bFor Belle,\s*this topic helps answer basic questions.*?\.?/gi,
+    /\bThis topic helps answer basic questions about the game world and its tone\.?/gi,
+
+    /\bThe game has a Zenless Zone Zero category on Wikipedia\.?/gi,
+    /\bIt has a Zenless Zone Zero category on Wikipedia\.?/gi,
+    /\bThere is a Zenless Zone Zero category on Wikipedia\.?/gi,
+
+    /\bThe game has a Zenless Zone Zero category\.?/gi,
+    /\bIt has a Zenless Zone Zero category\.?/gi,
+    /\bThere is a Zenless Zone Zero category\.?/gi,
+
+    /\bThe game is set in a Zenless Zone Zero category\.?/gi,
+    /\bIt is set in a Zenless Zone Zero category\.?/gi,
+
+    /\bThe game is set in an? .* category\.?/gi,
+    /\bIt is set in an? .* category\.?/gi,
+
+    /\bThe game has an? .* category on Wikipedia\.?/gi,
+    /\bIt has an? .* category on Wikipedia\.?/gi,
+    /\bThere is an? .* category on Wikipedia\.?/gi,
+
+    /\bThe game has an? .* category\.?/gi,
+    /\bIt has an? .* category\.?/gi,
+    /\bThere is an? .* category\.?/gi
+  ];
+
+  for (const pattern of badPatterns) {
+    text = text.replace(pattern, '').trim();
+  }
+
+  // 3. Don dau cau.
+  text = text
+    .replace(/\s+/g, ' ')
+    .replace(/\s+\./g, '.')
+    .replace(/\.\s*\./g, '.')
+    .replace(/\s+,/g, ',')
+    .trim();
+
+  return text;
+}
+
+function normalizeForCompare(text) {
+  return String(text || '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function polishUnhelpfulDebugReply(botResponse, userMessage, intent, personaResult = null) {
+  const text = String(botResponse || '').trim();
+  const lowerText = text.toLowerCase();
+  const lowerUser = String(userMessage || '').toLowerCase();
+
+  const isDebugRequest =
+    intent === 'normal_chat' &&
+    (
+      lowerUser.includes('debug') ||
+      lowerUser.includes('code') ||
+      lowerUser.includes('error') ||
+      lowerUser.includes('bug')
+    );
+
+  if (!isDebugRequest) {
+    return text;
+  }
+
+  const score = personaResult ? Number(personaResult.belle_score || 0) : null;
+
+  const soundsUnhelpful =
+    lowerText.startsWith("i can't") ||
+    lowerText.startsWith('i cannot') ||
+    lowerText.startsWith('i can’t') ||
+    lowerText.includes('without seeing it') ||
+    lowerText.includes('unless you show me');
+
+  const soundsGeneric =
+    lowerText.includes('please provide the code') ||
+    lowerText.includes('please share your code') ||
+    lowerText.includes('any error messages') ||
+    lowerText.includes('i can help you debug');
+
+  const weakPersona = score !== null && score < 0.8;
+
+  if (soundsUnhelpful || soundsGeneric || weakPersona) {
+    return "Sure. Send me the code and the error message, and we'll track the bug step by step.";
+  }
+
+  return text;
+}
+
+function polishResponseBeforePersona({
+  userMessage,
+  botResponse,
+  intent,
+  personaResult = null
+}) {
+  let text = String(botResponse || '').trim();
+
+  if (intent === 'factual_question') {
+    text = polishBadFactualPhrases(text);
+  }
+
+  text = polishUnhelpfulDebugReply(
+    text,
+    userMessage,
+    intent,
+    personaResult
+  );
+
+  return text;
+}
+
+
+function applyIntentPersonaDecision(personaResult, intent) {
+  const safePersonaResult = personaResult || {
+    ok: false,
+    label: 'unknown',
+    belle_score: null,
+    not_belle_score: null,
+    decision: 'persona_result_missing'
+  };
+
+  const threshold = getPersonaThreshold(intent);
+
+  // Neu service persona bi tat/bi loi, khong duoc lam crash API.
+  if (!safePersonaResult.ok) {
+    return {
+      ...safePersonaResult,
+      threshold,
+      decisionByIntent: safePersonaResult.decision || 'skip_persona_decision'
+    };
+  }
+
+  const score = Number(safePersonaResult.belle_score || 0);
+
+  let decisionByIntent = 'rewrite_needed';
+
+  if (score >= threshold) {
+    decisionByIntent = 'accept';
+  } else if (score >= threshold - 0.15) {
+    decisionByIntent = 'weak_persona';
+  }
+
+  return {
+    ...safePersonaResult,
+    threshold,
+    decisionByIntent
+  };
+}
+
+async function rewriteWithBellePersona({
+  userMessage,
+  originalResponse,
+  intent
+}) {
+  const rewritePrompt = [
+    "Rewrite the assistant response in Belle's persona.",
+    "",
+    "Rules:",
+    "- Keep the same useful meaning and factual content.",
+    "- Do not add unsupported facts.",
+    "- Remove awkward source/meta wording such as Wikipedia category notes.",
+    "- Keep a similar length.",
+    "- Make it sound natural, helpful, concise, and Belle-like.",
+    "- Avoid robotic AI wording.",
+    "- If the original response is an unhelpful refusal, turn it into a helpful request for the needed information.",
+    "- Return only the rewritten response.",
+    "",
+    `Intent: ${intent}`,
+    `User message: ${userMessage}`,
+    "",
+    `Original response: ${originalResponse}`
+  ].join("\n");
+
+  const modelResult = await callBelleModel({
+    userMessage: rewritePrompt,
+    history: [],
+    context: ''
+  });
+
+  return cleanModelReply(modelResult.botResponse);
+}
+
+function shouldRewritePersona({ personaResult, botResponse, intent }) {
+  if (!ENABLE_PERSONA_REWRITE) return false;
+  if (!personaResult || !personaResult.ok) return false;
+
+  // Khong rewrite toan/de lenh luu knowledge de tranh pha ket qua hoac logic he thong.
+  const noRewriteIntents = [
+    'math_calculation',
+    'math_quiz_request',
+    'math_quiz_answer',
+    'teach_command'
+  ];
+
+  if (noRewriteIntents.includes(intent)) {
+    return false;
+  }
+
+  if (needsTonePolish(botResponse, intent)) {
+    return true;
+  }
+
+  return personaResult.decisionByIntent !== 'accept';
+}
+
+async function refinePersonaResponse({
+  userMessage,
+  botResponse,
+  intent
+}) {
+  let currentResponse = polishResponseBeforePersona({
+    userMessage,
+    botResponse,
+    intent
+  });
+
+  let currentPersona = await evaluatePersona(userMessage, currentResponse);
+  currentPersona = applyIntentPersonaDecision(currentPersona, intent);
+
+  const polishedAfterScore = polishResponseBeforePersona({
+    userMessage,
+    botResponse: currentResponse,
+    intent,
+    personaResult: currentPersona
+  });
+
+  if (normalizeForCompare(polishedAfterScore) !== normalizeForCompare(currentResponse)) {
+    currentResponse = polishedAfterScore;
+
+    currentPersona = await evaluatePersona(userMessage, currentResponse);
+    currentPersona = applyIntentPersonaDecision(currentPersona, intent);
+  }
+
+  const attempts = [
+    {
+      attempt: 0,
+      response: currentResponse,
+      persona: currentPersona
+    }
+  ];
+
+  if (!shouldRewritePersona({
+    personaResult: currentPersona,
+    botResponse: currentResponse,
+    intent
+  })) {
+    return {
+      finalResponse: currentResponse,
+      personaResult: currentPersona,
+      attempts,
+      rewritten: false
+    };
+  }
+
+  for (let attempt = 1; attempt <= MAX_PERSONA_REWRITE_ATTEMPTS; attempt++) {
+    try {
+      let rewritten = await rewriteWithBellePersona({
+        userMessage,
+        originalResponse: currentResponse,
+        intent
+      });
+
+      rewritten = polishResponseBeforePersona({
+        userMessage,
+        botResponse: rewritten,
+        intent
+      });
+
+      if (!rewritten || !rewritten.trim()) {
+        break;
+      }
+
+      if (normalizeForCompare(rewritten) === normalizeForCompare(currentResponse)) {
+        console.log('[Persona Rewrite] Rewritten response is unchanged. Stop retrying.');
+        break;
+      }
+
+      let newPersona = await evaluatePersona(userMessage, rewritten);
+      newPersona = applyIntentPersonaDecision(newPersona, intent);
+
+      attempts.push({
+        attempt,
+        response: rewritten,
+        persona: newPersona
+      });
+
+      const oldScore = Number(currentPersona.belle_score || 0);
+      const newScore = Number(newPersona.belle_score || 0);
+
+      if (newScore >= oldScore || needsTonePolish(currentResponse, intent)) {
+        currentResponse = rewritten;
+        currentPersona = newPersona;
+      }
+
+      if (newPersona.decisionByIntent === 'accept') {
+        break;
+      }
+    } catch (error) {
+      console.error('[Persona Rewrite Error]', error.message);
+      break;
+    }
+  }
+
+  return {
+    finalResponse: currentResponse,
+    personaResult: currentPersona,
+    attempts,
+    rewritten: attempts.length > 1
+  };
+}
+
+
 
 function cleanModelReply(reply) {
   let text = String(reply || '').trim();
@@ -736,7 +1240,7 @@ async function callBelleModel({ userMessage, history = [], context = '' }) {
   });
 
   return {
-    botResponse: response.data.reply || 'Belle-3 did not return a reply.',
+    botResponse: cleanModelReply(response.data.reply || 'Belle-3 did not return a reply.'),
     intent: response.data.intent || 'qwen_chat'
   };
 }
@@ -876,57 +1380,64 @@ app.post('/api/chat', async (req, res) => {
 
     // LUONG 1: Direct replies tu Node, khong goi RAG, khong goi app.py.
     if (route.directReply) {
-      const newChat = await saveChat(userMessage, route.directReply, route.intent);
+    return saveAndRespondWithPersona(res, {
+      userMessage,
+      botResponse: route.directReply,
+      intent: route.intent,
+      extra: {
+        context: '',
+        usedRag: false,
+        modelUsed: selectedModel
+      }
+    });
+  }
 
-      return res.status(201).json(
-        buildSuccessResponse(newChat, {
-          context: '',
-          usedRag: false,
-          modelUsed: selectedModel
-        })
-      );
-    }
-
-    // LUONG 2: Teach command -> luu pending_knowledge, khong goi RAG.
+        // LUONG 2: Teach command -> luu pending_knowledge, khong goi RAG.
     if (route.intent === 'teach_command') {
       const botResponse = await handleTeachCommand(userMessage);
-      const newChat = await saveChat(userMessage, botResponse, route.intent);
 
-      return res.status(201).json(
-        buildSuccessResponse(newChat, {
+      return saveAndRespondWithPersona(res, {
+        userMessage,
+        botResponse,
+        intent: route.intent,
+        extra: {
           context: '',
           usedRag: false,
           modelUsed: selectedModel
-        })
-      );
+        }
+      });
     }
 
     // LUONG 3: Small talk -> Node tra loi don gian, khong RAG.
     if (route.intent === 'small_talk') {
       const botResponse = smallTalkReply(userMessage);
-      const newChat = await saveChat(userMessage, botResponse, route.intent);
 
-      return res.status(201).json(
-        buildSuccessResponse(newChat, {
+      return saveAndRespondWithPersona(res, {
+        userMessage,
+        botResponse,
+        intent: route.intent,
+        extra: {
           context: '',
           usedRag: false,
           modelUsed: selectedModel
-        })
-      );
+        }
+      });
     }
 
     // LUONG 4: Persona -> Node tra loi co dinh, khong RAG.
     if (route.intent === 'persona') {
       const botResponse = personaReply(userMessage);
-      const newChat = await saveChat(userMessage, botResponse, route.intent);
 
-      return res.status(201).json(
-        buildSuccessResponse(newChat, {
+      return saveAndRespondWithPersona(res, {
+        userMessage,
+        botResponse,
+        intent: route.intent,
+        extra: {
           context: '',
           usedRag: false,
           modelUsed: selectedModel
-        })
-      );
+        }
+      });
     }
 
     const history = await getRecentHistory(6);
@@ -936,19 +1447,17 @@ app.post('/api/chat', async (req, res) => {
     if (route.intent === 'factual_question') {
       const result = await handleFactualQuestion(userMessage, history);
 
-      const newChat = await saveChat(
+      return saveAndRespondWithPersona(res, {
         userMessage,
-        result.botResponse,
-        route.intent
-      );
-
-      return res.status(201).json(
-        buildSuccessResponse(newChat, {
+        botResponse: result.botResponse,
+        intent: route.intent,
+        extra: {
           context: result.context,
           usedRag: result.usedRag,
+          ragConfidence: result.confidence,
           modelUsed: selectedModel
-        })
-      );
+        }
+      });
     }
 
     // LUONG 6: Normal chat -> Belle-3 Qwen tra loi binh thuong
@@ -958,19 +1467,16 @@ app.post('/api/chat', async (req, res) => {
       context: ''
     });
 
-    const newChat = await saveChat(
+    return saveAndRespondWithPersona(res, {
       userMessage,
-      modelResult.botResponse,
-      route.intent
-    );
-
-    return res.status(201).json(
-      buildSuccessResponse(newChat, {
+      botResponse: modelResult.botResponse,
+      intent: route.intent,
+      extra: {
         context: '',
         usedRag: false,
         modelUsed: selectedModel
-      })
-    );
+      }
+    });
 
   } catch (error) {
     console.error('Loi:', error.message);
