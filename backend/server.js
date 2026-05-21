@@ -138,6 +138,38 @@ const Knowledge = mongoose.model('Knowledge', knowledgeSchema, 'knowledge');
 
 
 // =========================
+// 2.5 PERSONA KNOWLEDGE SCHEMA
+// =========================
+
+const personaKnowledgeSchema = new mongoose.Schema({
+  id: { type: String, unique: true, required: true },
+  type: { type: String, required: true },
+  title: String,
+  content: { type: String, required: true },
+  tags: [String],
+  priority: { type: Number, default: 0.5 },
+  language: { type: String, default: 'en' },
+  createdAt: { type: Date, default: Date.now },
+  updatedAt: { type: Date, default: Date.now }
+});
+
+personaKnowledgeSchema.index({
+  id: 'text',
+  type: 'text',
+  title: 'text',
+  content: 'text',
+  tags: 'text'
+});
+
+const PersonaKnowledge = mongoose.model(
+  'PersonaKnowledge',
+  personaKnowledgeSchema,
+  'persona_knowledge'
+);
+
+
+
+// =========================
 // 3. PENDING KNOWLEDGE SCHEMA
 // =========================
 
@@ -164,6 +196,9 @@ mongoose.connect(mongoURI)
     console.log('Da ket noi thanh cong voi MongoDB Compass!');
     await Knowledge.init();
     console.log('Knowledge text index da san sang!');
+
+    await PersonaKnowledge.init();
+    console.log('Persona knowledge text index da san sang!');
   })
   .catch((err) => console.error('Loi ket noi MongoDB:', err));
 
@@ -571,6 +606,105 @@ function buildKnowledgeSearchQuery(userMessage) {
 }
 
 
+
+function sanitizeRagContextForModel(rawContext) {
+  let text = String(rawContext || '').trim();
+
+  if (!text) return '';
+
+  const lines = text
+    .split('\n')
+    .map(line => line.trim())
+    .filter(line => {
+      if (!line) return false;
+
+      // Khong dua metadata vao model nhu fact.
+      if (/^Tags:/i.test(line)) return false;
+      if (/^Aliases:/i.test(line)) return false;
+      if (/^Source URL:/i.test(line)) return false;
+      if (/^Category:/i.test(line)) return false;
+
+      return true;
+    })
+    .map(line => {
+      return line
+        .replace(/For Belle, this topic helps answer basic questions about the game world and its tone\.?/gi, '')
+        .replace(/For Belle, this topic helps answer basic questions.*?\.?/gi, '')
+        .replace(/In a RAG answer,.*?\.?/gi, '')
+        .replace(/For RAG answers,.*?\.?/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    })
+    .filter(Boolean);
+
+  return lines.join('\n');
+}
+
+
+
+// =========================
+// 8.5 PERSONA KNOWLEDGE RAG LAYER
+// =========================
+
+async function retrievePersonaKnowledge(userMessage, intent, limit = 4) {
+  const queryParts = [
+    String(userMessage || ''),
+    String(intent || ''),
+    'Belle persona style response rule'
+  ];
+
+  const query = queryParts.join(' ').trim();
+
+  if (!query) {
+    return {
+      context: '',
+      docs: []
+    };
+  }
+
+  try {
+    const docs = await PersonaKnowledge.find(
+      { $text: { $search: query } },
+      { score: { $meta: 'textScore' } }
+    )
+      .sort({
+        priority: -1,
+        score: { $meta: 'textScore' }
+      })
+      .limit(limit)
+      .lean();
+
+    if (!docs.length) {
+      return {
+        context: '',
+        docs: []
+      };
+    }
+
+    const context = docs.map((doc, index) => {
+      return [
+        `Persona Rule ${index + 1}: ${doc.title || doc.id}`,
+        `Type: ${doc.type}`,
+        `Priority: ${doc.priority}`,
+        `Content: ${doc.content}`,
+        `Tags: ${(doc.tags || []).join(', ')}`
+      ].join('\n');
+    }).join('\n\n');
+
+    return {
+      context,
+      docs
+    };
+  } catch (err) {
+    console.error('Loi retrievePersonaKnowledge:', err.message);
+    return {
+      context: '',
+      docs: []
+    };
+  }
+}
+
+
 // =========================
 // 9. INTENT DETECTION
 // =========================
@@ -835,7 +969,7 @@ function getPersonaThreshold(intent) {
     math_quiz_request: 0.70,
     math_quiz_answer: 0.70,
 
-    factual_question: 0.70,
+    factual_question: 0.55,
     normal_chat: 0.80,
     teach_command: 0.60
   };
@@ -889,6 +1023,20 @@ function polishBadFactualPhrases(botResponse) {
         s.includes('for belle, this topic') ||
         s.includes('helps answer basic questions') ||
         s.includes('game world and its tone') ||
+
+        // Chan metadata tu RAG tags.
+        /\bhas\s+\d+\s+tags\b/.test(s) ||
+        s.includes(' tags:') ||
+        s.includes('4 tags') ||
+
+        // Chan hallucination cu ve ZZZ.
+        s.includes('main character types') ||
+        s.includes('guardian') ||
+        s.includes('hero') ||
+        s.includes('2d graphics') ||
+        s.includes('solve puzzles') ||
+        s.includes('mission type') ||
+
         /\bcategory\b/.test(s);
 
       return !isBadMetadata;
@@ -898,6 +1046,14 @@ function polishBadFactualPhrases(botResponse) {
 
   // 2. Sua mot so cum xau neu con sot.
   const badPatterns = [
+    /\b[^.!?]*has\s+\d+\s+tags[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*main character types[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*\bGuardian\b[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*\bHero\b[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*2D graphics[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*solve puzzles[^.!?]*[.!?]?/gi,
+    /\b[^.!?]*mission type[^.!?]*[.!?]?/gi,
+
     /\bFor Belle,\s*this topic helps answer basic questions about the game world and its tone\.?/gi,
     /\bFor Belle,\s*this topic helps answer basic questions.*?\.?/gi,
     /\bThis topic helps answer basic questions about the game world and its tone\.?/gi,
@@ -944,6 +1100,13 @@ function normalizeForCompare(text) {
   return String(text || '')
     .toLowerCase()
     .replace(/\s+/g, ' ')
+    .trim();
+}
+
+
+function removeAssistantNamePrefix(text) {
+  return String(text || '')
+    .replace(/^Belle\s*:\s*/i, '')
     .trim();
 }
 
@@ -1008,6 +1171,8 @@ function polishResponseBeforePersona({
     personaResult
   );
 
+  text = removeAssistantNamePrefix(text);
+
   return text;
 }
 
@@ -1035,6 +1200,22 @@ function applyIntentPersonaDecision(personaResult, intent) {
   const score = Number(safePersonaResult.belle_score || 0);
 
   let decisionByIntent = 'rewrite_needed';
+
+  // Factual answers should prioritize accuracy over strong persona.
+  // Neu factual da sach va dung RAG, khong ep rewrite chi vi tone trung tinh.
+  if (intent === 'factual_question') {
+    if (score >= 0.35) {
+      decisionByIntent = 'accept';
+    } else {
+      decisionByIntent = 'weak_persona';
+    }
+
+    return {
+      ...safePersonaResult,
+      threshold,
+      decisionByIntent
+    };
+  }
 
   if (score >= threshold) {
     decisionByIntent = 'accept';
@@ -1086,12 +1267,13 @@ function shouldRewritePersona({ personaResult, botResponse, intent }) {
   if (!ENABLE_PERSONA_REWRITE) return false;
   if (!personaResult || !personaResult.ok) return false;
 
-  // Khong rewrite toan/de lenh luu knowledge de tranh pha ket qua hoac logic he thong.
+  // Khong rewrite toan/factual/de lenh luu knowledge de tranh pha ket qua, hallucination hoac logic he thong.
   const noRewriteIntents = [
     'math_calculation',
     'math_quiz_request',
     'math_quiz_answer',
-    'teach_command'
+    'teach_command',
+    'factual_question'
   ];
 
   if (noRewriteIntents.includes(intent)) {
@@ -1279,34 +1461,48 @@ async function handleFactualQuestion(userMessage, history) {
       return {
         botResponse: "I don't have enough reliable knowledge about that in my database yet.",
         context: '',
+        modelContext: '',
         usedRag: false,
         confidence: ragResult.confidence
       };
     }
 
+    // Factual fallback cung khong dung history de tranh keo hallucination cu.
     const modelResult = await callBelleModel({
       userMessage,
-      history,
+      history: [],
       context: ''
     });
 
+    const cleanedBotResponse = polishBadFactualPhrases(modelResult.botResponse);
+
     return {
-      botResponse: modelResult.botResponse,
+      botResponse: cleanedBotResponse,
       context: '',
+      modelContext: '',
       usedRag: false,
       confidence: ragResult.confidence
     };
   }
 
+  const safeContext = sanitizeRagContextForModel(ragResult.context);
+
+  console.log('===== SANITIZED FACTUAL MODEL CONTEXT START =====');
+  console.log(safeContext);
+  console.log('===== SANITIZED FACTUAL MODEL CONTEXT END =====');
+
   const modelResult = await callBelleModel({
     userMessage,
-    history,
-    context: ragResult.context
+    history: [],
+    context: safeContext
   });
 
+  const cleanedBotResponse = polishBadFactualPhrases(modelResult.botResponse);
+
   return {
-    botResponse: modelResult.botResponse,
+    botResponse: cleanedBotResponse,
     context: ragResult.context,
+    modelContext: safeContext,
     usedRag: true,
     confidence: ragResult.confidence
   };
@@ -1443,6 +1639,18 @@ app.post('/api/chat', async (req, res) => {
     const history = await getRecentHistory(6);
     console.log(`Dang gui ${history.length} tin nhan lich su sang Belle neu can...`);
 
+    const personaKnowledge = await retrievePersonaKnowledge(
+      userMessage,
+      route.intent,
+      4
+    );
+
+    if (personaKnowledge.context) {
+      console.log('===== PERSONA KNOWLEDGE CONTEXT START =====');
+      console.log(personaKnowledge.context);
+      console.log('===== PERSONA KNOWLEDGE CONTEXT END =====');
+    }
+
     // LUONG 5: Factual question -> chi luc nay moi dung RAG.
     if (route.intent === 'factual_question') {
       const result = await handleFactualQuestion(userMessage, history);
@@ -1453,8 +1661,11 @@ app.post('/api/chat', async (req, res) => {
         intent: route.intent,
         extra: {
           context: result.context,
+          modelContext: result.modelContext,
           usedRag: result.usedRag,
           ragConfidence: result.confidence,
+          usedPersonaKnowledge: Boolean(personaKnowledge.context),
+          personaContext: personaKnowledge.context,
           modelUsed: selectedModel
         }
       });
@@ -1464,7 +1675,7 @@ app.post('/api/chat', async (req, res) => {
     const modelResult = await callBelleModel({
       userMessage,
       history,
-      context: ''
+      context: personaKnowledge.context
     });
 
     return saveAndRespondWithPersona(res, {
@@ -1472,8 +1683,10 @@ app.post('/api/chat', async (req, res) => {
       botResponse: modelResult.botResponse,
       intent: route.intent,
       extra: {
-        context: '',
+        context: personaKnowledge.context,
         usedRag: false,
+        usedPersonaKnowledge: Boolean(personaKnowledge.context),
+        personaContext: personaKnowledge.context,
         modelUsed: selectedModel
       }
     });
