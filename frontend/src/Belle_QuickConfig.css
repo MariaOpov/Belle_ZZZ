@@ -1,0 +1,316 @@
+/* =========================================================
+   BelleTheme.css
+   Theme override layer for Belle frontend.
+   Keep App.css as the base layout, import this file AFTER App.css.
+   Available themes: terminal, light, paper, sakura, ocean.
+========================================================= */
+
+.belle-theme {
+  --belle-bg: #0c0c0e;
+  --belle-surface: #111113;
+  --belle-panel: #000000;
+  --belle-panel-soft: #18181b;
+  --belle-border: #27272a;
+  --belle-border-soft: #1f1f23;
+  --belle-text: #f4f4f5;
+  --belle-muted: #a1a1aa;
+  --belle-faint: #71717a;
+  --belle-accent: #4ade80;
+  --belle-accent-2: #60a5fa;
+  --belle-user-bg: #27272a;
+  --belle-user-text: #f4f4f5;
+  --belle-bot-bg: #18181b;
+  --belle-bot-text: #4ade80;
+  --belle-input-bg: #18181b;
+  --belle-button-bg: #4ade80;
+  --belle-button-text: #0c0c0e;
+  --belle-shadow: rgba(0, 0, 0, 0.4);
+  --belle-font: "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* 1) Original Belle terminal look */
+.belle-theme-terminal {
+  --belle-bg: #0c0c0e;
+  --belle-surface: #111113;
+  --belle-panel: #000000;
+  --belle-panel-soft: #18181b;
+  --belle-border: #27272a;
+  --belle-border-soft: #1f1f23;
+  --belle-text: #f4f4f5;
+  --belle-muted: #a1a1aa;
+  --belle-faint: #71717a;
+  --belle-accent: #4ade80;
+  --belle-accent-2: #60a5fa;
+  --belle-user-bg: #27272a;
+  --belle-user-text: #f4f4f5;
+  --belle-bot-bg: #18181b;
+  --belle-bot-text: #4ade80;
+  --belle-input-bg: #18181b;
+  --belle-button-bg: #4ade80;
+  --belle-button-text: #0c0c0e;
+}
+
+/* 2) Clean white interface: white background, black text */
+.belle-theme-light {
+  --belle-bg: #f5f7fb;
+  --belle-surface: #ffffff;
+  --belle-panel: #ffffff;
+  --belle-panel-soft: #f1f5f9;
+  --belle-border: #d8dee9;
+  --belle-border-soft: #e5e7eb;
+  --belle-text: #111827;
+  --belle-muted: #374151;
+  --belle-faint: #64748b;
+  --belle-accent: #2563eb;
+  --belle-accent-2: #0f766e;
+  --belle-user-bg: #2563eb;
+  --belle-user-text: #ffffff;
+  --belle-bot-bg: #f8fafc;
+  --belle-bot-text: #111827;
+  --belle-input-bg: #ffffff;
+  --belle-button-bg: #2563eb;
+  --belle-button-text: #ffffff;
+  --belle-shadow: rgba(15, 23, 42, 0.12);
+  --belle-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* 3) Paper white: softer academic report style */
+.belle-theme-paper {
+  --belle-bg: #f7f2e8;
+  --belle-surface: #fffaf0;
+  --belle-panel: #fffaf0;
+  --belle-panel-soft: #f2eadb;
+  --belle-border: #d6c7ad;
+  --belle-border-soft: #eadcc8;
+  --belle-text: #1f2933;
+  --belle-muted: #4b5563;
+  --belle-faint: #7c6f64;
+  --belle-accent: #b45309;
+  --belle-accent-2: #2563eb;
+  --belle-user-bg: #b45309;
+  --belle-user-text: #fffaf0;
+  --belle-bot-bg: #ffffff;
+  --belle-bot-text: #1f2933;
+  --belle-input-bg: #ffffff;
+  --belle-button-bg: #b45309;
+  --belle-button-text: #fffaf0;
+  --belle-shadow: rgba(92, 64, 32, 0.18);
+  --belle-font: Georgia, "Times New Roman", serif;
+}
+
+/* 4) Sakura soft: light, pink accent */
+.belle-theme-sakura {
+  --belle-bg: #fff1f5;
+  --belle-surface: #ffffff;
+  --belle-panel: #ffffff;
+  --belle-panel-soft: #ffe4ec;
+  --belle-border: #fecdd3;
+  --belle-border-soft: #ffe4ec;
+  --belle-text: #2b1720;
+  --belle-muted: #5c3344;
+  --belle-faint: #9f6075;
+  --belle-accent: #e11d48;
+  --belle-accent-2: #7c3aed;
+  --belle-user-bg: #e11d48;
+  --belle-user-text: #ffffff;
+  --belle-bot-bg: #fff7fa;
+  --belle-bot-text: #2b1720;
+  --belle-input-bg: #ffffff;
+  --belle-button-bg: #e11d48;
+  --belle-button-text: #ffffff;
+  --belle-shadow: rgba(190, 18, 60, 0.12);
+  --belle-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* 5) Ocean blue: darker but not pure black */
+.belle-theme-ocean {
+  --belle-bg: #071826;
+  --belle-surface: #0b2538;
+  --belle-panel: #071f30;
+  --belle-panel-soft: #0f334c;
+  --belle-border: #1e4d68;
+  --belle-border-soft: #12384f;
+  --belle-text: #e0f2fe;
+  --belle-muted: #bae6fd;
+  --belle-faint: #7dd3fc;
+  --belle-accent: #38bdf8;
+  --belle-accent-2: #22c55e;
+  --belle-user-bg: #0284c7;
+  --belle-user-text: #ffffff;
+  --belle-bot-bg: #082032;
+  --belle-bot-text: #e0f2fe;
+  --belle-input-bg: #0f334c;
+  --belle-button-bg: #38bdf8;
+  --belle-button-text: #062235;
+  --belle-shadow: rgba(2, 132, 199, 0.22);
+}
+
+/* Base surfaces */
+.belle-theme.app-container {
+  background: var(--belle-bg);
+  color: var(--belle-text);
+  font-family: var(--belle-font);
+}
+
+.belle-theme .chat-section,
+.belle-theme .panel-box {
+  background-color: var(--belle-panel);
+  border-color: var(--belle-border-soft);
+  box-shadow: 0 8px 28px var(--belle-shadow);
+}
+
+.belle-theme .chat-header,
+.belle-theme .input-area,
+.belle-theme .panel-header {
+  background-color: var(--belle-surface);
+  border-color: var(--belle-border-soft);
+}
+
+.belle-theme .panel-header h3,
+.belle-theme .sender-name,
+.belle-theme .history-intent {
+  color: var(--belle-faint);
+}
+
+.belle-theme .panel-content {
+  color: var(--belle-muted);
+}
+
+.belle-theme .chat-header h2,
+.belle-theme .intent-data {
+  color: var(--belle-text);
+}
+
+/* Cards and history */
+.belle-theme .history-item {
+  background-color: var(--belle-panel-soft);
+  border-left-color: var(--belle-border);
+}
+
+.belle-theme .history-item:hover {
+  border-left-color: var(--belle-accent);
+}
+
+.belle-theme .history-item-text {
+  color: var(--belle-text);
+}
+
+/* Chat bubbles */
+.belle-theme .chat-bubble.user {
+  background-color: var(--belle-user-bg);
+  color: var(--belle-user-text);
+}
+
+.belle-theme .chat-bubble.bot,
+.belle-theme .typing-indicator {
+  background-color: var(--belle-bot-bg);
+  color: var(--belle-bot-text);
+  border-color: var(--belle-border);
+}
+
+.belle-theme .typing-indicator {
+  color: var(--belle-faint);
+}
+
+/* Input and buttons */
+.belle-theme .chat-input,
+.belle-theme .model-selector,
+.belle-theme .theme-selector {
+  background-color: var(--belle-input-bg);
+  color: var(--belle-text);
+  border: 1px solid var(--belle-border);
+}
+
+.belle-theme .chat-input::placeholder {
+  color: var(--belle-faint);
+}
+
+.belle-theme .model-selector:focus,
+.belle-theme .theme-selector:focus,
+.belle-theme .chat-input:focus {
+  border-color: var(--belle-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--belle-accent) 18%, transparent);
+}
+
+.belle-theme .send-button:not(:disabled) {
+  background-color: var(--belle-button-bg);
+  color: var(--belle-button-text);
+}
+
+.belle-theme .send-button:not(:disabled):hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+.belle-theme .send-button:disabled {
+  background-color: var(--belle-panel-soft);
+  color: var(--belle-faint);
+}
+
+/* Status and telemetry */
+.belle-theme .status-badge {
+  background-color: color-mix(in srgb, var(--belle-accent) 14%, transparent);
+  color: var(--belle-accent);
+}
+
+.belle-theme .telemetry-value.online,
+.belle-theme .log-pre {
+  color: var(--belle-accent);
+}
+
+.belle-theme .telemetry-value.standby {
+  color: #f59e0b;
+}
+
+/* Model badges */
+.belle-theme .message-model-badge {
+  background-color: var(--belle-panel-soft);
+  border-color: var(--belle-border);
+  color: var(--belle-muted);
+}
+
+.belle-theme .message-model-badge.belle-1 {
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.45);
+}
+
+.belle-theme .message-model-badge.belle-2 {
+  color: var(--belle-accent-2);
+  border-color: color-mix(in srgb, var(--belle-accent-2) 45%, transparent);
+}
+
+.belle-theme .message-model-badge.belle-3 {
+  color: var(--belle-accent);
+  border-color: color-mix(in srgb, var(--belle-accent) 45%, transparent);
+}
+
+.theme-selector {
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+}
+
+.theme-selector:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Scrollbars */
+.belle-theme .chat-content::-webkit-scrollbar,
+.belle-theme .panel-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.belle-theme .chat-content::-webkit-scrollbar-thumb,
+.belle-theme .panel-content::-webkit-scrollbar-thumb {
+  background-color: var(--belle-border);
+  border-radius: 999px;
+}
+
+.belle-theme .chat-content::-webkit-scrollbar-track,
+.belle-theme .panel-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}

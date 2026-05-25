@@ -1,12 +1,67 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
+import './BelleTheme.css';
+import './Belle_QuickConfig.css';
+import './Belle_Edit.css';
 
 const MODEL_LABELS = {
   'belle-1': 'Belle-1 RNN',
   'belle-2': 'Belle-2 GPT-2',
   'belle-3': 'Belle-3 Qwen RAG'
 };
+
+const UI_THEME_OPTIONS = {
+  terminal: 'Terminal Dark',
+  light: 'Light Lab',
+  paper: 'Paper White',
+  sakura: 'Sakura Soft',
+  ocean: 'Ocean Blue'
+};
+
+const QUICK_ACTIONS = [
+  {
+    label: 'Check system',
+    prompt: 'Has your system successfully connected?'
+  },
+  {
+    label: 'Test RAG',
+    prompt: 'Tell me about Zenless Zone Zero.'
+  },
+  {
+    label: 'Ask math',
+    prompt: 'Give me a simple math question with 2 numbers and one operation.'
+  },
+  {
+    label: 'Who are you?',
+    prompt: 'What is your name?'
+  },
+  {
+    label: 'Debug help',
+    prompt: 'I have a code error. Can you help me debug it step by step?'
+  }
+];
+
+const INITIAL_BOT_MESSAGE = {
+  role: 'bot',
+  text: 'My name is Belle. Has your system successfully connected?',
+  isNew: false
+};
+
+const INITIAL_SYSTEM_LOG = '[SYSTEM_LOG_INITIALIZED]\nWaiting for queries...';
+
+const getStoredTheme = () => {
+  if (typeof window === 'undefined') return 'terminal';
+
+  const savedTheme = window.localStorage.getItem('belle-ui-theme');
+  return UI_THEME_OPTIONS[savedTheme] ? savedTheme : 'terminal';
+};
+
+const getStoredFocusMode = () => {
+  if (typeof window === 'undefined') return false;
+  return window.localStorage.getItem('belle-focus-mode') === 'true';
+};
+
 
 const TypewriterText = ({ text, animate, scrollRef }) => {
   const [displayedText, setDisplayedText] = useState(animate ? '' : text);
@@ -39,26 +94,21 @@ function App() {
     const [responseMode, setResponseMode] = useState('normal');
     const [belleStyle, setBelleStyle] = useState('technical');
     const [autoScroll, setAutoScroll] = useState(true);
-    const [messages, setMessages] = useState([
-    {
-      role: 'bot',
-      text: 'My name is Belle. Has your system successfully connected?',
-      isNew: false
-    }
-  ]);
+    const [messages, setMessages] = useState([INITIAL_BOT_MESSAGE]);
 
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
   // Dashboard states
-  const [systemLog, setSystemLog] = useState(
-    '[SYSTEM_LOG_INITIALIZED]\nWaiting for queries...'
-  );
+  const [systemLog, setSystemLog] = useState(INITIAL_SYSTEM_LOG);
   const [chatHistory, setChatHistory] = useState([]);
   const [currentIntent, setCurrentIntent] = useState('STANDBY');
   const [selectedModel, setSelectedModel] = useState('belle-3');
+  const [uiTheme, setUiTheme] = useState(getStoredTheme);
+  const [focusMode, setFocusMode] = useState(getStoredFocusMode);
 
   const messagesEndRef = useRef(null);
+  const inputRef = useRef(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -67,6 +117,14 @@ function App() {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  useEffect(() => {
+    window.localStorage.setItem('belle-ui-theme', uiTheme);
+  }, [uiTheme]);
+
+  useEffect(() => {
+    window.localStorage.setItem('belle-focus-mode', String(focusMode));
+  }, [focusMode]);
 
   const fetchHistory = async () => {
     try {
@@ -81,10 +139,10 @@ function App() {
     fetchHistory();
   }, []);
 
-  const handleSend = async () => {
-    if (!input.trim() || isLoading) return;
+  const submitMessage = async (messageText) => {
+    if (!messageText.trim() || isLoading) return;
 
-    const userText = input.trim();
+    const userText = messageText.trim();
     const modelLabel = MODEL_LABELS[selectedModel] || selectedModel;
 
     setMessages(prev => [...prev, { role: 'user', text: userText }]);
@@ -173,8 +231,34 @@ function App() {
     }
   };
 
+  const handleSend = async () => {
+    submitMessage(input);
+  };
+
+  const handleQuickAction = (prompt) => {
+    setInput(prompt);
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 0);
+  };
+
+  const handleClearChat = () => {
+    if (isLoading) return;
+
+    setMessages([INITIAL_BOT_MESSAGE]);
+    setInput('');
+    setCurrentIntent('STANDBY');
+    setSystemLog(INITIAL_SYSTEM_LOG);
+
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 0);
+  };
+
+  const showQuickActions = messages.length <= 1 && !isLoading;
+
   return (
-    <div className="app-container">
+    <div className={`app-container belle-theme belle-theme-${uiTheme} ${focusMode ? 'focus-mode' : ''}`}>
       <div className="main-wrapper">
         {/* ================= CỘT TRÁI: SIDEBAR ================= */}
         <div className="left-sidebar">
@@ -232,11 +316,46 @@ function App() {
                 value={selectedModel}
                 onChange={e => setSelectedModel(e.target.value)}
                 disabled={isLoading}
+                title="Select Belle model"
               >
                 <option value="belle-1">Belle-1 RNN</option>
                 <option value="belle-2">Belle-2 GPT-2</option>
                 <option value="belle-3">Belle-3 Qwen RAG</option>
               </select>
+
+              <select
+                className="theme-selector"
+                value={uiTheme}
+                onChange={e => setUiTheme(e.target.value)}
+                disabled={isLoading}
+                title="Change interface theme"
+              >
+                {Object.entries(UI_THEME_OPTIONS).map(([value, label]) => (
+                  <option key={value} value={value}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+
+              <button
+                type="button"
+                className={`focus-toggle ${focusMode ? 'active' : ''}`}
+                onClick={() => setFocusMode(prev => !prev)}
+                disabled={isLoading}
+                title="Toggle focus mode"
+              >
+                {focusMode ? 'Dashboard' : 'Focus'}
+              </button>
+
+              <button
+                type="button"
+                className="clear-chat-button"
+                onClick={handleClearChat}
+                disabled={isLoading || messages.length <= 1}
+                title="Clear current chat screen"
+              >
+                Clear
+              </button>
 
               <span className="status-badge">SYSTEM ONLINE</span>
             </div>
@@ -281,6 +400,29 @@ function App() {
               );
             })}
 
+            {showQuickActions && (
+              <div className="quick-actions-panel">
+                <div className="quick-actions-title">Quick Actions</div>
+                <div className="quick-actions-grid">
+                  {QUICK_ACTIONS.map(action => (
+                    <button
+                      key={action.label}
+                      type="button"
+                      className="quick-action-button"
+                      onClick={() => handleQuickAction(action.prompt)}
+                      disabled={isLoading}
+                      title="Fill this prompt into the input box"
+                    >
+                      {action.label}
+                    </button>
+                  ))}
+                </div>
+                <div className="quick-actions-hint">
+                  Click a suggestion to fill the input, then press Send.
+                </div>
+              </div>
+            )}
+
             {isLoading && (
               <div className="message-wrapper bot">
                 <span className="sender-name">Belle</span>
@@ -293,6 +435,7 @@ function App() {
 
           <div className="input-area">
             <input
+              ref={inputRef}
               type="text"
               className="chat-input"
               value={input}

@@ -1,0 +1,114 @@
+/* =========================================
+   Belle UI Plus v2
+   Add this file after BelleThemePlus.css
+   import './BelleThemePlusV2.css';
+========================================= */
+
+.clear-chat-button {
+  border: 1px solid var(--belle-border, #d7deea);
+  background: var(--belle-surface-soft, rgba(255, 255, 255, 0.72));
+  color: var(--belle-text, #111827);
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease, opacity 0.12s ease;
+}
+
+.clear-chat-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.clear-chat-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+/* Terminal Dark */
+.belle-theme-terminal .clear-chat-button {
+  background: #18181b;
+  color: #f4f4f5;
+  border-color: #27272a;
+}
+
+.belle-theme-terminal .clear-chat-button:hover:not(:disabled) {
+  border-color: #4ade80;
+  color: #4ade80;
+}
+
+/* Light Lab */
+.belle-theme-light .clear-chat-button {
+  background: #ffffff;
+  color: #1f2937;
+  border-color: #d7deea;
+}
+
+.belle-theme-light .clear-chat-button:hover:not(:disabled) {
+  background: #f8fbff;
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* Paper White */
+.belle-theme-paper .clear-chat-button {
+  background: #fffaf0;
+  color: #3f3527;
+  border-color: #e7d8bd;
+}
+
+.belle-theme-paper .clear-chat-button:hover:not(:disabled) {
+  background: #fff6df;
+  border-color: #b45309;
+  color: #92400e;
+}
+
+/* Sakura Soft */
+.belle-theme-sakura .clear-chat-button {
+  background: #fff7fb;
+  color: #4a2635;
+  border-color: #f7cfe2;
+}
+
+.belle-theme-sakura .clear-chat-button:hover:not(:disabled) {
+  background: #fff1f8;
+  border-color: #db2777;
+  color: #be185d;
+}
+
+/* Ocean Blue */
+.belle-theme-ocean .clear-chat-button {
+  background: rgba(15, 23, 42, 0.65);
+  color: #e0f2fe;
+  border-color: rgba(125, 211, 252, 0.28);
+}
+
+.belle-theme-ocean .clear-chat-button:hover:not(:disabled) {
+  background: rgba(14, 116, 144, 0.22);
+  border-color: #38bdf8;
+  color: #7dd3fc;
+}
+
+/* Make header controls wrap more safely on small screens */
+.chat-header-right {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* Quick actions should feel less heavy after the v2 update */
+.quick-actions-panel {
+  animation: belleQuickActionsIn 0.18s ease-out;
+}
+
+@keyframes belleQuickActionsIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
